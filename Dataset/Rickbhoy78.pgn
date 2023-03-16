@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/tizwe84k"]
+[White "Rickbhoy78"]
+[Black "delp"]
+[Result "0-1"]
+[UTCDate "2013.01.31"]
+[UTCTime "00:25:34"]
+[WhiteElo "1308"]
+[BlackElo "1563"]
+[WhiteRatingDiff "-17"]
+[BlackRatingDiff "+5"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e3 e5 2. Qf3 d6 3. Bc4 Nf6 4. Nh3 Nc6 5. Ng5 Be6 6. Nxe6 fxe6 7. Bxe6 Qe7 8. Qh3 Nb4 9. c3 Nc2+ 10. Kd1 Nxa1 11. a3 Ne4 12. Qh5+ Kd8 13. d4 Nxf2+ 14. Ke2 Nxh1 15. dxe5 Qxe6 16. e4 Qc4+ 17. Kf3 Qf1+ 18. Kg4 Qxc1 19. Qg5+ Be7 20. Qxg7 Re8 21. Qxh7 Qxb1 22. Kh5 Qd1+ 23. Kg6 Qg4+ 24. Kf7 Kd7 25. c4 Rf8# 0-1
+

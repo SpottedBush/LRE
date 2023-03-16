@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/em1pettf"]
+[White "yousef55"]
+[Black "HilaryOates"]
+[Result "1-0"]
+[UTCDate "2013.01.29"]
+[UTCTime "13:59:05"]
+[WhiteElo "1585"]
+[BlackElo "1500"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-138"]
+[ECO "B02"]
+[Opening "Alekhine Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 Nf6 2. Qe2 e5 3. Nf3 Qe7 4. d3 Qd6 5. Nc3 c6 6. Be3 Be7 7. d4 exd4 8. Bxd4 Ng4 9. Rd1 Qb4 10. b3 c5 11. Bxg7 Rg8 12. h3 Rxg7 13. hxg4 Qxc3+ 14. Rd2 d6 15. Qb5+ Nc6 16. a4 a6 17. Qd3 Qb2 18. Be2 Bxg4 19. Nh4 Ne5 20. Qe3 Bxe2 21. Qxe2 Bxh4 22. Rxh4 Rg4 23. Rxg4 Nxg4 24. Qxg4 Kf8 25. Qd7 Qc1+ 26. Ke2 Re8 27. Qxd6+ Kg8 28. f3 f5 29. Qd5+ Kg7 30. Qxf5 Re5 1-0
+

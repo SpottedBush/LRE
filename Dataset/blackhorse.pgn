@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ob2u00a9"]
+[White "mazorra"]
+[Black "blackhorse"]
+[Result "1-0"]
+[UTCDate "2013.01.14"]
+[UTCTime "14:06:00"]
+[WhiteElo "1559"]
+[BlackElo "1654"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-14"]
+[ECO "C23"]
+[Opening "Bishop's Opening: Philidor Counterattack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Bc4 c6 3. d3 d5 4. exd5 cxd5 5. Bb3 Nc6 6. Nc3 Be6 7. Qf3 Nge7 8. Bg5 d4 9. Bxe7 Qxe7 10. Nd5 Bxd5 11. Bxd5 Rc8 12. O-O-O Nb4 13. Bb3 Qc7 14. c3 dxc3 15. d4 cxb2+ 16. Kxb2 Bd6 17. Ne2 O-O 18. Rc1 Qd7 19. Rhd1 Rxc1 20. Nxc1 Re8 21. Qe4 Nc6 22. dxe5 Bxe5+ 23. Kb1 Qc7 24. Nd3 Kf8 25. Nc5 g6 26. Qg4 Rd8 27. f4 Rxd1+ 28. Bxd1 Bxf4 29. Nd7+ Kg8 30. Nf6+ Kh8 31. Qh4 Qb6+ 32. Bb3 Qg1+ 33. Kc2 Qxg2+ 34. Kd3 Qd2+ 35. Ke4 Qe3+ 36. Kd5 Qe5+ 37. Kc4 Qxf6 38. Qxf6+ Kg8 39. Qxf4 Na5+ 40. Kc5 Nxb3+ 41. axb3 Kg7 42. Kd5 b6 43. Ke5 b5 44. Qf6+ Kg8 45. Kf4 a5 46. Kg5 a4 47. bxa4 b4 48. Kh6 b3 49. Qd8# 1-0
+

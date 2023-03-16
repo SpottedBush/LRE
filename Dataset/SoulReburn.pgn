@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/53pjg7qx"]
+[White "SoulReburn"]
+[Black "mazorra"]
+[Result "0-1"]
+[UTCDate "2013.01.14"]
+[UTCTime "19:54:17"]
+[WhiteElo "1500"]
+[BlackElo "1534"]
+[WhiteRatingDiff "-159"]
+[BlackRatingDiff "+7"]
+[ECO "C45"]
+[Opening "Scotch Game: Classical Variation"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Nxc6 bxc6 6. Be3 Bb6 7. Bxb6 axb6 8. a4 Bb7 9. Nc3 c5 10. Be2 Nf6 11. O-O Nxe4 12. Nxe4 Bxe4 13. f3 Bc6 14. Bb5 h5 15. Bxc6 dxc6 16. Qxd8+ Rxd8 17. Rfe1+ Kf8 18. Rad1 Rxd1 19. Rxd1 Ke7 20. g4 h4 21. Kg2 g5 22. c3 Rh6 23. b4 cxb4 24. cxb4 Re6 25. Kf2 f6 26. Re1 Rxe1 27. Kxe1 Kd6 28. Ke2 Kd5 29. Ke3 Kc4 30. f4 gxf4+ 31. Kxf4 Kxb4 32. Kf5 c5 33. Kxf6 c4 34. g5 c3 35. g6 c2 36. g7 c1=Q 37. g8=Q Qf1+ 38. Ke7 Qe2+ 39. Kd8 Qxh2 40. Qg4+ Ka5 41. Kc8 Qd6 42. Qxh4 Ka6 43. Qc4+ Ka7 44. Qb5 Qe6+ 0-1
+

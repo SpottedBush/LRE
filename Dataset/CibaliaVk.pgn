@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/r5m2pkix"]
+[White "guzu"]
+[Black "CibaliaVk"]
+[Result "1-0"]
+[UTCDate "2013.01.11"]
+[UTCTime "08:21:27"]
+[WhiteElo "1694"]
+[BlackElo "1680"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-59"]
+[ECO "D50"]
+[Opening "Queen's Gambit Declined: Modern Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 d5 2. c4 Nf6 3. Nc3 e6 4. Bg5 Bb4 5. Nf3 Bxc3+ 6. bxc3 h6 7. Bh4 O-O 8. e3 g5 9. Bg3 Ne4 10. Qc2 Nxg3 11. hxg3 Qf6 12. cxd5 exd5 13. Ne5 Bf5 14. Bd3 Bxd3 15. Qxd3 b6 16. Ng4 Qc6 17. Rxh6 Qd7 18. Qh7# 1-0
+

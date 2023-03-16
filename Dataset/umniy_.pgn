@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/cti56tlp"]
+[White "umniy_"]
+[Black "PAOLOXIII"]
+[Result "1-0"]
+[UTCDate "2013.01.07"]
+[UTCTime "08:24:22"]
+[WhiteElo "1683"]
+[BlackElo "1627"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "C22"]
+[Opening "Center Game: Charousek Variation"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qe3 Bb4+ 5. c3 Be7 6. e5 f6 7. Nf3 Nxe5 8. Nxe5 fxe5 9. Qxe5 Nf6 10. Bg5 O-O 11. Bd3 Re8 12. Bc4+ Kh8 13. Bf7 Rf8 14. Bd5 c6 15. Bc4 d5 16. Bd3 Re8 17. O-O Bd6 18. Bxf6 Bxe5 19. Bxd8 Rxd8 20. Re1 Bf6 21. Nd2 Bd7 22. Nf3 Re8 23. h4 Bg4 24. Ng5 Bxg5 25. hxg5 Bd7 26. f3 Rxe1+ 27. Rxe1 Re8 28. Rxe8+ Bxe8 29. f4 g6 30. g3 Bd7 31. Kg2 Kg7 32. c4 Be6 33. c5 b6 34. b4 b5 35. Kf3 a6 36. g4 Bd7 37. f5 Kf7 38. Kf4 Ke7 39. Ke5 1-0
+

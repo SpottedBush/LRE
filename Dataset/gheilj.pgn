@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/hjvxfsxs"]
+[White "gheilj"]
+[Black "Maniacal"]
+[Result "0-1"]
+[UTCDate "2013.01.13"]
+[UTCTime "19:21:36"]
+[WhiteElo "1500"]
+[BlackElo "1659"]
+[WhiteRatingDiff "-112"]
+[BlackRatingDiff "+12"]
+[ECO "A00"]
+[Opening "Ware Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. a4 a5 2. h4 h5 3. b3 c6 4. g3 b5 5. Bb2 d5 6. Bg2 e6 7. f4 bxa4 8. bxa4 Ba6 9. d3 Nf6 10. Nf3 Bc5 11. d4 Ng4 12. Qd2 Be7 13. Nc3 Nd7 14. e4 Ngf6 15. e5 Ng4 16. Ne2 c5 17. c3 Nb6 18. Bh3 Nc4 19. Qc1 Nge3 20. Nd2 cxd4 21. Nxc4 Nxc4 22. Nxd4 Qc7 23. Nb5 Bxb5 24. axb5 Qb6 25. Bf1 Nxb2 26. Qxb2 Qe3+ 27. Kd1 Qf3+ 28. Kd2 Qxh1 29. b6 Qh2+ 30. Be2 O-O 31. Rf1 Qxg3 32. Rf3 Qxh4 33. f5 exf5 34. Rxf5 Bg5+ 35. Kd1 Qh1+ 36. Rf1 Qe4 37. c4 dxc4 38. Qc2 Rfd8+ 39. Bd3 Rxd3+ 40. Qxd3 Qxd3+ 41. Ke1 Qd2# 0-1
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/q7mmosjz"]
+[White "Maniacal"]
+[Black "gheilj"]
+[Result "0-1"]
+[UTCDate "2013.01.13"]
+[UTCTime "19:37:11"]
+[WhiteElo "1671"]
+[BlackElo "1388"]
+[WhiteRatingDiff "-30"]
+[BlackRatingDiff "+242"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation, Monte Carlo Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. c4 c6 5. Nc3 Nf6 6. Bg5 Be7 7. Bxf6 Bxf6 8. cxd5 cxd5 9. Qa4+ Nc6 10. Bb5 Qd6 11. Nge2 O-O 12. O-O a6 13. Bd3 Be6 14. a3 b5 15. Qc2 g6 16. f4 Nxd4 17. Nxd4 Bxd4+ 18. Kh1 f5 19. Ne2 Bf6 20. b4 Bxa1 21. Rxa1 Rac8 22. Qb2 Bf7 23. Ng1 d4 24. Nf3 Rfd8 25. Ne5 Rc3 26. Re1 Re8 27. Qb1 Bd5 28. Bc2 Rxa3 29. h4 Rh3+ 30. Kg1 Rxh4 31. Kf2 Rxf4+ 32. Kg3 Rxe5 33. Bb3 Rxe1 34. Qxe1 Rf1+ 35. Kh3 Rxe1 36. Bc2 Rh1# 0-1
+

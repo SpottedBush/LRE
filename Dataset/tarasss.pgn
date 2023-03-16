@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/62yv79l5"]
+[White "tarasss"]
+[Black "sossos"]
+[Result "0-1"]
+[UTCDate "2013.01.20"]
+[UTCTime "21:32:32"]
+[WhiteElo "1495"]
+[BlackElo "1675"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[ECO "C41"]
+[Opening "Philidor Defense: Hanham Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 d6 3. d4 Nd7 4. dxe5 dxe5 5. Bg5 Be7 6. Bxe7 Qxe7 7. Bc4 h6 8. Nc3 c6 9. b4 b5 10. Bb3 a5 11. O-O Ngf6 12. Bxf7+ Qxf7 13. Qd6 axb4 14. Nxe5 Nxe5 15. Qxe5+ Qe7 16. Qf4 bxc3 17. e5 Nd5 18. Qf3 Be6 19. a4 Qf7 20. Qe4 O-O 21. f4 Rxa4 22. Rxa4 bxa4 23. Qxa4 Qc7 24. Qe4 Bf5 25. Qf3 Qb6+ 26. Kh1 Ne3 27. Re1 Nxc2 28. Re2 Qb1+ 0-1
+

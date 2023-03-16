@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/c4j7ax27"]
+[White "alaska"]
+[Black "aminemaxime"]
+[Result "1-0"]
+[UTCDate "2013.01.13"]
+[UTCTime "20:06:57"]
+[WhiteElo "1542"]
+[BlackElo "1572"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "D08"]
+[Opening "Queen's Gambit Refused: Albin Countergambit"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. d4 d5 2. c4 e5 3. Nc3 dxc4 4. e3 e4 5. Bxc4 Be6 6. d5 Bf5 7. Nge2 Nf6 8. Ng3 Bg4 9. Be2 Bxe2 10. Ngxe2 Bd6 11. O-O Ng4 12. h3 Nh2 13. Re1 O-O 14. Nxe4 Be5 15. Ne4g3 Bxg3 16. fxg3 Ng4 17. hxg4 Qg5 18. Nf4 f5 19. e4 Qxg4 20. Qxg4 fxg4 21. Rf1 Nd7 22. Ne6 Rxf1+ 23. Kxf1 c6 24. Bf4 cxd5 25. exd5 Nf6 26. d6 Kf7 27. Ng5+ Kg8 28. Rd1 h6 29. Ne6 Kf7 30. Nc5 Ke8 31. d7+ Nxd7 32. Rxd7 Rc8 33. Rd5 b6 34. Nb3 1-0
+

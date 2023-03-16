@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/xjjc8s1p"]
+[White "yaponec005"]
+[Black "maistora1"]
+[Result "0-1"]
+[UTCDate "2013.01.31"]
+[UTCTime "13:45:26"]
+[WhiteElo "1355"]
+[BlackElo "1555"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+34"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Mengarini's Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. a3 Nc6 3. Bb5 Nge7 4. Bxc6 Nxc6 5. Nc3 Bc5 6. Nf3 f6 7. b4 Bb6 8. h3 d6 9. O-O f5 10. d3 f4 11. Nd5 Be6 12. Nxb6 axb6 13. d4 O-O 14. dxe5 dxe5 15. Qxd8 Raxd8 16. b5 Nd4 17. Nxd4 exd4 18. f3 c6 19. Bxf4 Rxf4 20. Rad1 Bc4 21. c3 Bxf1 22. Kxf1 d3 23. bxc6 bxc6 24. Kf2 Rf7 25. Ke3 Rfd7 26. f4 Kf7 27. f5 Kf6 28. g4 Ke5 29. c4 Rd4 30. c5 b5 31. Kf3 Rxe4 32. h4 d2 33. h5 Re1 34. Rxd2 Rxd2 35. g5 Kxf5 36. g6 hxg6 37. hxg6 Kxg6 38. Kf4 Rf2+ 39. Kg3 Ref1 40. Kg4 Rg1+ 41. Kh3 Kf5 42. a4 bxa4 43. Kh4 Rh2# 0-1
+

@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/xp0k3rw4"]
+[White "cbesure"]
+[Black "Mesquita"]
+[Result "1-0"]
+[UTCDate "2013.01.07"]
+[UTCTime "02:35:10"]
+[WhiteElo "1519"]
+[BlackElo "1500"]
+[WhiteRatingDiff "+63"]
+[BlackRatingDiff "-165"]
+[ECO "B07"]
+[Opening "King's Pawn Game: Maroczy Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 d6 2. e4 e5 3. Be3 exd4 4. Bxd4 Nf6 5. Nf3 Nxe4 6. Bd3 d5 7. Nc3 Nxc3 8. Bxc3 Bc5 9. Qd2 O-O 10. O-O-O Bxf2 11. Qxf2 Nc6 12. Rhf1 Re8 13. Ng5 f6 14. Nh3 Re7 15. Bf5 Bxf5 16. Qxf5 d4 17. Be1 Nb4 18. Bxb4 Qc8 19. g4 Qxf5 20. gxf5 Re3 21. Nf4 Re2 22. Nxe2 Rd8 23. Nxd4 Rxd4 24. Rxd4 g6 25. Rd7 gxf5 26. Re1 Kh8 27. Re8# 1-0
+

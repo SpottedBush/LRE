@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/h42c7p09"]
+[White "tiger_style"]
+[Black "Norb"]
+[Result "1-0"]
+[UTCDate "2013.01.30"]
+[UTCTime "11:35:15"]
+[WhiteElo "1435"]
+[BlackElo "1373"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "C67"]
+[Opening "Ruy Lopez: Berlin Defense, Rio Gambit Accepted"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Re1 Nd6 6. Bxc6 dxc6 7. Nxe5 Be7 8. Qf3 f6 9. Qg3 O-O 10. Nf3 Nb5 11. d4 Bb4 12. c3 Bd6 13. Bf4 c5 14. d5 Bxf4 15. Qxf4 Qxd5 16. c4 Nd6 17. cxd5 Re8 18. Nc3 Rxe1+ 19. Rxe1 b6 20. Ne4 Nxe4 21. Rxe4 Ba6 22. Qxc7 Rc8 23. Qd7 Rf8 24. d6 Rf7 25. Qe8+ Rf8 26. Qe6+ Rf7 27. d7 Bd3 28. d8=R# 1-0
+

@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/a42726pa"]
+[White "delp"]
+[Black "robert7"]
+[Result "1-0"]
+[UTCDate "2013.01.23"]
+[UTCTime "19:30:18"]
+[WhiteElo "1611"]
+[BlackElo "1500"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-128"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. Nf3 d6 3. h3 Nc6 4. a3 Nd4 5. Nxd4 exd4 6. d3 d5 7. Qf3 dxe4 8. Qxe4+ Be7 9. Bf4 Nf6 10. Qe5 Qd5 11. Qxc7 Qf5 12. Be2 g5 13. Bg3 Nd5 14. Qc4 Nf4 15. Bxf4 Qxf4 16. Nd2 Be6 17. Qb5+ Bd7 18. Qxb7 Rc8 19. O-O-O g4 20. g3 Qxf2 21. Bxg4 Bc6 22. Qxc8+ Bd8 23. Qxc6+ Kf8 24. Qd6+ Be7 25. Qb8+ Kg7 26. Qxa7 Qxg3 27. Qxe7 1-0
+

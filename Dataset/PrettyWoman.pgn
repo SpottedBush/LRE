@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/0jsxh112"]
+[White "PrettyWoman"]
+[Black "Oldguy"]
+[Result "0-1"]
+[UTCDate "2013.01.30"]
+[UTCTime "19:03:39"]
+[WhiteElo "1500"]
+[BlackElo "1518"]
+[WhiteRatingDiff "-167"]
+[BlackRatingDiff "+21"]
+[ECO "D05"]
+[Opening "Colle System"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e3 d5 2. d4 Nf6 3. Nf3 e6 4. c4 Be7 5. cxd5 exd5 6. Nc3 O-O 7. Bd3 c6 8. O-O h6 9. h3 Be6 10. Bd2 Qd7 11. Ne5 Qc7 12. Rc1 Nbd7 13. Nf3 b6 14. Nh2 Bd6 15. f4 Nh7 16. Qc2 f5 17. Nf3 g6 18. Ne5 Nxe5 19. fxe5 Be7 20. Ne2 Rf7 21. Nf4 Qd7 22. Nxg6 Rg7 23. Nxe7+ Qxe7 24. e4 fxe4 25. Be2 Bxh3 26. Rf2 Rf8 27. Rcf1 Rxf2 28. Rxf2 Rg3 29. Bxh6 Qh4 30. Qxc6 Ng5 31. Qe8+ Kh7 0-1
+

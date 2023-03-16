@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/lyqd6csr"]
+[White "Tomi"]
+[Black "GladiatorX1"]
+[Result "1/2-1/2"]
+[UTCDate "2013.01.04"]
+[UTCTime "01:27:42"]
+[WhiteElo "1621"]
+[BlackElo "1576"]
+[WhiteRatingDiff "-1"]
+[BlackRatingDiff "+1"]
+[ECO "C55"]
+[Opening "Italian Game: Anti-Fried Liver Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. Nc3 a6 5. d3 d6 6. Be3 Bg4 7. h3 Bxf3 8. Qxf3 Qf6 9. Qxf6 Nxf6 10. O-O Be7 11. a3 O-O 12. Nd5 Nxd5 13. Bxd5 Rab8 14. Bxc6 bxc6 15. b4 c5 16. c3 cxb4 17. axb4 Ra8 18. Rfc1 Rfb8 19. Ra5 Bd8 20. Ra4 c6 21. Rb1 Bb6 22. Bxb6 Rxb6 23. Ra5 Rab8 24. f3 c5 25. Ra4 cxb4 26. cxb4 Kh7 27. Ra5 Rxb4 28. Rxb4 Rxb4 29. Rxa6 Rb3 30. Rxd6 f6 31. Kf2 g5 32. Ke3 Kg6 33. g3 Rb2 34. h4 gxh4 35. gxh4 Rh2 36. f4 exf4+ 37. Kxf4 Rxh4+ 38. Kg3 Rh5 39. Kg4 Rg5+ 40. Kh4 Re5 41. Kg4 h5+ 42. Kh4 Rg5 43. Rd5 Re5 44. Rd6 Rg5 45. Rd5 Re5 46. Rd6 Rg5 1/2-1/2
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/wp84gbuc"]
+[White "GladiatorX1"]
+[Black "Tomi"]
+[Result "1-0"]
+[UTCDate "2013.01.04"]
+[UTCTime "01:40:09"]
+[WhiteElo "1577"]
+[BlackElo "1620"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "C65"]
+[Opening "Ruy Lopez: Berlin Defense #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. Bxc6 dxc6 5. d3 Bb4+ 6. Bd2 Bc5 7. O-O Ng4 8. Bg5 f6 9. Bh4 g5 10. Bg3 h5 11. h3 h4 12. hxg4 hxg3 13. Nbd2 gxf2+ 14. Rxf2 Bxf2+ 15. Kxf2 Bxg4 16. Kg3 Bxf3 17. Qxf3 Qd6 18. a3 O-O-O 19. Qg4+ Qd7 20. Qf3 Qd4 21. Qxf6 Qe3+ 22. Nf3 Qf4+ 23. Qxf4 gxf4+ 24. Kf2 Rh7 25. Nxe5 Rf8 26. Kf3 Rh5 27. Ng6 Rf6 28. Nxf4 Rb5 29. b3 Rc5 30. Rc1 Rg5 31. g4 Rf7 32. d4 Rf8 33. Re1 Rfg8 34. e5 Rxg4 35. e6 Kd8 36. e7+ Ke8 37. Re4 Rg3+ 38. Ke2 Rg8g7 39. Nh5 Rg2+ 40. Kf3 Rg7g5 41. Nf6+ Kf7 42. e8=Q+ Kxf6 43. Rf4+ Kg7 44. Qe7+ Kh6 45. Qe6+ Rg6 46. Qh3+ Kg7 47. Qd7+ Kh6 48. Qxc7 Rg2g3+ 49. Ke4 Rg7 50. Qe5 Rg3g5 51. Qf6+ Rg5g6 52. Qh4# 1-0
+

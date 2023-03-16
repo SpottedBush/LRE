@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/0nm8wwrd"]
+[White "13itch"]
+[Black "chekmeifucan"]
+[Result "0-1"]
+[UTCDate "2013.01.19"]
+[UTCTime "19:14:42"]
+[WhiteElo "1616"]
+[BlackElo "1367"]
+[WhiteRatingDiff "-203"]
+[BlackRatingDiff "+65"]
+[ECO "C41"]
+[Opening "Philidor Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 d6 3. d4 f6 4. Bc4 Bg4 5. Nc3 Nc6 6. d5 Nd4 7. Be2 Nxe2 8. Qxe2 Bxf3 9. Qxf3 Qd7 10. O-O Ne7 11. Be3 h5 12. Rfd1 g5 13. b3 Bg7 14. a4 a6 15. Na2 g4 16. Qe2 O-O-O 17. Nb4 f5 18. Bg5 f4 19. Rd3 Bh6 20. Bf6 Rhf8 21. Bxe7 Qxe7 22. Rc3 f3 23. gxf3 gxf3 24. Rxf3 Rxf3 25. Qxf3 Rg8+ 26. Kf1 Qg5 27. Qh3+ Kb8 28. Ke2 Qd2+ 29. Kf1 Qxb4 30. Qxh5 Bf4 31. Qf7 Rc8 32. Kg2 Qxe4+ 33. Kh3 Qxc2 34. Rg1 Qc3+ 35. Kh4 Rh8+ 36. Kg4 Qd4 37. Kf5 Qd3+ 38. Ke6 Rc8 39. Rg8 Qh3+ 40. Ke7 Qh4+ 41. Kd7 Qh3+ 42. Ke7 Qh4+ 43. Kd7 Qh3+ 44. Ke7 Rxg8 45. Qxg8+ Qc8 46. Qxc8+ Kxc8 47. h4 b6 48. h5 b5 49. a5 b4 50. Kf6 Kd7 51. Kg6 Ke7 52. h6 Bxh6 53. Kxh6 Kf6 54. Kh5 Kf5 55. Kh4 Kf4 56. Kh3 Kf3 57. Kh4 Kxf2 58. Kg5 e4 59. Kf5 e3 60. Ke6 e2 61. Kd7 e1=Q 62. Kxc7 Qe5 63. Kb6 Qxd5 64. Kxa6 Qxb3 65. Kb7 Qd5+ 66. Kb6 b3 67. a6 b2 68. a7 b1=Q+ 69. Ka6 Qa1+ 70. Kb6 Qa8 71. Kc7 Qa8xa7+ 72. Kxd6 Qa1a6+ 73. Ke5 Qc5+ 74. Ke4 Qac4# 0-1
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/9sycyyxm"]
+[White "sossos"]
+[Black "chekmeifucan"]
+[Result "0-1"]
+[UTCDate "2013.01.21"]
+[UTCTime "19:53:00"]
+[WhiteElo "1681"]
+[BlackElo "1432"]
+[WhiteRatingDiff "-17"]
+[BlackRatingDiff "+80"]
+[ECO "C41"]
+[Opening "Philidor Defense #3"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 d6 3. Bc4 Bg4 4. h3 Bh5 5. d3 Nf6 6. Nbd2 Nbd7 7. O-O Be7 8. c3 O-O 9. Qb3 b6 10. d4 exd4 11. cxd4 c5 12. e5 dxe5 13. dxe5 Ne8 14. e6 fxe6 15. Bxe6+ Kh8 16. Ne4 Bxf3 17. Qxf3 Rxf3 18. gxf3 Ne5 19. f4 Nf3+ 20. Kg2 Nh4+ 21. Kg3 Qd3+ 0-1
+

@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/mp2w1qls"]
+[White "novap"]
+[Black "refract"]
+[Result "1-0"]
+[UTCDate "2013.01.29"]
+[UTCTime "18:21:35"]
+[WhiteElo "1545"]
+[BlackElo "1466"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-34"]
+[ECO "D01"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. Nc3 d5 2. d4 Nf6 3. Nf3 g6 4. Bg5 Bg7 5. e3 Bg4 6. h3 Bd7 7. Bd3 e6 8. O-O O-O 9. e4 Qc8 10. Bxf6 Bxf6 11. exd5 exd5 12. Nxd5 Bg7 13. Ne7+ 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/difh6fgm"]
+[White "1051"]
+[Black "refract"]
+[Result "0-1"]
+[UTCDate "2013.01.29"]
+[UTCTime "18:40:20"]
+[WhiteElo "1377"]
+[BlackElo "1432"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+33"]
+[ECO "C20"]
+[Opening "Bishop's Opening: Boi Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Bc4 Bc5 3. Qf3 Nf6 4. Bxf7+ Kxf7 5. Nh3 h6 6. Nc3 Rf8 7. d3 Kg8 8. Bxh6 gxh6 9. Qf5 Qe7 10. Nd5 Nxd5 11. Qg6+ Qg7 12. Qxg7+ Kxg7 13. exd5 d6 14. O-O-O Bxf2 15. Kb1 Kh8 16. Rhf1 Bxh3 17. gxh3 Na6 18. Rd2 Be3 19. Rdd1 Rxf1 20. Rxf1 Bf4 21. Rf2 Rg8 22. h4 Rg1+ 23. Rf1 Rxf1# 0-1
+

@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/9jwk5451"]
+[White "JohanBasel"]
+[Black "PAOLOXIII"]
+[Result "0-1"]
+[UTCDate "2013.01.04"]
+[UTCTime "03:27:31"]
+[WhiteElo "1386"]
+[BlackElo "1490"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+13"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Old Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 d5 2. c4 dxc4 3. e3 e6 4. Bxc4 Nf6 5. Bd3 Nc6 6. Nc3 Bb4 7. Bd2 a6 8. h3 b5 9. Nf3 Bb7 10. e4 Nxd4 11. Nxd4 Qxd4 12. Be3 Bxc3+ 13. bxc3 Qxc3+ 14. Ke2 Bxe4 15. Rc1 Qe5 16. Qd2 Rd8 17. f4 Bxd3+ 18. Qxd3 Qb2+ 19. Rc2 Rxd3 20. Rxb2 Rd7 21. Rd1 Nd5 22. Rd3 O-O 23. g4 Rfd8 24. Bd2 Nc3+ 25. Bxc3 Rxd3 26. Be5 c5 27. Bc7 Rd8d7 28. Bb6 c4 29. a4 Rb3 30. Rc2 Rdd3 31. axb5 axb5 32. Ra2 Ra3 33. Rc2 g6 34. Bc5 Ra8 35. Be3 Raa3 36. Rb2 Rxe3+ 37. Kf2 Reb3 38. Rd2 Rd3 39. Rb2 Rxh3 40. Rxb5 Raf3+ 41. Kg2 Rhg3+ 42. Kh2 Rxg4 43. Rb8+ Kg7 0-1
+

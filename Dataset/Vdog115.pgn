@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/66t8ifce"]
+[White "sossos"]
+[Black "Vdog115"]
+[Result "1-0"]
+[UTCDate "2013.01.20"]
+[UTCTime "15:38:19"]
+[WhiteElo "1672"]
+[BlackElo "1305"]
+[WhiteRatingDiff "+2"]
+[BlackRatingDiff "-7"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Bc4 Nc6 3. d4 exd4 4. Qh5 Nf6 5. Qxf7# 1-0
+

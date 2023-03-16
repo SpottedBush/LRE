@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ohmfszks"]
+[White "yaponec005"]
+[Black "thebay6"]
+[Result "0-1"]
+[UTCDate "2013.01.24"]
+[UTCTime "06:59:59"]
+[WhiteElo "1393"]
+[BlackElo "1325"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+14"]
+[ECO "B01"]
+[Opening "Scandinavian Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 d5 2. Nc3 e6 3. e5 Nc6 4. Bb5 Bd7 5. Bxc6 Bxc6 6. a3 d4 7. Na2 Bxg2 8. d3 Bxh1 9. Nh3 f6 10. exf6 gxf6 11. c3 Qd5 12. cxd4 Qxd4 13. Qh5+ Ke7 14. Nb4 Rd8 15. Be3 Qxb2 16. Bc5+ Kd7 17. Qf7+ Kc8 18. Qxe6+ Kb8 19. Bxf8 Qxa1+ 20. Ke2 Rxf8 21. Nd5 Nh6 22. Nhf4 Re8 23. Ne7 Ng4 24. Qf7 Qe5+ 25. Kd2 Rxe7 26. Qg7 Qa5+ 27. Kd1 Nxf2+ 28. Kc2 Rxg7 29. Ne6 Rg3 30. Nf4 Rg2 31. Kc1 Qxa3+ 32. Kc2 Nxd3+ 33. Kd1 Qa1# 0-1
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/pnklovlz"]
+[White "nefteg"]
+[Black "thebay6"]
+[Result "1-0"]
+[UTCDate "2013.01.24"]
+[UTCTime "08:46:51"]
+[WhiteElo "1568"]
+[BlackElo "1319"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-5"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Scandinavian Variation, Advance Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 d5 2. e5 Nc6 3. d4 e6 4. Nf3 f6 5. Qe2 fxe5 6. dxe5 Nge7 7. Bg5 h6 8. Bxe7 Qxe7 9. c3 Bd7 10. Nd4 O-O-O 11. Qb5 a6 12. Qb3 Nxe5 13. Be2 h5 14. O-O g6 15. Re1 Nc6 16. h3 Nxd4 17. cxd4 Qf6 18. Qc3 e5 19. Rc1 c6 20. dxe5 Qxe5 21. Qxe5 Re8 22. Qxh8 1-0
+

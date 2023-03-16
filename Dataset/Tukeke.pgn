@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/knm43r4a"]
+[White "dabish"]
+[Black "Tukeke"]
+[Result "1-0"]
+[UTCDate "2013.01.25"]
+[UTCTime "02:18:41"]
+[WhiteElo "1464"]
+[BlackElo "1467"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-12"]
+[ECO "A40"]
+[Opening "Modern Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 g6 2. Nf3 Bg7 3. Bf4 d5 4. c4 e6 5. e3 Ne7 6. Nc3 O-O 7. Bd3 Nbc6 8. O-O dxc4 9. Bxc4 e5 10. Nxe5 Be6 11. Bd3 Nd5 12. Qc2 Nxc3 13. bxc3 Bxe5 14. Bxe5 Qg5 15. f4 Qd8 16. g3 Bd5 17. h4 f6 18. Bxc7 Qxc7 19. h5 Bf7 20. hxg6 Bxg6 21. Bxg6 hxg6 22. Qxg6+ Kh8 23. Kf2 Rg8 24. Rh1+ Qh7 25. Qxh7# 1-0
+

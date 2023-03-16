@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/25312q87"]
+[White "VanFkingHalen"]
+[Black "thinkgud"]
+[Result "0-1"]
+[UTCDate "2013.01.16"]
+[UTCTime "07:28:24"]
+[WhiteElo "1510"]
+[BlackElo "1667"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+10"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Slav Invitation"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. Nf3 c6 2. d3 d5 3. Bf4 e6 4. Nbd2 Bd6 5. Bg3 Bxg3 6. hxg3 h6 7. c3 Nd7 8. e4 dxe4 9. Nxe4 Ngf6 10. Qb3 Nxe4 11. dxe4 Nb6 12. Bd3 Qxd3 13. Ne5 Qxe4+ 0-1
+

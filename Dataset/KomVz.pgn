@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/n6iqja6b"]
+[White "KomVz"]
+[Black "VanFkingHalen"]
+[Result "1-0"]
+[UTCDate "2013.01.30"]
+[UTCTime "05:59:02"]
+[WhiteElo "1699"]
+[BlackElo "1635"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-9"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Staunton-Cochrane Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. c4 Nc6 3. d3 g6 4. Nf3 Bg7 5. Qc2 e6 6. Be3 Nd4 7. Nxd4 cxd4 8. Bf4 Ne7 9. Nd2 Qb6 10. Nf3 O-O 11. Be2 d5 12. cxd5 exd5 13. O-O Bd7 14. Ne5 Bb5 15. a4 Ba6 16. Nd7 Rfc8 17. Nxb6 Rxc2 18. Nxa8 Rxe2 19. Bd6 Nc6 20. exd5 Na5 21. Rfe1 Rxb2 22. Re8+ Bf8 23. Rxf8+ Kg7 24. Rd8 Nb3 25. Be5+ Kh6 26. Re1 Bxd3 27. d6 Na5 28. Bf4+ Kg7 29. Be5+ Kh6 30. Bxd4 Rb4 31. Be3+ Kg7 32. d7 Bf5 33. Rg8+ Kxg8 34. d8=Q+ Kg7 35. Qxa5 Re4 36. Bd4+ Rxd4 37. Qe5+ Kg8 38. Qxd4 Be6 39. Nc7 Bb3 40. Re8# 1-0
+

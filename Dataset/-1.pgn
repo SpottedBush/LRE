@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/eend9xqg"]
+[White "-1"]
+[Black "dygar2000"]
+[Result "0-1"]
+[UTCDate "2013.01.13"]
+[UTCTime "13:19:04"]
+[WhiteElo "1622"]
+[BlackElo "1647"]
+[WhiteRatingDiff "-44"]
+[BlackRatingDiff "+10"]
+[ECO "C20"]
+[Opening "Bishop's Opening: Boi Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Bc4 Bc5 3. d3 Nf6 4. Bg5 d6 5. h3 O-O 6. Qf3 Nbd7 7. Nc3 Qe8 8. Nd5 Nxd5 9. Bxd5 Nb6 10. Bb3 Be6 11. Ne2 f5 12. Bxe6+ Qxe6 13. Qg3 fxe4 14. dxe4 Bxf2+ 15. Qxf2 Rxf2 16. Kxf2 Rf8+ 17. Ke1 Qg6 18. h4 Qxe4 19. Rf1 Rxf1+ 20. Kxf1 Qxc2 21. Re1 h6 22. Bc1 Nd5 23. Ng3 Qc4+ 24. Kg1 Nf4 25. Bxf4 exf4 26. Nf5 Qc5+ 27. Kh1 Qxf5 28. Re8+ Kh7 0-1
+

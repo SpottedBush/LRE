@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/zodjg2rg"]
+[White "FryderykChopin"]
+[Black "madkupe"]
+[Result "1-0"]
+[UTCDate "2013.01.23"]
+[UTCTime "16:43:40"]
+[WhiteElo "1484"]
+[BlackElo "1407"]
+[WhiteRatingDiff "+51"]
+[BlackRatingDiff "-9"]
+[ECO "C40"]
+[Opening "Elephant Gambit"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 d5 3. exd5 Qxd5 4. Nc3 Qd6 5. d4 exd4 6. Nxd4 g6 7. Be3 Bg7 8. Qd2 Ne7 9. O-O-O Bg4 10. Be2 Bxe2 11. Qxe2 Bxd4 12. Rxd4 Qa6 13. Qd2 O-O 14. Bh6 Re8 15. Rd8 Nbc6 16. Rxe8+ Rxe8 17. Qd7 Nf5 18. Qxe8# 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/anen7jjv"]
+[White "madkupe"]
+[Black "mazorra"]
+[Result "0-1"]
+[UTCDate "2013.01.25"]
+[UTCTime "13:48:37"]
+[WhiteElo "1415"]
+[BlackElo "1492"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "C22"]
+[Opening "Center Game: Normal Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd1 Bc5 5. Nd2 d6 6. f3 Bd7 7. Bb5 Qf6 8. Ne2 Nge7 9. Nc3 g5 10. h3 h5 11. g4 hxg4 12. Bxc6 Bxc6 13. Nd5 Bxd5 14. exd5 gxh3 15. Ne4 Qf5 16. Nxc5 dxc5 17. Be3 O-O-O 18. Bxc5 Rxd5 19. Qc1 Rxc5 20. Kf2 g4 21. Qe3 Rxc2+ 22. Kg3 Rg2# 0-1
+

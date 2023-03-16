@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/qi6t7acm"]
+[White "digitom"]
+[Black "bfantesia"]
+[Result "0-1"]
+[UTCDate "2013.01.16"]
+[UTCTime "19:49:54"]
+[WhiteElo "1581"]
+[BlackElo "1595"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+12"]
+[ECO "C20"]
+[Opening "King's Pawn Game"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. g3 Nf6 3. Bg2 g6 4. b3 Bg7 5. Bb2 d6 6. Nc3 c6 7. d3 O-O 8. Nf3 Bg4 9. Qd2 Bxf3 10. Bxf3 Nbd7 11. O-O-O b5 12. h4 b4 13. Na4 a5 14. h5 d5 15. h6 Bh8 16. exd5 cxd5 17. Kb1 Rc8 18. Qg5 Qc7 19. Rc1 e4 20. dxe4 dxe4 21. Bg4 Nxg4 22. Bxh8 Kxh8 23. Qxg4 Ne5 24. Qxe4 f5 25. Qh4 Nf3 26. Qf6+ Rxf6 0-1
+

@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/0ko8gbcv"]
+[White "mazorra"]
+[Black "somia"]
+[Result "0-1"]
+[UTCDate "2013.01.20"]
+[UTCTime "12:48:15"]
+[WhiteElo "1547"]
+[BlackElo "1485"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+139"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. Bc4 e6 5. d3 Nf6 6. Bd2 Be7 7. Qf3 Nc6 8. Nge2 Ne5 9. Qg3 O-O 10. f4 Nxc4 11. dxc4 Bb4 12. O-O-O Bxc3 13. Bxc3 Qe7 14. h4 Nh5 15. Qf3 Nf6 16. g4 e5 17. g5 Bg4 18. Qe3 Nh5 19. Nd4 Nxf4 20. Rde1 Ng2 21. Qg3 Nxe1 22. Rxe1 Bh5 23. Nf5 Qd7 24. Nh6+ gxh6 25. gxh6+ Bg6 26. h5 Rad8 27. Qxe5 f6 28. Qg3 Kh8 29. hxg6 hxg6 30. Qxg6 Qf7 31. Qg3 Qd7 32. Rh1 Rg8 33. Qf3 Kh7 34. Qe4+ f5 35. Qf4 Rg4 36. Qe5 Rgg8 37. Qe3 Qc6 38. Qe7+ Kg6 39. h7 Qxh1+ 40. Be1 Qxh7 41. Qe6+ Kg7 42. Bc3+ Kf8 43. Bb4+ Rd6 44. Bxd6+ cxd6 45. Qf6+ Ke8 46. Qe6+ Qe7 47. Qxg8+ Kd7 48. Qg1 f4 49. Qxa7 Qe1# 0-1
+

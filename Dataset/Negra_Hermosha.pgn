@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/i7v5sh4i"]
+[White "Negra_Hermosha"]
+[Black "sani5057"]
+[Result "1-0"]
+[UTCDate "2013.01.23"]
+[UTCTime "19:04:59"]
+[WhiteElo "1641"]
+[BlackElo "1690"]
+[WhiteRatingDiff "+137"]
+[BlackRatingDiff "-10"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. Bc4 e6 3. Qf3 Ne7 4. Ne2 d5 5. exd5 exd5 6. Bb5+ Bd7 7. Bxd7+ Qxd7 8. O-O Ng6 9. d3 Bd6 10. Nbc3 O-O 11. Nxd5 Re8 12. Nec3 Ne5 13. Qh3 Ng4 14. Bf4 Bxf4 15. Nxf4 Nf6 16. Qxd7 Nbxd7 17. Nfd5 Nxd5 18. Nxd5 Re2 19. Rac1 Ne5 20. Rfe1 Rxe1+ 21. Rxe1 Re8 22. Kf1 f6 23. f4 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/nl0heym1"]
+[White "alaska"]
+[Black "Negra_Hermosha"]
+[Result "0-1"]
+[UTCDate "2013.01.29"]
+[UTCTime "12:58:38"]
+[WhiteElo "1573"]
+[BlackElo "1559"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+39"]
+[ECO "A21"]
+[Opening "English Opening: King's English Variation, Reversed Sicilian"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. c4 e5 2. Nc3 Bc5 3. g3 c6 4. Bg2 d6 5. e3 Nh6 6. d4 exd4 7. exd4 Bb4 8. Bxh6 Bxc3+ 9. bxc3 gxh6 10. Qe2+ Be6 11. d5 cxd5 12. cxd5 Qe7 13. dxe6 fxe6 14. Qb5+ Nd7 15. Ne2 O-O 16. O-O e5 17. Rae1 e4 18. Qd5+ Kh8 19. Qxe4 Qxe4 20. Bxe4 Nf6 21. Nd4 Rae8 22. Bxb7 Rxe1 23. Rxe1 Ng4 24. f4 Rb8 25. Bc6 Rb2 26. Re8+ Kg7 27. Re7+ Kg6 28. Be4+ Kf6 29. Rxa7 Ne3 30. Rxh7 Rxa2 31. Rxh6+ Ke7 32. f5 Ra1+ 33. Kf2 Ng4+ 34. Kf3 Nxh6 35. g4 Ra3 36. Ne2 Nf7 37. g5 Nxg5+ 38. Kf4 Nxe4 39. Kxe4 Kf6 40. h4 Ra4+ 41. Nd4 Rc4 42. Kd5 Rxc3 43. Kxd6 Rd3 44. Kd5 Rh3 45. Nc6 Rxh4 46. Nd8 Kxf5 47. Kc6 0-1
+

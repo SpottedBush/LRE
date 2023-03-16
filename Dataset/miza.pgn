@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/j5ykpq0y"]
+[White "murcauscas"]
+[Black "miza"]
+[Result "1-0"]
+[UTCDate "2013.01.29"]
+[UTCTime "16:03:31"]
+[WhiteElo "1554"]
+[BlackElo "1500"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-150"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation #3"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 e6 2. d4 d5 3. e5 Nc6 4. Nf3 Nh6 5. Bg5 Be7 6. Bxh6 gxh6 7. c3 Rg8 8. Qd3 Rg7 9. h4 b6 10. g3 Ba6 11. Qxa6 f6 12. Bb5 Qd7 13. Qb7 Rb8 14. Qxc6 Rd8 15. Qxd7+ Rxd7 16. Bxd7+ Kxd7 17. Nbd2 fxe5 18. Nxe5+ Ke8 19. Nc6 Bf6 20. Nxa7 e5 21. Nb3 Re7 22. O-O-O exd4 23. Nxd4 c5 24. Ndc6 Re2 25. Rhe1 Re4 26. f3 Rxe1 27. Rxe1+ Kf8 28. f4 d4 29. Re6 Kg7 30. cxd4 cxd4 31. f5 d3 32. Kd2 Bxb2 33. Kxd3 1-0
+

@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/2qxd4gye"]
+[White "Smok"]
+[Black "v780"]
+[Result "1-0"]
+[UTCDate "2013.01.29"]
+[UTCTime "12:53:25"]
+[WhiteElo "1461"]
+[BlackElo "1500"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-195"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit #2"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 c5 2. d4 1-0
+

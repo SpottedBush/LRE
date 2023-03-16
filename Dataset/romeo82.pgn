@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/bxx8r4g0"]
+[White "murcauscas"]
+[Black "romeo82"]
+[Result "0-1"]
+[UTCDate "2013.01.12"]
+[UTCTime "13:25:33"]
+[WhiteElo "1658"]
+[BlackElo "1500"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+272"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Staunton-Cochrane Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. c4 Nc6 3. Nf3 g6 4. Nc3 Bg7 5. Nd5 e6 6. Nf4 Nge7 7. Ne2 O-O 8. d4 cxd4 9. Nexd4 d5 10. cxd5 exd5 11. Nxc6 bxc6 12. e5 Bg4 13. h3 Bxf3 14. Qxf3 Bxe5 15. Bd3 Rb8 16. Qe2 Re8 17. O-O Bg7 18. Qd2 Nc8 19. Rb1 Nd6 20. Re1 Qh4 21. Rxe8+ Rxe8 22. Qf4 Re1+ 23. Kh2 Be5 24. g3 Bxf4 0-1
+

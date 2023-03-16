@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/bb7p27gr"]
+[White "Jonathan_52"]
+[Black "ninoelle"]
+[Result "0-1"]
+[UTCDate "2013.01.11"]
+[UTCTime "17:58:30"]
+[WhiteElo "1317"]
+[BlackElo "1528"]
+[WhiteRatingDiff "-16"]
+[BlackRatingDiff "+9"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Macleod Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. c3 d5 3. d4 dxe4 4. dxe5 Qxd1+ 5. Kxd1 Be6 6. b3 Nc6 7. c4 O-O-O+ 8. Bd2 Nxe5 9. f3 e3 10. f4 Ng4 11. h3 Nf2+ 12. Ke2 Nxh1 13. Nf3 exd2 14. Nc3 Ng3+ 15. Kf2 Nxf1 16. Ke2 Ng3+ 17. Kf2 Nf5 18. Nxd2 Rxd2+ 19. Ke1 Rxg2 20. Nb5 Rg1+ 21. Kd2 Rxa1 0-1
+

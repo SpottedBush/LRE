@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/f03c3ijj"]
+[White "aaaarte"]
+[Black "ZPavelZ"]
+[Result "0-1"]
+[UTCDate "2013.01.26"]
+[UTCTime "09:09:53"]
+[WhiteElo "1500"]
+[BlackElo "1636"]
+[WhiteRatingDiff "-119"]
+[BlackRatingDiff "+6"]
+[ECO "B23"]
+[Opening "Sicilian Defense: Closed"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. Nc3 e6 3. Nf3 Nc6 4. a3 g6 5. d3 Bg7 0-1
+

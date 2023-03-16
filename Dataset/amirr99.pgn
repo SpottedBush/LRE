@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/0hsic4uz"]
+[White "amirr99"]
+[Black "mazorra"]
+[Result "0-1"]
+[UTCDate "2013.01.06"]
+[UTCTime "16:41:00"]
+[WhiteElo "1586"]
+[BlackElo "1574"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+11"]
+[ECO "C53"]
+[Opening "Italian Game: Classical Variation, La Bourdonnais Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 d6 5. d4 exd4 6. cxd4 Bb6 7. O-O Qf6 8. Be3 Bg4 9. e5 dxe5 10. dxe5 Nxe5 11. Bxb6 axb6 12. Na3 Nxf3+ 13. gxf3 Bxf3 14. Bb5+ c6 15. Be2 Qg5# 0-1
+

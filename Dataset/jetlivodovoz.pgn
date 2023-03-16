@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/fy473eaq"]
+[White "jetlivodovoz"]
+[Black "mazorra"]
+[Result "1-0"]
+[UTCDate "2013.01.07"]
+[UTCTime "19:10:27"]
+[WhiteElo "1676"]
+[BlackElo "1565"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-8"]
+[ECO "C64"]
+[Opening "Ruy Lopez: Classical Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. d3 d6 5. Nc3 Bd7 6. a3 a6 7. Ba4 Qf6 8. Nd5 Qg6 9. O-O Bb6 10. Nxb6 cxb6 11. Be3 b5 12. Bb3 Nge7 13. Ng5 h6 14. Bxf7+ Kf8 15. Bxg6 Nxg6 16. Nf3 Nge7 17. Bb6 Kf7 18. Bc7 Ke6 19. c3 Be8 20. d4 b6 21. d5+ Kd7 22. Bxb6 Nd8 23. Rc1 Bg6 24. Re1 Nb7 25. c4 Nc5 26. Bxc5 dxc5 27. cxb5 Kd6 28. bxa6 Rxa6 29. Qc2 Nxd5 30. Qd2 Ke7 31. Qxd5 Rd6 32. Qxc5 Rd8 33. Nxe5 Ke6 34. Nxg6 Kf6 35. Nf4 g5 36. e5+ 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/esbp6j7r"]
+[White "vikings"]
+[Black "jetlivodovoz"]
+[Result "0-1"]
+[UTCDate "2013.01.19"]
+[UTCTime "20:13:02"]
+[WhiteElo "1622"]
+[BlackElo "1698"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+10"]
+[ECO "B21"]
+[Opening "Sicilian Defense: McDonnell Attack"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 c5 2. f4 Nc6 3. Nf3 f6 4. d4 cxd4 5. Nxd4 e5 6. Nb3 d6 7. f5 g6 8. Be2 Nge7 9. g4 g5 10. h4 Bh6 11. Nc3 Bd7 12. hxg5 Bxg5 13. Bxg5 fxg5 14. Qxd6 Qb6 15. Nd5 Nxd5 16. exd5 Nb4 17. Qxe5+ Kf7 18. Nd4 Qxd4 19. Qc7 Qxd5 20. Bc4 Rae8+ 21. Kf1 Re7 22. Bxd5+ Nxd5 23. Qxb7 Ne3+ 24. Kg1 Nxc2 25. Rd1 Rd8 0-1
+

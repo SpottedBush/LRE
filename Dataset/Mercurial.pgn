@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ddxajbf2"]
+[White "Mercurial"]
+[Black "baron"]
+[Result "0-1"]
+[UTCDate "2013.01.06"]
+[UTCTime "00:30:54"]
+[WhiteElo "1506"]
+[BlackElo "1593"]
+[WhiteRatingDiff "-48"]
+[BlackRatingDiff "+9"]
+[ECO "C24"]
+[Opening "Bishop's Opening: Berlin Defense"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 Bc5 4. Bg5 Nc6 5. h3 h6 6. Bh4 g5 7. Bg3 d5 8. exd5 Nxd5 9. a3 a6 10. Qf3 Be6 11. Nd2 Nd4 12. Qd1 Nb6 13. Bxe6 fxe6 14. Bxe5 Rf8 15. Qh5+ Rf7 16. O-O-O Qd5 17. Ngf3 Qa2 18. Nxd4 Qa1+ 19. Nb1 Bxd4 20. Bxd4 Na4 21. Rde1 Ke7 22. Qxh6 Rd8 23. Qxg5+ Kd7 24. Rxe6 Kc8 25. Rhe1 Rff8 26. Qg6 Rxd4 27. Re8+ Rd8 28. Rxd8+ Rxd8 29. Re8 Qxb2+ 30. Kd1 Qxb1+ 31. Ke2 Qxc2+ 32. Kf3 Qxd3+ 33. Re3 Qd5+ 0-1
+

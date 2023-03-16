@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/h0aywudp"]
+[White "sarser"]
+[Black "mazorra"]
+[Result "1-0"]
+[UTCDate "2013.01.25"]
+[UTCTime "15:51:06"]
+[WhiteElo "1379"]
+[BlackElo "1501"]
+[WhiteRatingDiff "+124"]
+[BlackRatingDiff "-13"]
+[ECO "C64"]
+[Opening "Ruy Lopez: Classical Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Bc5 4. Nc3 d6 5. Nd5 Bb6 6. d3 Bd7 7. Bg5 f6 8. Be3 Nge7 9. Bxb6 axb6 10. Nh4 Ra5 11. c4 Nd4 12. Bxd7+ Qxd7 13. Nxe7 Qxe7 14. Qh5+ Kd7 15. O-O Raa8 16. f4 g6 17. Qg4+ f5 18. exf5 gxf5 19. Nxf5 Nxf5 20. Qxf5+ Kc6 21. Qe4+ Kd7 22. fxe5 Qxe5 23. Rf7+ Kc8 24. Qxe5 dxe5 25. Re1 Kb8 26. Rxe5 Ka7 27. Ree7 Rac8 28. Rxc7 Rxc7 29. Rxc7 h6 30. a4 Rd8 31. Rh7 Rd6 32. Kf2 Rxd3 33. Rxh6 Rd2+ 34. Kf3 Rxb2 35. g4 Rc2 36. g5 Rxc4 37. g6 Rc8 38. Kf4 Rg8 39. Kf5 Ka6 40. Kf6 b5 41. axb5+ Kxb5 42. Kf7 Ra8 43. g7 b6 44. g8=Q Rxg8 45. Kxg8 Ka5 46. Rh5+ b5 47. Rxb5+ Kxb5 48. h4 Kc5 49. h5 Kd5 50. h6 Ke6 51. h7 Kf6 52. h8=Q+ Ke6 53. Qh6+ Ke5 54. Kf7 Kd5 55. Qe6+ Kd4 56. Kf6 Kd3 57. Kf5 Kd4 58. Kf4 Kd3 59. Qe5 Kc4 60. Ke4 Kb4 61. Kd5 Kb3 62. Kc5 Kc2 63. Qe4+ Kc3 64. Qd4+ Kc2 65. Kb4 Kc1 66. Kb3 Kb1 67. Qb2# 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/cr1maplx"]
+[White "mazorra"]
+[Black "sarser"]
+[Result "0-1"]
+[UTCDate "2013.01.25"]
+[UTCTime "16:05:19"]
+[WhiteElo "1488"]
+[BlackElo "1503"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+71"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. Bc4 e6 3. d3 Nf6 4. Nc3 Nc6 5. Bb3 d5 6. exd5 Nxd5 7. Qf3 Nxc3 8. bxc3 Qa5 9. Bd2 Qb6 10. Ne2 Ne5 11. Qf4 Bd6 12. Qg3 Nxd3+ 13. Qxd3 Qc6 14. Qc4 Qxg2 15. O-O-O Qxf2 16. Rde1 Bd7 17. Ba4 O-O-O 18. Bxd7+ Rxd7 19. Qa4 b6 20. Qa6+ Kb8 21. Ref1 Qg2 22. Nf4 Bxf4 23. Bxf4+ Ka8 24. Rhg1 Qh3 25. Qb5 Rhd8 26. Rd1 Rxd1+ 27. Rxd1 Rxd1+ 28. Kxd1 Qg4+ 29. Kc1 Qxf4+ 30. Kb2 Qxh2 31. Qc6+ Kb8 32. Kb3 Qc7 33. Qg2 g6 34. c4 f5 35. Qg5 f4 36. Qf6 e5 37. Qe6 f3 38. Qg8+ Kb7 39. Qd5+ Ka6 40. Qxf3 h5 41. Qe4 b5 42. Qxg6+ Qb6 43. Qxh5 bxc4+ 44. Kxc4 Qb4+ 45. Kd5 Qd4+ 46. Kc6 e4 47. a4 Qxa4+ 48. Kxc5 Qxc2+ 49. Kd4 Qd3+ 50. Kc5 Qb5+ 51. Kd4 Qxh5 52. Kxe4 Kb6 53. Kd4 a5 54. Kc3 Qb5 55. Kc2 a4 56. Kd2 a3 57. Ke3 a2 0-1
+

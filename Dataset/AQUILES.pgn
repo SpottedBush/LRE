@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/70j99cko"]
+[White "AQUILES"]
+[Black "Norb"]
+[Result "1-0"]
+[UTCDate "2013.01.14"]
+[UTCTime "13:34:25"]
+[WhiteElo "1374"]
+[BlackElo "1365"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-11"]
+[ECO "C40"]
+[Opening "Elephant Gambit"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 d5 3. Nxe5 dxe4 4. Qh5 Be6 5. Bc4 Bxc4 6. Nxc4 Nf6 7. Qe2 Bc5 8. c3 O-O 9. d4 Bb6 10. Bf4 Nc6 11. Nbd2 g6 12. h4 Nh5 13. Qxe4 Qf6 14. g3 Rfe8 15. Ne5 Rad8 16. O-O-O Nxe5 17. dxe5 Qe6 18. Qxb7 Nxf4 19. gxf4 Bxf2 20. Ne4 Be3+ 21. Kb1 Rxd1+ 22. Rxd1 Qg4 23. Nf6+ Kh8 24. Nxg4 Bxf4 25. Qxc7 Bxe5 26. Nxe5 Rxe5 27. Qxe5+ Kg8 28. Rd8# 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/fsyhjbe3"]
+[White "AQUILES"]
+[Black "sossos"]
+[Result "0-1"]
+[UTCDate "2013.01.19"]
+[UTCTime "20:48:07"]
+[WhiteElo "1386"]
+[BlackElo "1675"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+4"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Kennedy Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. d4 Nc6 3. dxe5 Nxe5 4. a3 c6 5. b4 d5 6. exd5 cxd5 7. Qe2 Bd6 8. f4 Qe7 9. fxe5 Bxe5 10. Qb5+ Bd7 11. Qxb7 Bxa1+ 12. Ne2 Rd8 13. Qxd5 Nf6 14. g3 Nxd5 0-1
+

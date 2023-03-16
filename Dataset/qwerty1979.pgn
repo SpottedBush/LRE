@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/8ikd30s3"]
+[White "delp"]
+[Black "qwerty1979"]
+[Result "1-0"]
+[UTCDate "2013.01.31"]
+[UTCTime "19:28:49"]
+[WhiteElo "1515"]
+[BlackElo "1446"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 d6 3. h3 Nc6 4. a3 Bd7 5. d3 Nf6 6. c4 Nd4 7. Nxd4 exd4 8. Nd2 Qe7 9. Nf3 h6 10. Nxd4 Qe5 11. Be3 c5 12. Nf3 Qxb2 13. Rb1 Qc3+ 14. Bd2 Qxa3 15. Rxb7 Be7 16. Be2 O-O 17. Rb1 Rab8 18. Bc1 Qa5+ 19. Bd2 Qc7 20. Rc1 Rb7 21. Nh4 Rfb8 22. Nf5 Bxf5 23. exf5 Qb6 24. O-O d5 25. Qa4 Qb4 26. Bxb4 Rxb4 27. Qxa7 Rb4b7 28. Qa6 dxc4 29. Bf3 Rb6 30. Qxc4 Rb4 31. Qa6 Rb3 32. Rfd1 Rb2 33. Qa7 Bd6 34. d4 Bf4 35. Rxc5 Rb1 36. Rc7 Bxc7 37. Qxc7 Rxd1+ 38. Bxd1 Rb1 39. Qc2 Rb4 40. Qd3 Rb8 41. Kh2 Nd7 42. Bh5 Nf6 43. Bf3 Re8 44. d5 g6 45. fxg6 Kg7 46. gxf7 Kxf7 47. d6 Rd8 48. Qc4+ Kg6 49. Qc7 Rg8 50. Be4+ Kg5 51. d7 Nxe4 52. Qe5+ Kg6 53. Qxe4+ Kf7 54. Qh7+ Ke6 55. Qxg8+ Kxd7 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/u3destpz"]
+[White "qwerty1979"]
+[Black "delp"]
+[Result "0-1"]
+[UTCDate "2013.01.31"]
+[UTCTime "19:41:51"]
+[WhiteElo "1437"]
+[BlackElo "1524"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "C42"]
+[Opening "Russian Game: Three Knights Game"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 Nf6 2. Nc3 e5 3. Nf3 d6 4. Bc4 h6 5. d3 a6 6. Be3 Nc6 7. a3 Na5 8. Ba2 Ng4 9. Nd2 Nxe3 10. fxe3 Qg5 11. Qf3 Bg4 12. Qxf7+ Kd8 13. Qf2 Be7 14. Ne2 Rf8 15. Qg3 Qh5 16. h3 Bxe2 17. Qxg7 Nc6 18. Rf1 Rxf1+ 19. Nxf1 Kd7 20. Ng3 Qh4 21. Bd5 Rf8 22. Bf7 Kc8 23. Be6+ Kb8 24. Bf7 Nd8 25. Kxe2 Nxf7 26. Nf5 Qh5+ 27. Kd2 Ng5 28. Nxe7 Rf7 29. Qg8+ Ka7 30. Qg6 Rf2+ 31. Kc3 Qe2 32. Qxh6 Qxc2+ 33. Kb4 Qxb2+ 34. Kc4 Qxa1 35. Qxg5 Qa2+ 36. Kb4 c5+ 37. Ka4 b5+ 38. Ka5 Qxa3# 0-1
+

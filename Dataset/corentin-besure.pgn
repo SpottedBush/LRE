@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/qxq96wvp"]
+[White "corentin-besure"]
+[Black "eidelman32"]
+[Result "0-1"]
+[UTCDate "2013.01.06"]
+[UTCTime "21:18:10"]
+[WhiteElo "1351"]
+[BlackElo "1607"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+5"]
+[ECO "C55"]
+[Opening "Italian Game: Two Knights Defense, Modern Bishop's Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 h6 5. Be3 d5 6. Bb3 Be6 7. Nc3 d4 8. Ba4 dxe3 9. fxe3 Bb4 10. d4 exd4 11. exd4 Bxc3+ 12. bxc3 Bg4 13. e5 Ne4 14. d5 Nxc3 15. Qd3 Bxf3 16. gxf3 Nxa4 17. O-O O-O 18. Qc4 Qg5+ 19. Kh1 Nxe5 20. Qxa4 b6 21. Rg1 Qe3 22. Raf1 Rfe8 23. f4 Nf3 24. Rg3 Qd4 25. Qa3 Nh4 26. Rd3 Qe4+ 27. Kg1 Qg2# 0-1
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/3anyk3de"]
+[White "corentin-besure"]
+[Black "amater"]
+[Result "0-1"]
+[UTCDate "2013.01.06"]
+[UTCTime "22:53:06"]
+[WhiteElo "1309"]
+[BlackElo "1448"]
+[WhiteRatingDiff "-22"]
+[BlackRatingDiff "+6"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Accelerated Mannheim Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 d5 2. c4 dxc4 3. Qa4+ Bd7 4. Qxc4 b5 5. Qd5 c6 6. Qf3 g6 7. e3 Bg7 8. d5 Nf6 9. e4 O-O 10. Ne2 Bg4 11. Qc3 Nxe4 12. Qd3 Bf5 13. Qe3 Qxd5 14. Nbc3 Bxc3+ 15. Nxc3 Qe5 16. f4 Qf6 17. g3 Nxc3 18. bxc3 Rd8 19. Bb2 b4 20. Qf2 bxc3 21. Ba3 c2 22. Qe2 Qxa1+ 23. Kf2 Qd4+ 24. Ke1 Qd1+ 25. Kf2 c1=Q 26. Bxc1 Qxc1 27. Bg2 Qc5+ 28. Kf1 Bd3 29. Bf3 Bxe2+ 30. Bxe2 Qc1+ 31. Kg2 Rd2 32. Rxc1 Rxe2+ 33. Kh3 Rxa2 34. Rc5 Nd7 35. Rxc6 a5 36. Rc7 Rd2 37. Rb7 a4 38. Kg4 a3 39. Kf3 a2 40. Ke3 Rc2 41. Kd3 Rxh2 42. Rxd7 a1=Q 43. Rxe7 Qd1+ 44. Ke4 Qe1+ 45. Kf3 Qxe7 46. Kg4 Qf6 47. Kf3 g5 48. Kg4 h5+ 49. Kf3 Ra3+ 50. Ke4 Re2+ 51. Kd5 Qd8+ 52. Kc5 Rc2+ 53. Kb4 Re3 54. fxg5 Qb8+ 55. Ka4 Ra2# 0-1
+

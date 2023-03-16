@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/m5k0iw5o"]
+[White "ankesor"]
+[Black "Killi"]
+[Result "1-0"]
+[UTCDate "2013.01.22"]
+[UTCTime "03:52:03"]
+[WhiteElo "1575"]
+[BlackElo "1613"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-13"]
+[ECO "A20"]
+[Opening "English Opening: King's English Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. c4 e5 2. f4 Bc5 3. fxe5 Nc6 4. d4 Bb4+ 5. Nc3 d6 6. exd6 Qxd6 7. d5 Ne5 8. e4 Qf6 9. Nf3 Bg4 10. Be2 Nh6 11. Bg5 Nxf3+ 12. gxf3 Qxg5 13. fxg4 Qh4+ 14. Kf1 Qh3+ 15. Kf2 Bc5+ 16. Ke1 Nxg4 17. Bxg4 Qe3+ 18. Qe2 Qxe2+ 19. Kxe2 O-O 20. Nb5 c6 21. dxc6 bxc6 22. Nc7 Rab8 23. Na6 Bd4 24. Nxb8 Rxb8 25. Rad1 Bxb2 26. Rd7 a5 27. Rf1 f6 28. Be6+ Kf8 29. Rf7+ Ke8 30. Rxg7 f5 31. Rg8+ Ke7 32. Rxb8 Kxe6 33. Rxb2 fxe4 34. Rb6 Kd6 35. Ke3 h5 36. Kxe4 Kc5 37. Rb7 Kxc4 38. Rc1# 1-0
+

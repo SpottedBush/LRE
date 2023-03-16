@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/z2o1ea2q"]
+[White "Bubchikov"]
+[Black "vicodinn"]
+[Result "1-0"]
+[UTCDate "2013.01.28"]
+[UTCTime "18:48:19"]
+[WhiteElo "1476"]
+[BlackElo "1436"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "D06"]
+[Opening "Queen's Gambit Refused: Marshall Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 Nf6 2. c4 d5 3. c5 Nc6 4. e3 a6 5. Bd2 g6 6. b4 b5 7. a4 bxa4 8. Rxa4 Bd7 9. b5 Nb8 10. Bd3 Bg7 11. c6 axb5 12. Rxa8 Bxc6 13. Ra5 Bd7 14. Bxb5 Bxb5 15. Rxb5 Nc6 16. Qa4 O-O 17. Ne2 Ne4 18. O-O Qd7 19. Nf4 Na7 20. Qxa7 Qxb5 21. Qxc7 f5 22. Ba5 Ra8 23. Nc3 Nxc3 24. Bxc3 Rb8 25. Qxe7 Bf8 26. Qe6+ Kg7 27. Nxd5 Kh6 28. Nc7 Qb7 29. Na6 Rc8 30. Bd2 Rc6 31. e4+ Kg7 32. Qe5+ Kg8 33. Qd5+ Kh8 34. Nc5 Bxc5 35. dxc5 fxe4 36. Bc3+ Qg7 37. Bxg7+ Kxg7 38. Qxc6 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/9a2ry000"]
+[White "vicodinn"]
+[Black "mazorra"]
+[Result "0-1"]
+[UTCDate "2013.01.29"]
+[UTCTime "15:22:22"]
+[WhiteElo "1426"]
+[BlackElo "1486"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "C44"]
+[Opening "King's Pawn Game: Dresden Opening"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. Nf3 Nc6 3. c4 Bc5 4. d3 d6 5. h3 Bd7 6. Nc3 Qf6 7. Nd5 Qd8 8. Be2 Bb6 9. Nxb6 axb6 10. a3 Qf6 11. b4 Qg6 12. O-O Nd4 13. Nxd4 exd4 14. Bb2 Bxh3 15. Bf3 Qg5 16. Bxd4 Be6 17. Re1 h5 18. Be3 Qg6 19. Kf1 h4 20. Ke2 h3 21. g3 Ne7 22. Rh1 f5 23. exf5 Qxf5 24. g4 Qe5 25. Kd2 Qb2+ 26. Qc2 Qf6 27. Bg2 Bxg4 28. Qc3 Nf5 29. Qxf6 gxf6 30. Rag1 O-O-O 0-1
+

@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/f2gm7bjo"]
+[White "delp"]
+[Black "chessqwerty"]
+[Result "1-0"]
+[UTCDate "2013.01.21"]
+[UTCTime "19:26:25"]
+[WhiteElo "1550"]
+[BlackElo "1403"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-83"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 Nc6 2. h3 Ne5 3. d4 Ng6 4. Nf3 b6 5. a3 Bb7 6. d5 e6 7. Nc3 c5 8. Bd3 Rc8 9. O-O Nf4 10. Bxf4 g6 11. Nb5 c4 12. Be2 Ba6 13. Nxa7 Rc7 14. Nc6 Qf6 15. Bxc7 Qxb2 16. Rb1 Qxa3 17. Rxb6 Nf6 18. Rb8+ Bc8 19. Rxc8# 1-0
+

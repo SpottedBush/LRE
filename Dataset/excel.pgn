@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/f5ptt03x"]
+[White "mazorra"]
+[Black "excel"]
+[Result "0-1"]
+[UTCDate "2013.01.05"]
+[UTCTime "14:25:30"]
+[WhiteElo "1635"]
+[BlackElo "1642"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 c5 2. Bc4 a6 3. d3 e6 4. Nc3 b5 5. Bb3 Bb7 6. Be3 b4 7. Na4 Nf6 8. Bxc5 Qa5 9. Bxf8 Rxf8 10. Qf3 Bc6 11. Ne2 Bxa4 12. e5 Nd5 13. Nf4 Bxb3 14. cxb3 Nc6 15. O-O Nxf4 16. Qxf4 Nxe5 17. Rfd1 h6 18. Rac1 Nc6 19. Qd6 Qxa2 20. Qc7 Qxb3 21. Qb7 Ke7 22. Re1 Rfc8 23. Rc4 Qxd3 24. Rxc6 Rxc6 25. Qxa8 Qd2 26. Rf1 Qxb2 27. g3 Rc1 28. Rxc1 Qxc1+ 29. Kg2 Qa3 30. Qa7 b3 31. Qe3 Qa2 32. Qc5+ Kf6 33. Qc4 Qa3 34. Qc3+ Ke7 35. f4 a5 36. Kh3 a4 37. g4 Qd6 38. f5 e5 39. Kh4 e4 40. Qxg7 Qf6+ 41. Qxf6+ Kxf6 42. Kh5 b2 43. Kxh6 b1=Q 44. Kh7 Ke7 45. h4 e3 46. g5 e2 47. g6 fxg6 48. fxg6 e1=Q 49. h5 Qh4 50. h6 Qg4 51. Kg7 Qbxg6+ 52. Kh8 0-1
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ricljuy9"]
+[White "excel"]
+[Black "supercraps4ede"]
+[Result "1-0"]
+[UTCDate "2013.01.28"]
+[UTCTime "04:50:12"]
+[WhiteElo "1649"]
+[BlackElo "1517"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-16"]
+[ECO "C48"]
+[Opening "Four Knights Game: Ranken Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 a6 5. Bxc6 dxc6 6. Nxe5 Bb4 7. d3 Qd4 8. Nf3 Bxc3+ 9. Kf1 Bg4 10. Nxd4 Bxd1 11. bxc3 O-O 12. Bf4 c5 13. Rxd1 cxd4 14. cxd4 c6 15. h3 Rfd8 16. Be5 Nd7 17. c3 Nxe5 18. dxe5 c5 19. f4 b5 20. Ke2 Re8 21. d4 cxd4 22. Rxd4 Rac8 23. Kd3 Red8 24. g4 Kf8 25. f5 Ke7 26. g5 f6 27. exf6+ gxf6 28. h4 a5 29. Rg1 b4 30. cxb4 axb4 31. Rxd8 Rxd8+ 32. Kc4 Rd2 33. gxf6+ Kxf6 34. Rg4 Rxa2 35. Kxb4 Re2 36. Kc5 Rd2 37. Kc4 Rd8 38. Rg2 Ke5 39. Re2 h6 40. Kc3 Rd6 41. Re3 Rd7 42. Rd3 Rf7 43. Rd4 Kf4 44. Kd3 Kg4 45. Rd6 h5 46. Rg6+ Kf4 47. f6 Ke5 48. Rh6 Rxf6 49. Rxh5+ Ke6 50. e5 Rf5 51. Rxf5 Kxf5 52. Kd4 Ke6 53. Ke4 1-0
+

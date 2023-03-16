@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/axumrzmj"]
+[White "yaponec005"]
+[Black "rohirims"]
+[Result "1-0"]
+[UTCDate "2013.01.24"]
+[UTCTime "08:02:25"]
+[WhiteElo "1380"]
+[BlackElo "1340"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "B15"]
+[Opening "Caro-Kann Defense: Gurgenidze Counterattack"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 d5 2. Nc3 c6 3. d4 b5 4. exd5 b4 5. Nce2 Qxd5 6. c3 bxc3 7. Nxc3 1-0
+

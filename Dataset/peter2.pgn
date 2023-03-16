@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/pjlupw5v"]
+[White "erasmojpo"]
+[Black "peter2"]
+[Result "1-0"]
+[UTCDate "2013.01.26"]
+[UTCTime "00:48:35"]
+[WhiteElo "1621"]
+[BlackElo "1494"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-8"]
+[ECO "C60"]
+[Opening "Ruy Lopez: Nuernberg Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 f6 4. a3 a6 5. Bxc6 dxc6 6. Nc3 Bg4 7. d3 Bxf3 8. Qxf3 Qd4 9. Be3 Qd7 10. O-O b6 11. b4 a5 12. Rfd1 axb4 13. axb4 Rxa1 14. Rxa1 Bxb4 15. Ra8+ Ke7 16. Na4 Kf7 17. Ra7 Bc5 18. Nxc5 bxc5 19. Bxc5 Ne7 20. Bb6 Rc8 21. Qh5+ Kg8 22. Bxc7 Rxc7 23. Rxc7 Qxc7 24. Qe8# 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/8k7y5lc1"]
+[White "peter2"]
+[Black "sossos"]
+[Result "0-1"]
+[UTCDate "2013.01.26"]
+[UTCTime "20:59:56"]
+[WhiteElo "1531"]
+[BlackElo "1658"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[ECO "B02"]
+[Opening "Alekhine Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 Nf6 2. Nc3 d6 3. Bc4 h6 4. d3 e5 5. f3 c6 6. f4 Bg4 7. Qd2 Nbd7 8. h3 Bh5 9. g4 Bg6 10. f5 Bh7 11. h4 a5 12. g5 b5 13. Bb3 a4 14. Bxf7+ Kxf7 15. gxf6 Nxf6 16. Qg2 h5 17. Qg5 Kg8 18. Nf3 Ra7 19. Rg1 Rf7 20. d4 exd4 21. Nxd4 Qd7 22. Ne6 d5 23. e5 Ne4 24. Nxf8 Nxg5 25. Nxd7 Nf3+ 26. Kf2 Nxg1 27. f6 Rxd7 28. fxg7 Rxg7 29. Be3 Nh3+ 30. Kf3 Rf7+ 31. Kg3 Bf5 32. Rg1 Rhh7 33. Kh2+ Rhg7 34. Rxg7+ Kxg7 35. Bd4 Kg6 36. Ne2 Bg4 37. Ng3 Re7 38. Nxh5 Kxh5 39. c3 c5 40. Bxc5 Rxe5 41. b3 Re2+ 42. Kg3 Rxa2 43. bxa4 bxa4 44. Be7 Ra3 45. Kg2 Rxc3 46. Kf1 a3 47. Kg2 a2 0-1
+

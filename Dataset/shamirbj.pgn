@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/a7fkr39y"]
+[White "shamirbj"]
+[Black "mazorra"]
+[Result "0-1"]
+[UTCDate "2013.01.11"]
+[UTCTime "14:54:05"]
+[WhiteElo "1648"]
+[BlackElo "1562"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+13"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Modern Variation #4"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 Bc5 4. Bb5 d6 5. Bxc6+ bxc6 6. Nh3 Bd7 7. Nf4 Nf6 8. Nd3 Bb6 9. a4 a6 10. Qe2 Qe7 11. Nb4 Bc8 12. Nxc6 Qe6 13. Na3 Bb7 14. Nb4 Bxg2 15. Rg1 Bb7 16. Rxg7 Rg8 17. Rxg8+ Nxg8 18. Qc4 Qh3 19. Qxc7 Bxc7 20. Nc4 Bf3 21. d3 Qxh2 22. Kd2 d5 23. Na3 Ba5 24. Bc3 Qxf2+ 25. Kc1 Rb8 26. Nc6 Bxc3 27. Nxb8 Qe1# 0-1
+

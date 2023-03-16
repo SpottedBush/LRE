@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/tflljsuy"]
+[White "CHUSOCK"]
+[Black "mazorra"]
+[Result "1-0"]
+[UTCDate "2013.01.21"]
+[UTCTime "15:01:46"]
+[WhiteElo "1363"]
+[BlackElo "1520"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-16"]
+[ECO "A03"]
+[Opening "Bird Opening: Dutch Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. f4 d5 2. Nf3 Bf5 3. Nd4 e6 4. Nxf5 exf5 5. e3 Bc5 6. c4 d4 7. exd4 Bxd4 8. Qe2+ Ne7 9. Qf3 O-O 10. Bd3 Re8 11. Kd1 Ng6 12. Bxf5 Nh4 13. Qh5 g6 14. Bxg6 fxg6 15. Qh6 Be3 16. Nc3 Nf5 17. Qh3 Bf2 18. Nd5 Kg7 19. Qc3+ Kh6 20. g4 Ne7 21. g5+ Kh5 22. Nf6+ Kh4 23. Qf3 Nf5 24. Qxf2+ Kh3 25. Nxe8 Kg4 26. h3+ Kh5 27. Qf3+ Kh4 28. Qg4# 1-0
+

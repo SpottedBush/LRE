@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/b40yvxh8"]
+[White "Eleanor"]
+[Black "phantom2013"]
+[Result "0-1"]
+[UTCDate "2013.01.20"]
+[UTCTime "12:18:13"]
+[WhiteElo "1500"]
+[BlackElo "1477"]
+[WhiteRatingDiff "-187"]
+[BlackRatingDiff "+13"]
+[ECO "C41"]
+[Opening "Philidor Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 d6 3. d4 h6 4. dxe5 dxe5 5. Qxd8+ Kxd8 6. Nxe5 Be6 7. b3 Nf6 8. Bc4 Nbd7 9. Bxe6 Nxe5 10. Bd5 c6 11. Bc4 Kc7 12. Bf4 Bd6 13. Bxe5 Bxe5 14. Nc3 Bxc3+ 15. Ke2 Bxa1 16. Rxa1 Nxe4 17. Re1 Rhe8 18. Kd1 Nc3+ 19. Kd2 Rxe1 20. Kxe1 Re8+ 0-1
+

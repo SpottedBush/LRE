@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/95dw869z"]
+[White "yaponec005"]
+[Black "saeid"]
+[Result "0-1"]
+[UTCDate "2013.01.30"]
+[UTCTime "13:37:12"]
+[WhiteElo "1380"]
+[BlackElo "1636"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+53"]
+[ECO "C26"]
+[Opening "Vienna Game: Mengarini Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. a3 Nf6 3. Nc3 c5 4. Nf3 Nc6 5. Bb5 d6 6. Bxc6+ bxc6 7. d3 Qc7 8. Bg5 Be7 9. Bxf6 Bxf6 10. h3 O-O 11. O-O Rb8 12. b4 cxb4 13. axb4 Rxb4 14. Qd2 Rb2 15. Rab1 Rxb1 16. Rxb1 Be6 17. Na4 d5 18. Nc5 Rd8 19. Nxe6 fxe6 20. exd5 Rxd5 21. Qb4 Rb5 22. Qe1 e4 23. dxe4 Bc3 24. Qc1 Qb6 25. Rxb5 cxb5 26. e5 a5 27. Qd1 a4 28. Qd8+ Qxd8 0-1
+

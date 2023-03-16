@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/5b230hhe"]
+[White "bmehdi"]
+[Black "VanFkingHalen"]
+[Result "1-0"]
+[UTCDate "2013.01.24"]
+[UTCTime "06:49:22"]
+[WhiteElo "1522"]
+[BlackElo "1477"]
+[WhiteRatingDiff "+59"]
+[BlackRatingDiff "-9"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. Bc4 Nc6 3. Nc3 g6 4. Nf3 Bg7 5. d4 cxd4 6. Nb5 Qb6 7. O-O a6 8. Na3 e6 9. c3 d5 10. exd5 exd5 11. Bxd5 dxc3 12. Re1+ Nge7 13. Bg5 Qxb2 14. Bxc6+ bxc6 15. Rxe7+ Kf8 16. Qd8# 1-0
+

@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/e8kw6fne"]
+[White "mskg"]
+[Black "realsid"]
+[Result "0-1"]
+[UTCDate "2013.01.27"]
+[UTCTime "16:08:20"]
+[WhiteElo "1500"]
+[BlackElo "1424"]
+[WhiteRatingDiff "-217"]
+[BlackRatingDiff "+9"]
+[ECO "B01"]
+[Opening "Scandinavian Defense"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 d5 2. f3 d4 3. Bc4 c5 4. d3 Qa5+ 5. Bd2 Qb6 6. b3 e6 7. Ne2 Qc6 8. c3 b5 9. Bxb5 Qxb5 10. c4 Qd7 11. Nf4 Nf6 12. e5 g5 13. Ne2 Nh5 14. Bxg5 Rg8 15. Bd2 Rxg2 16. Rg1 Rxg1+ 17. Nxg1 Nc6 18. Nh3 Nxe5 19. Ng5 Nxd3+ 20. Ke2 Ndf4+ 21. Bxf4 Nxf4+ 22. Ke1 h6 23. Nh7 Bg7 24. Qc1 d3 25. Qxf4 d2+ 26. Nxd2 Bxa1 27. Qg4 Bb7 28. Qg8+ Ke7 29. Nf8 Qe8 0-1
+

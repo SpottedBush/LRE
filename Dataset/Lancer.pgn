@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/pllwii4r"]
+[White "Lancer"]
+[Black "VanFkingHalen"]
+[Result "0-1"]
+[UTCDate "2013.01.29"]
+[UTCTime "05:55:13"]
+[WhiteElo "1497"]
+[BlackElo "1468"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+12"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. Bc4 Nc6 3. d3 g6 4. f4 Bg7 5. Nf3 b5 6. Bb3 e6 7. Qd2 Nge7 8. Nc3 b4 9. Nb5 d5 10. exd5 exd5 11. Qe2 Ba6 12. Ba4 Qb8 13. c4 bxc3 14. Nxc3 O-O 15. Bd2 Qxb2 16. Rb1 Qa3 17. Bxc6 Nxc6 18. Rb3 Qa5 19. Nxd5 Qxa2 20. Qd1 Nd4 21. Nxd4 Bxd4 22. Bc3 Qxg2 23. Rf1 Bxd3 24. Bxd4 Qxf1+ 25. Kd2 Qxd1+ 26. Kxd1 c4 27. Nf6+ Kg7 28. Nd7+ Kh6 29. Nxf8 Rxf8 30. Rb7 Rd8 31. Bxa7 Be4+ 0-1
+

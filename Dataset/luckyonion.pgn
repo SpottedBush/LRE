@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/izn3uqyt"]
+[White "luckyonion"]
+[Black "murcauscas"]
+[Result "1-0"]
+[UTCDate "2013.01.08"]
+[UTCTime "18:17:57"]
+[WhiteElo "1500"]
+[BlackElo "1532"]
+[WhiteRatingDiff "+192"]
+[BlackRatingDiff "-8"]
+[ECO "C60"]
+[Opening "Ruy Lopez: Cozio Defense"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nge7 4. Nc3 a6 5. Ba4 b5 6. Bb3 f6 7. d4 d6 8. d5 Na5 9. Be3 Nxb3 10. axb3 Bb7 11. Nxb5 axb5 12. Rxa8 Qxa8 13. O-O c6 14. Qd3 cxd5 15. exd5 1-0
+

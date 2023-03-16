@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/eho6xopy"]
+[White "sossos"]
+[Black "zlate"]
+[Result "1-0"]
+[UTCDate "2013.01.21"]
+[UTCTime "20:02:12"]
+[WhiteElo "1664"]
+[BlackElo "1626"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-9"]
+[ECO "B06"]
+[Opening "Modern Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 g6 2. h4 Bg7 3. h5 d6 4. hxg6 fxg6 5. Bd3 Nf6 6. c3 O-O 7. Na3 e5 8. Nc4 Bg4 9. Be2 Bxe2 10. Qxe2 Nbd7 11. Nh3 Nc5 12. Ng5 a6 13. b4 Nfxe4 14. Nxe4 Nxe4 15. Qxe4 Qf6 16. Qh4 Qxh4 17. Rxh4 d5 18. Ne3 d4 19. cxd4 exd4 20. Nf1 Rae8+ 21. Kd1 Rxf2 22. Ng3 d3 23. Rb1 Rxg2 24. Nf1 Rg1 25. Rf4 Bh6 26. Rf3 Rf8 27. Rxd3 Rfxf1+ 28. Kc2 Rf2 29. Rd8+ Kg7 30. Bb2+ Kf7 31. Rxg1 Ke7 32. Rd3 b6 33. Re1+ Kf7 34. Rd7+ Kf8 35. Bc3 a5 36. bxa5 bxa5 37. Ree7 Kg8 38. Rxh7 Bxd2 39. Rh8# 1-0
+

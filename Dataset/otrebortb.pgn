@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/juq7otel"]
+[White "otrebortb"]
+[Black "Oldguy"]
+[Result "1-0"]
+[UTCDate "2013.01.31"]
+[UTCTime "01:27:31"]
+[WhiteElo "1496"]
+[BlackElo "1524"]
+[WhiteRatingDiff "+77"]
+[BlackRatingDiff "-15"]
+[ECO "B30"]
+[Opening "Sicilian Defense: Old Sicilian"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. Nf3 Nc6 3. g3 d5 4. exd5 Qxd5 5. Bg2 Qe6+ 6. Qe2 Qxe2+ 7. Kxe2 Nf6 8. Re1 Bg4 9. Kf1 e6 10. Ne5 Nxe5 11. Rxe5 Bd6 12. Bxb7 Rb8 13. Bc6+ Ke7 14. Rg5 g6 15. Nc3 h6 16. Rxg4 Nxg4 17. Nd5+ Kd8 18. Nf4 Nxh2+ 19. Kg2 Bxf4 20. gxf4 Ng4 21. d3 f5 22. Bd2 Ke7 23. Re1 Rxb2 24. Bc3 Rxc2 25. Bxh8 Rxf2+ 26. Kg1 Rxa2 27. Bd5 Rd2 28. Bxe6 Kf8 29. Bc4 a5 30. Ra1 Ne3 31. Rxa5 Nxc4 32. dxc4 Rd1+ 33. Kg2 Rd2+ 34. Kg1 Rd1+ 35. Kf2 Rd2+ 36. Ke1 Rh2 37. Rxc5 Ke7 38. Rc7+ Kd6 39. Be5+ Ke6 40. Rc6+ Kd7 41. Rxg6 Rc2 42. Rg7+ Kc6 43. Rc7+ Kb6 44. c5+ Rxc5 45. Bd4 Kxc7 46. Bxc5 Kd7 47. Kf2 Ke6 48. Kg3 Kf6 49. Kh4 Kg6 50. Be7 h5 51. Bd8 Kh6 52. Be7 Kg6 53. Bg5 Kg7 54. Kxh5 Kf7 55. Bd8 Ke6 56. Kg5 Kd7 57. Kxf5 Kxd8 58. Ke5 Ke8 59. Ke6 Kf8 60. f5 Ke8 61. f6 Kf8 62. f7 Kg7 63. Ke7 1-0
+

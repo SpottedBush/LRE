@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/3hryakmz"]
+[White "Pollini"]
+[Black "NicolasDelaye"]
+[Result "1-0"]
+[UTCDate "2013.01.06"]
+[UTCTime "14:41:45"]
+[WhiteElo "1393"]
+[BlackElo "1388"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-11"]
+[ECO "C62"]
+[Opening "Ruy Lopez: Steinitz Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. d4 a6 5. Ba4 Nf6 6. Nc3 Bg4 7. Bg5 Be7 8. Qd3 O-O 9. O-O h6 10. Bh4 Bh5 11. Nd5 Bg6 12. dxe5 dxe5 13. Nxf6+ Bxf6 14. Qxd8 Raxd8 15. Bxf6 gxf6 16. Nh4 Bxe4 17. Rae1 Bd5 18. Nf5 Bxa2 19. Nxh6+ Kh7 20. Nf5 b5 21. Bb3 Bxb3 22. cxb3 Rd2 23. Rc1 Na5 24. Rxc7 Nxb3 25. Rb1 Rfd8 26. g3 Kg6 27. Nh4+ Kg7 28. Nf5+ Kg6 29. Nh4+ Kg7 30. Nf3 Rd2d3 31. Nh4 Nd2 32. Rbc1 Ne4 33. b4 Rd2 34. Re1 Nxf2 35. Nf3 Nh3+ 36. Kh1 Rd2d3 37. Nh4 Rd8d4 38. Nf5+ Kg6 39. Nxd4 Rxd4 40. Ra7 Rxb4 41. Rxa6 Ra4 42. Rb6 b4 43. Kg2 Ng5 44. h4 Nh7 45. Rb1 Ra2+ 46. Kh3 Kh5 47. Rb6xb4 Ra3 48. Rg4 f5 49. Rg7 Kh6 50. Rxf7 f4 51. Rb6+ Kh5 52. Rf5+ Ng5+ 53. Rxg5# 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ecturbm2"]
+[White "NicolasDelaye"]
+[Black "Pollini"]
+[Result "0-1"]
+[UTCDate "2013.01.06"]
+[UTCTime "14:59:33"]
+[WhiteElo "1377"]
+[BlackElo "1405"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack, Kiddie Countergambit"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Qh5 Nf6 3. Qe2 d6 4. Nc3 Be7 5. Nf3 O-O 6. h3 Nc6 7. a3 d5 8. d3 d4 9. Nb1 Nh5 10. Nfd2 Nf4 11. Qf3 Na5 12. Nc4 Nxc4 13. dxc4 c5 14. Bxf4 exf4 15. Qxf4 a6 16. Bd3 Re8 17. O-O Bg5 18. Qg3 b6 19. a4 Bb7 20. Re1 a5 21. Na3 Bh4 22. Qf4 Rc8 23. Nb5 Rc6 24. Na7 Rg6 25. g3 Bg5 26. Qg4 Qc7 27. Qd1 Rh6 28. Qg4 f6 29. Qf3 Rxh3 30. Kg2 Qd7 31. Rh1 Rxh1 32. Kxh1 Qh3+ 33. Kg1 Ra8 34. Qg2 Qxg2+ 35. Kxg2 Rxa7 36. Kh2 Bc6 37. b3 Re7 38. Re1 f5 39. f3 fxe4 40. fxe4 Rf7 41. Kg1 Be3+ 42. Kh2 Rf2+ 43. Kh3 Bd7+ 44. Kh4 Rh2# 0-1
+

@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/mwi2n81u"]
+[White "ebt"]
+[Black "Palladio"]
+[Result "0-1"]
+[UTCDate "2013.01.25"]
+[UTCTime "15:36:10"]
+[WhiteElo "1332"]
+[BlackElo "1657"]
+[WhiteRatingDiff "-33"]
+[BlackRatingDiff "+4"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Mason Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 d5 2. Bf4 Bf5 3. Nc3 a6 4. e3 e6 5. Be2 Bb4 6. Qd2 Nc6 7. a3 Bxc3 8. Qxc3 Nge7 9. Nf3 O-O 10. O-O Ng6 11. Ng5 f6 12. Nf3 Be4 13. Qd2 Nxf4 14. exf4 Qe8 15. Qe3 Bxc2 16. Nh4 Qf7 17. Bg4 f5 18. Bf3 Rae8 19. Qe2 Be4 20. Bh5 g6 21. Bxg6 hxg6 22. f3 Nxd4 23. Qd2 Qf6 24. Qe3 Nc2 25. Qc1 Nxa1 26. Qxa1 Bd3 27. Rd1 Bb5 28. a4 Qxh4 29. axb5 Qxf4 30. bxa6 bxa6 31. Qxa6 Re7 32. Qa3 Rh7 33. h3 Qg3 34. Qe3 Rxh3 35. Qxe6+ Kg7 36. Qd7+ Rf7 37. Qe6 Rh2 38. Rd2 Rh6 39. Qxd5 Qe1# 0-1
+

@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ebe28yex"]
+[White "mazorra"]
+[Black "sambo"]
+[Result "1-0"]
+[UTCDate "2013.01.02"]
+[UTCTime "20:45:37"]
+[WhiteElo "1562"]
+[BlackElo "1670"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-29"]
+[ECO "C24"]
+[Opening "Bishop's Opening: Berlin Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 h6 4. Nc3 c6 5. Bd2 d5 6. exd5 cxd5 7. Nxd5 Nxd5 8. Qf3 Be6 9. a4 Nd7 10. Bxd5 Bxd5 11. Qxd5 Qb6 12. Nf3 Bc5 13. d4 exd4 14. O-O O-O-O 15. Rab1 f6 16. Qc4 Ne5 17. Nxe5 fxe5 18. b4 d3 19. cxd3 e4 20. bxc5 Qg6 21. d4 h5 22. d5 h4 23. h3 Qf5 24. c6 b6 25. Qa6+ Kc7 26. Qb7+ Kd6 27. Rb5 g5 28. g3 hxg3 29. fxg3 Qxh3 30. Rf6+ Ke5 31. Bc3# 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/5mos8iz9"]
+[White "sambo"]
+[Black "mazorra"]
+[Result "1-0"]
+[UTCDate "2013.01.02"]
+[UTCTime "20:59:39"]
+[WhiteElo "1641"]
+[BlackElo "1576"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-9"]
+[ECO "C22"]
+[Opening "Center Game: Normal Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qa4 Bc5 5. Nf3 d6 6. h3 Bd7 7. Bb5 Nf6 8. Bg5 Qe7 9. O-O Qe6 10. b4 Nxb4 11. c3 Bxb5 12. Qxb5+ c6 13. Qxb7 O-O 14. cxb4 Bb6 15. Qxc6 Nxe4 16. Bh4 Qg6 17. Nbd2 Rfe8 18. Nxe4 Qxe4 19. Qxe4 Rxe4 20. Bg3 d5 21. a3 Rae8 22. Rfe1 Rxe1+ 23. Rxe1 Rd8 24. Rd1 h6 25. Ne5 Rd6 26. Nc4 Rg6 27. Nxb6 axb6 28. Rxd5 Re6 29. Rd8+ Kh7 30. Rd6 Re1+ 31. Kh2 Ra1 32. Rxb6 Rxa3 33. Bd6 Rb3 34. Rb7 Kg6 35. Rc7 f5 36. Bf8 Kh5 37. Rxg7 Kh4 38. Be7+ Kh5 39. g4+ fxg4 40. hxg4# 1-0
+

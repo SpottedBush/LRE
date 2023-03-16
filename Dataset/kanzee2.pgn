@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/j2023h5d"]
+[White "DzonYx"]
+[Black "kanzee2"]
+[Result "0-1"]
+[UTCDate "2013.01.15"]
+[UTCTime "19:12:48"]
+[WhiteElo "1681"]
+[BlackElo "1622"]
+[WhiteRatingDiff "-27"]
+[BlackRatingDiff "+40"]
+[ECO "A43"]
+[Opening "Old Benoni Defense"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. d4 c5 2. c3 Nc6 3. d5 Ne5 4. e4 Nf6 5. Nd2 e6 6. Ngf3 d6 7. Nxe5 dxe5 8. Bb5+ Bd7 9. Qa4 exd5 10. Bxd7+ Qxd7 11. Qxd7+ Kxd7 12. exd5 Nxd5 13. Nf3 e4 14. Ne5+ Ke6 15. f4 f6 16. Nc4 b5 17. Na5 c4 18. Nc6 Bc5 19. g4 f5 20. h3 g6 21. Nd4+ Bxd4 22. cxd4 Rad8 23. O-O Nb4 24. Bd2 Nd3 25. Be3 Nxb2 26. Rab1 Na4 27. Rxb5 Nc3 28. Ra5 Rd7 29. Kf2 Nd5 30. Rc1 c3 31. Ra6+ Ke7 32. g5 Kf7 33. Rc6 Rb8 34. Rc2 Rb2 35. Rxc3 Rxc2+ 36. Rxc2 Rc7 37. Rxc7+ Nxc7 38. Ke2 Ke7 39. Kd2 Kd7 40. Kc3 Kc6 41. Kc4 Kb6 42. d5+ Ka6 43. Kc5 Kb7 44. d6 Ne6+ 45. Kd5 Nd8 46. Ke5 Kc6 47. Bxa7 Nb7 48. d7 Kxd7 49. Kf6 Nd6 50. Kg7 Ke6 51. Bf2 Ne8+ 52. Kxh7 Kf7 53. Kh6 Nd6 54. a4 Nc4 0-1
+

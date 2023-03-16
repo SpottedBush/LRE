@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ahm5olgl"]
+[White "alla"]
+[Black "Talc1127"]
+[Result "0-1"]
+[UTCDate "2013.01.17"]
+[UTCTime "05:59:51"]
+[WhiteElo "1500"]
+[BlackElo "1316"]
+[WhiteRatingDiff "-288"]
+[BlackRatingDiff "+19"]
+[ECO "C50"]
+[Opening "Italian Game"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Qe7 4. Ng5 Nh6 5. d3 f6 6. Nf3 Nd4 7. Nxd4 exd4 8. f4 f5 9. Qe2 b6 10. O-O Ng4 11. h3 h5 12. hxg4 hxg4 13. Re1 Qh4 14. exf5+ Be7 15. b3 g3 16. Qe4 Qh1# 0-1
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/oxs0gi4y"]
+[White "Kiti"]
+[Black "Talc1127"]
+[Result "1-0"]
+[UTCDate "2013.01.18"]
+[UTCTime "03:59:39"]
+[WhiteElo "1500"]
+[BlackElo "1349"]
+[WhiteRatingDiff "+114"]
+[BlackRatingDiff "-9"]
+[ECO "C50"]
+[Opening "Italian Game"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nh6 4. c3 f5 5. exf5 Nxf5 6. Qc2 d6 7. Bd3 g5 8. Bxf5 Bxf5 9. Qxf5 Bh6 10. h4 Rf8 11. Qxh7 Qf6 12. hxg5 Rf7 13. Qg8+ Rf8 14. Qh7 Rh8 15. gxf6 Rxh7 16. d4 e4 17. Nfd2 O-O-O 18. Nxe4 Bxc1 19. Rxh7 Bg5 20. f7 Be7 21. Rg7 d5 22. Nc5 Rf8 23. Ne6 Rh8 24. Rg8+ Nd8 25. Rxh8 Kd7 26. f8=Q Bxf8 27. Nxf8+ Ke7 28. Ng6+ Kf6 29. Rxd8 Kxg6 30. Rf8 b6 31. Nd2 c5 32. dxc5 bxc5 33. Nb3 Kg7 34. Rf3 c4 35. Nc5 Kg6 36. Rd1 Kg5 37. Rxd5+ Kg4 38. Rd8 a5 39. Rg8+ Kh4 40. Rh3# 1-0
+

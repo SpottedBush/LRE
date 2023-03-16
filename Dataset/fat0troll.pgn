@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/jm2kdhvp"]
+[White "fat0troll"]
+[Black "Anakvad"]
+[Result "0-1"]
+[UTCDate "2013.01.05"]
+[UTCTime "17:56:14"]
+[WhiteElo "1481"]
+[BlackElo "1592"]
+[WhiteRatingDiff "-22"]
+[BlackRatingDiff "+8"]
+[ECO "C00"]
+[Opening "French Defense: King's Indian Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e6 2. d3 c5 3. Be2 Qb6 4. Nf3 Nc6 5. O-O e5 6. Bd2 Qxb2 7. Nc3 Qb6 8. Nd5 Qd8 9. a4 Nf6 10. Nxf6+ Qxf6 11. h4 Qg6 12. a5 d6 13. Qb1 Be7 14. Bg5 Bxg5 15. Nxg5 a6 16. Qb6 O-O 17. Rab1 h6 18. f4 hxg5 19. fxg5 Nd4 20. h5 Qxg5 21. Rf5 Nxe2+ 22. Kf2 Qd2 23. Qxd6 Bxf5 24. Qxe5 Nc3+ 25. Kf1 Nxb1 26. Qxf5 Qxc2 27. Qf2 Qxd3+ 28. Kg1 Qxe4 29. Qxc5 Rad8 30. Qf2 Rd1+ 31. Kh2 Qe5+ 32. g3 Qxh5+ 33. Kg2 Rfd8 34. Qf3 Rd8d2+ 35. Qf2 Rxf2+ 36. Kxf2 Qh2+ 37. Ke3 Qxg3+ 38. Ke4 Nc3+ 39. Kf5 Rd5# 0-1
+

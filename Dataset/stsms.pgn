@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/p2jbdlav"]
+[White "yousef55"]
+[Black "stsms"]
+[Result "1-0"]
+[UTCDate "2013.01.21"]
+[UTCTime "19:24:44"]
+[WhiteElo "1606"]
+[BlackElo "1629"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-15"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e3 e6 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O h5 6. Nc3 Qd6 7. d4 Bd7 8. Ne5 Nh6 9. Qf3 f6 10. Ng6 Rg8 11. Nxf8 Rxf8 12. Qxh5+ Nf7 13. Qc5 O-O-O 14. Rd1 Rh8 15. h3 g5 16. Qa7 g4 17. Qa8# 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/1eirfu2v"]
+[White "stsms"]
+[Black "Oldguy"]
+[Result "0-1"]
+[UTCDate "2013.01.30"]
+[UTCTime "19:37:49"]
+[WhiteElo "1632"]
+[BlackElo "1563"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+34"]
+[ECO "B21"]
+[Opening "Sicilian Defense: McDonnell Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. f4 Nc6 3. Bc4 e6 4. Nf3 Be7 5. O-O Qc7 6. Nc3 a6 7. Qe1 b5 8. Be2 Bb7 9. b3 Qxf4 10. d4 Qc7 11. d5 Nb4 12. Qd2 exd5 13. exd5 Nf6 14. a3 Nbxd5 15. Nxd5 Nxd5 16. c4 bxc4 17. bxc4 Nf6 18. Bb2 O-O 19. Nh4 Qc6 20. Bf3 d5 21. Nf5 Qd7 22. Qg5 g6 23. Nh6+ Kg7 24. Bg4 Qd6 25. Be5 Qd8 26. Nf5+ Kg8 27. Nh6+ Kg7 28. Nf5+ Kg8 29. Bxf6 Bxf6 30. Nh6+ Kg7 31. Rxf6 Qxf6 32. Qxf6+ Kxf6 33. Rf1+ Kg5 34. Bf3 0-1
+

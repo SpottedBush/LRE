@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/9jutfucc"]
+[White "zoroastro"]
+[Black "mazorra"]
+[Result "0-1"]
+[UTCDate "2013.01.16"]
+[UTCTime "14:37:20"]
+[WhiteElo "1408"]
+[BlackElo "1578"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[ECO "D01"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 d5 2. Nc3 Nf6 3. Nf3 Bf5 4. Bf4 e6 5. e3 a6 6. Be2 Bg6 7. O-O Be7 8. Ne5 Bd6 9. Nxg6 hxg6 10. Bxd6 Qxd6 11. Bf3 Qxh2# 0-1
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/nj5149dv"]
+[White "yaponec005"]
+[Black "zoroastro"]
+[Result "1-0"]
+[UTCDate "2013.01.29"]
+[UTCTime "10:19:11"]
+[WhiteElo "1376"]
+[BlackElo "1392"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Mengarini's Opening"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. a3 d5 3. Nc3 Nf6 4. d3 Nc6 5. Bg5 Be6 6. Bxf6 gxf6 7. exd5 Bxd5 8. Qg4 Be6 9. Qf3 f5 10. O-O-O Bh6+ 11. Kb1 Nd4 12. Qh3 Bg5 13. Nf3 f6 14. Nxg5 fxg5 15. Re1 e4 16. dxe4 fxe4 17. Qh5+ Bf7 18. Qg4 O-O 19. Rxe4 Nc6 20. Bb5 Bg6 21. Bxc6 Bxe4 22. Bxe4 Rxf2 23. Rd1 Rd2 24. Rxd2 Qxd2 25. Qe6+ Kg7 26. Qe7+ Kh6 27. Qe6+ Kh5 28. Qf7+ Kg4 29. Qf5+ Kh5 30. Qxh7+ Kg4 31. h3+ Kg3 32. Nd5 Rf8 33. Qxc7+ Kf2 34. Qc5+ Kg3 35. Qxf8 Qe1+ 36. Ka2 Qxe4 37. Qg8 Qc4+ 38. Kb1 Kxg2 39. Qxg5+ Kxh3 40. Qh5+ Kg3 41. Ne3 Qf4 42. Nf5+ Kf2 43. Nh4 Qh2 44. Qf5+ Kg1 45. Nf3+ 1-0
+

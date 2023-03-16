@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/4thic0cr"]
+[White "Sattip"]
+[Black "mazorra"]
+[Result "0-1"]
+[UTCDate "2013.01.16"]
+[UTCTime "13:48:41"]
+[WhiteElo "1549"]
+[BlackElo "1573"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "C20"]
+[Opening "Bishop's Opening: Boi Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Bc4 Bc5 3. Qh5 Qf6 4. Nf3 d6 5. d3 Be6 6. Bg5 Qg6 7. Qxg6 hxg6 8. Bxe6 fxe6 9. O-O Nd7 10. a3 Ngf6 11. Bxf6 gxf6 12. b4 Bb6 13. a4 a6 14. Nc3 Rh6 15. b5 a5 16. Ne2 O-O-O 17. Rfc1 f5 18. Ng5 Rdh8 19. Nf7 Rxh2 20. Nxh8 Rxh8 21. c3 f4 22. d4 g5 23. g3 fxg3 24. fxg3 Nf6 25. Kg2 Nxe4 26. dxe5 d5 27. Nd4 g4 28. Rh1 Rf8 29. Nxe6 Rf2+ 30. Kg1 Nxg3 31. Rh2 Ra2+ 32. Rf2 Rxa1+ 33. Kg2 Bxf2 34. Kxf2 Ne4+ 35. Kg2 Nxc3 36. Kg3 Rxa4 37. Nc5 Rc4 38. Nd3 a4 39. Nb2 Rb4 40. Nd3 Rxb5 41. e6 Kd8 42. Ne5 Ke7 0-1
+

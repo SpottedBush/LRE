@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/2c9zfml8"]
+[White "vicentm"]
+[Black "SatDiver"]
+[Result "1-0"]
+[UTCDate "2013.01.28"]
+[UTCTime "13:04:14"]
+[WhiteElo "1531"]
+[BlackElo "1472"]
+[WhiteRatingDiff "+22"]
+[BlackRatingDiff "-12"]
+[ECO "A21"]
+[Opening "English Opening: King's English Variation, Reversed Sicilian"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. c4 e5 2. Nc3 Bc5 3. e3 Nh6 4. Nf3 Qf6 5. Nd5 Qd6 6. d4 exd4 7. exd4 Bb4+ 8. Nxb4 Qxb4+ 9. Bd2 Qxb2 10. Bd3 Nc6 11. Qe2+ Ne7 12. O-O Qa3 13. Rfe1 Qd6 14. Bf4 Qf6 15. Be5 Qb6 16. Bd6 Qxd6 17. c5 Qf6 18. Rab1 d6 19. cxd6 Qxd6 20. Ne5 Be6 21. Rxb7 O-O 22. Rbb1 Qxd4 23. Qe4 Qxe4 24. Bxe4 1-0
+

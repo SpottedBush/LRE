@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/vpkonhcl"]
+[White "Icecrown7"]
+[Black "redline74"]
+[Result "0-1"]
+[UTCDate "2013.01.08"]
+[UTCTime "09:38:09"]
+[WhiteElo "1647"]
+[BlackElo "1587"]
+[WhiteRatingDiff "-53"]
+[BlackRatingDiff "+21"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 d5 2. Nf3 Nc6 3. Nc3 Nf6 4. e4 dxe4 5. Ng5 Bf5 6. Bc4 e6 7. Bf4 Qe7 8. Nb5 O-O-O 9. Bxc7 Rd7 10. Nd6+ Rxd6 11. Bxd6 Qxd6 12. Nxf7 Qb4+ 13. c3 Qxc4 14. Nxh8 Bg4 15. Qc2 Nb4 16. Qd2 Nd3+ 17. Kf1 Nf4+ 18. Kg1 Ne2+ 19. Kf1 Nxc3+ 20. Kg1 Ne2+ 21. Kf1 Nxd4+ 22. Kg1 Qd5 23. Rc1+ Kd8 24. Qc3 Ne2+ 25. Kf1 Nxc3 0-1
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/omikpbzp"]
+[White "Betta19731973"]
+[Black "Icecrown7"]
+[Result "1-0"]
+[UTCDate "2013.01.08"]
+[UTCTime "09:48:20"]
+[WhiteElo "1588"]
+[BlackElo "1594"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-42"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Modern Variation #3"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. b3 e5 2. Bb2 Nc6 3. g3 d5 4. Bg2 Nf6 5. e3 Bf5 6. Ne2 Nb4 7. d3 e4 8. Nd4 Bg6 9. O-O exd3 10. cxd3 Nxd3 11. Ba3 Bxa3 12. Nxa3 a6 13. f4 Nc5 14. f5 Bh5 15. Bf3 Bxf3 16. Qxf3 O-O 17. Rad1 Re8 18. g4 Nfe4 19. b4 Nd7 20. Ne2 Qg5 21. Rxd5 Ndf6 22. h3 Rad8 23. Rxd8 Rxd8 24. Nc4 b5 25. Ne5 Nd2 26. Qb7 Nxf1 27. Qxc7 Ne4 28. Nxf7 Qxe3+ 29. Kh1 Qf3+ 30. Kg1 Qf2+ 31. Kh1 Neg3+ 32. Nxg3 Nxg3+ 33. Qxg3 Qxg3 34. Nxd8 Qe1+ 35. Kg2 Qd2+ 36. Kg3 Qxd8 37. Kg2 g5 38. Kg3 Qd3+ 39. Kg2 Qb1 40. Kg3 Qxb4 41. Kg2 Qd2+ 42. Kg3 1-0
+

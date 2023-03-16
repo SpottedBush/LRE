@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/6ir6sv56"]
+[White "sossos"]
+[Black "gustavogdcp"]
+[Result "0-1"]
+[UTCDate "2013.01.26"]
+[UTCTime "19:00:13"]
+[WhiteElo "1687"]
+[BlackElo "1401"]
+[WhiteRatingDiff "-17"]
+[BlackRatingDiff "+76"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Advance Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 c6 2. d4 d5 3. e5 f6 4. exf6 Nxf6 5. Bg5 Bf5 6. Bxf6 gxf6 7. Bd3 Bg6 8. Bxg6+ hxg6 9. Qg4 g5 10. h4 Qd7 11. Qxd7+ Nxd7 12. h5 e5 13. c3 O-O-O 14. g4 Re8 15. Kd2 exd4 16. cxd4 Re4 17. Ne2 Rxg4 18. Nbc3 Rh4 19. Ng3 Bd6 20. Rxh4 gxh4 21. Nf5 Bf4+ 22. Ke2 Rxh5 23. Ne7+ Kd8 24. Ng6 Bg5 25. f4 Bh6 26. Rh1 Nf8 27. Nxf8 Bxf8 28. Kf3 Be7 29. Kg4 Rh8 30. Rxh4 f5+ 31. Kxf5 Rxh4 32. b4 Rh8 33. Ke6 Rf8 34. f5 Rf6+ 35. Ke5 Kd7 36. b5 Rf7 37. bxc6+ bxc6 38. Na4 Bd6# 0-1
+

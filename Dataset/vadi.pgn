@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/knnm5u55"]
+[White "Anakvad"]
+[Black "vadi"]
+[Result "1-0"]
+[UTCDate "2013.01.31"]
+[UTCTime "18:11:50"]
+[WhiteElo "1657"]
+[BlackElo "1667"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qe3 Nf6 5. e5 Qa5+ 6. Bd2 Qxe5 7. Qxe5 Nxe5 8. Nc3 e6 9. Nb5 Kd8 10. Ba5+ b6 11. Bc3 Nc6 12. O-O-O d5 13. Nf3 Ne4 14. Re1 Nxf2 15. Rg1 Ne4 16. Bd3 Nxc3 17. Nxc3 Bd7 18. Bb5 Bc5 19. Rgf1 a6 20. Bxc6 Bxc6 21. Ne5 Be8 22. Nxf7+ Bxf7 23. Rxf7 Rg8 24. Rxe6 d4 25. Nd5 Rb8 26. a3 a5 27. Rc6 d3 28. cxd3 Bd4 29. Kc2 Rc8 30. Rxc8+ Kxc8 31. Rf4 Bg1 32. Ne7+ 1-0
+

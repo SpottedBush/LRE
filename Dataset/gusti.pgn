@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/tbmebbl6"]
+[White "gusti"]
+[Black "engineabuser"]
+[Result "0-1"]
+[UTCDate "2013.01.13"]
+[UTCTime "17:19:47"]
+[WhiteElo "1427"]
+[BlackElo "1376"]
+[WhiteRatingDiff "-81"]
+[BlackRatingDiff "+12"]
+[ECO "C40"]
+[Opening "King's Knight Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Bb4 3. Bb5 Qf6 4. O-O c6 5. Bc4 d5 6. exd5 Qg6 7. Nxe5 Qg5 8. d4 Qh4 9. Qf3 Nf6 10. dxc6 Bd6 11. Bxf7+ Kf8 12. cxb7 Bxb7 13. Qxb7 Ng4 14. Qc8+ Ke7 15. Qe6+ Kd8 16. Qxd6+ Kc8 17. Be6+ Kb7 18. Nxg4 Nc6 19. Qd7+ Kb6 20. Qxg7 Rag8 21. Qf6 Rxg4 22. Qxh8 Rg6 23. Qe8 Qe4 24. d5 Qxg2# 0-1
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/cw92hpgc"]
+[White "gusti"]
+[Black "ThreeFoxes"]
+[Result "0-1"]
+[UTCDate "2013.01.13"]
+[UTCTime "17:46:31"]
+[WhiteElo "1346"]
+[BlackElo "1411"]
+[WhiteRatingDiff "-48"]
+[BlackRatingDiff "+9"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 d6 3. Bb5+ c6 4. Bc4 h6 5. O-O Nf6 6. d4 d5 7. exd5 cxd5 8. dxe5 Ne4 9. Bb5+ Nc6 10. Bxc6+ bxc6 11. Bf4 Be7 12. Nd4 Be6 13. Nxe6 fxe6 14. Qh5+ Kd7 15. Qg6 Qf8 16. c3 Qxf4 17. Qxg7 Rag8 18. Qxh8 Rxh8 19. g3 Qg5 20. b4 Rg8 21. a4 Qh4 22. b5 Qh3 23. bxc6+ Kxc6 24. f3 Ng5 25. Nd2 Bc5+ 26. Kh1 Rf8 27. f4 Ne4 28. Nxe4 dxe4 29. Rfe1 Qf5 30. a5 Bf2 31. Red1 e3 32. c4 e2 33. Rdc1 Qe4# 0-1
+

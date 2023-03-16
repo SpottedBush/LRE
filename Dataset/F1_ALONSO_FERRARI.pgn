@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/pt8vvldf"]
+[White "murcauscas"]
+[Black "F1_ALONSO_FERRARI"]
+[Result "0-1"]
+[UTCDate "2013.01.02"]
+[UTCTime "17:57:54"]
+[WhiteElo "1488"]
+[BlackElo "1500"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+169"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 cxd4 5. cxd4 f6 6. f4 Nc6 7. Nf3 fxe5 8. fxe5 Nge7 9. Bb5 Nf5 10. O-O a6 11. Bxc6+ bxc6 12. Bg5 Be7 13. Bf4 O-O 14. Be3 Nxe3 0-1
+

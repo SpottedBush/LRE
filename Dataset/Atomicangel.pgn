@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/6o1m49qr"]
+[White "moonwalker"]
+[Black "Atomicangel"]
+[Result "0-1"]
+[UTCDate "2013.01.03"]
+[UTCTime "06:40:07"]
+[WhiteElo "1500"]
+[BlackElo "1500"]
+[WhiteRatingDiff "-163"]
+[BlackRatingDiff "+162"]
+[ECO "D07"]
+[Opening "Queen's Gambit Refused: Chigorin Defense, Main Line"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. d4 d5 2. c4 Nc6 3. Nf3 Bg4 4. cxd5 Qxd5 5. Nc3 Qa5 6. d5 O-O-O 7. Bd2 Nb4 8. Ne5 Bh5 9. Nc4 Qa6 10. Qb3 e6 11. e4 Nf6 12. a3 exd5 13. exd5 Re8+ 14. Ne3 Nd3+ 15. Bxd3 Qxd3 16. Qa4 Bc5 17. Qf4 Nxd5 18. Qg5 Nxc3 19. Qxh5 Ne4 20. O-O-O Nxf2 21. Qxc5 Nxh1 22. Rxh1 Re6 23. Qxa7 Rc6+ 24. Bc3 Re8 25. Nc2 Re2 26. Qa4 Rc4 27. Qb3 Rf4 28. Rd1 Qe4 29. Nd4 Qe3+ 30. Kb1 Rxg2 31. Qd5 Rff2 32. Ne6 Kb8 33. Qd8+ Ka7 34. Bd4+ Qxd4 35. Qxd4+ b6 36. Qe4 Rxb2+ 37. Kc1 fxe6 0-1
+

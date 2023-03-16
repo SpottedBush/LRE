@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/zbq3f6ho"]
+[White "mazorra"]
+[Black "Dima85"]
+[Result "0-1"]
+[UTCDate "2013.01.15"]
+[UTCTime "16:04:34"]
+[WhiteElo "1535"]
+[BlackElo "1456"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+19"]
+[ECO "C24"]
+[Opening "Bishop's Opening: Berlin Defense"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 c6 4. Nc3 d5 5. exd5 cxd5 6. Bb3 Nc6 7. Qf3 Be6 8. Bg5 Be7 9. Bxf6 Bxf6 10. Nxd5 Bxd5 11. Bxd5 Nd4 12. Bc6+ Nxc6 13. Ne2 O-O 14. O-O Nd4 15. Nxd4 Qxd4 16. Qxb7 Rfb8 17. Qf3 Qxb2 18. Rab1 Qxc2 19. Rbc1 Qxa2 20. Qc6 Rd8 21. Rfd1 Bh4 22. g3 Bg5 23. Rc2 Qb3 24. Re1 Bf6 25. Kg2 h6 26. Kg1 Qxd3 27. Rcc1 a5 28. Rcd1 Qf5 29. Rc1 a4 30. Rc5 a3 31. Rec1 a2 32. Ra1 Qg6 33. Rac1 e4 34. Qxa8 a1=Q 35. Rc8 Qxa8 0-1
+

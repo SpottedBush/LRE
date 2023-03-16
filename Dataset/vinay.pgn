@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/t58po73r"]
+[White "Bubchikov"]
+[Black "vinay"]
+[Result "1-0"]
+[UTCDate "2013.01.28"]
+[UTCTime "08:35:23"]
+[WhiteElo "1453"]
+[BlackElo "1367"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. d4 e6 2. a3 Nc6 3. b4 Nf6 4. e3 h6 5. Bd2 a6 6. c4 Ne4 7. Bd3 Nf6 8. c5 d6 9. Ne2 dxc5 10. b5 axb5 11. Bxb5 Bd7 12. dxc5 Bxc5 13. O-O Bd6 14. a4 Be5 15. Bc3 Ng4 16. h3 Nf6 17. f4 Bd6 18. Bb2 Nb4 19. Na3 O-O 20. Nc4 c6 21. Nxd6 cxb5 22. Nxb7 bxa4 23. Nxd8 Rfxd8 24. Ba3 Bb5 25. Qb1 1-0
+

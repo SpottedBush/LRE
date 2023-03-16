@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/eyhfbe3y"]
+[White "delp"]
+[Black "Goldi"]
+[Result "0-1"]
+[UTCDate "2013.01.03"]
+[UTCTime "16:41:34"]
+[WhiteElo "1453"]
+[BlackElo "1555"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "C40"]
+[Opening "King's Pawn Game: Damiano Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 f6 3. a3 a6 4. Bc4 Nh6 5. h3 b5 6. Ba2 Bb7 7. d3 c5 8. Nxe5 d5 9. Qh5+ g6 10. Nxg6 hxg6 11. Qxg6+ Nf7 12. exd5 Qe7+ 13. Be3 Nd7 14. Nc3 Ne5 15. Qf5 Bc8 16. Qe4 Qd6 17. d4 cxd4 18. Bxd4 Ng5 19. Qg6+ Nxg6 20. O-O-O Be7 21. Rhe1 Rh7 22. Re2 Nf4 23. Re3 Nxg2 24. Rg3 Bxh3 25. Ne2 Ne4 26. Rg8+ Bf8 27. Rh1 O-O-O 28. Ng1 Qf4+ 29. Be3 Qf5 30. Nxh3 Rxh3 31. Rg1 Nxf2 32. Bxf2 Qxf2 33. Rg8xg2 Bh6+ 34. Kb1 Qxg2 35. b3 Qxg1+ 36. Kb2 Qd4+ 37. c3 Qd2+ 38. Kb1 Rh1# 0-1
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/3rhe4fck"]
+[White "ChessThom"]
+[Black "Goldi"]
+[Result "0-1"]
+[UTCDate "2013.01.03"]
+[UTCTime "21:15:58"]
+[WhiteElo "1635"]
+[BlackElo "1557"]
+[WhiteRatingDiff "-23"]
+[BlackRatingDiff "+13"]
+[ECO "C40"]
+[Opening "King's Pawn Game: Damiano Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 f6 3. Nxe5 fxe5 4. Qh5+ Ke7 5. Qxe5+ Kf7 6. Bc4+ d5 7. Bxd5+ Kg6 8. d4 h6 9. Qg3+ Kh7 10. Bf7 g5 11. f4 Bd6 12. e5 Be7 13. O-O g4 14. Qd3+ Kg7 15. Qg6+ Kf8 16. f5 Qxd4+ 17. Kh1 Qxe5 18. Nc3 c6 19. Bf4 Qg7 20. Qxg7+ Kxg7 21. Bc4 Nf6 22. Be5 Nd7 23. Bxf6+ Bxf6 24. Rae1 Ne5 25. Be6 h5 26. Ne4 Rf8 27. Nxf6 Rxf6 28. Rxe5 Bxe6 29. Rxe6 Rd8 30. Re7+ Kf8 31. Rxb7 Kg8 32. Kg1 a5 33. Rf4 Rd5 34. Rb8+ Kf7 35. Rb7+ Ke8 36. Re4+ Kd8 37. Ree7 Rfxf5 38. h3 g3 39. Re1 Rfe5 40. Rxe5 Rd1+ 0-1
+

@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/6znf6r3o"]
+[White "agent001"]
+[Black "yur-koto"]
+[Result "0-1"]
+[UTCDate "2013.01.27"]
+[UTCTime "14:39:50"]
+[WhiteElo "1500"]
+[BlackElo "1584"]
+[WhiteRatingDiff "-138"]
+[BlackRatingDiff "+6"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game #2"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e3 d5 2. d4 Nc6 3. Nc3 e6 4. Nf3 Bd7 5. Bb5 Nce7 6. Bxd7+ Qxd7 7. Ne5 Qc8 8. f4 Nf6 9. h3 Nc6 10. a3 Be7 11. g4 Ne4 12. Nxe4 dxe4 13. Nxc6 Bh4+ 14. Ke2 bxc6 15. c4 f6 16. Qa4 Qd7 17. b4 O-O 18. Rg1 h6 19. f5 exf5 20. gxf5 Qxf5 21. Rf1 Qxh3 22. Bb2 Qh2+ 23. Kd1 Qxb2 24. Rc1 Qg2 25. Rf4 Bg5 26. Rc2 Qg1+ 0-1
+

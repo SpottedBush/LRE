@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/burfs12u"]
+[White "yehshua"]
+[Black "IsraelCravchik"]
+[Result "1-0"]
+[UTCDate "2013.01.01"]
+[UTCTime "19:11:43"]
+[WhiteElo "1565"]
+[BlackElo "1320"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-5"]
+[ECO "C46"]
+[Opening "Four Knights Game: Italian Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bc4 Bb4 5. d3 O-O 6. a3 Bxc3+ 7. bxc3 d5 8. exd5 Nxd5 9. Bb2 Nf4 10. O-O Be6 11. Bb5 Bd5 12. Bxc6 Bxc6 13. Nxe5 Qg5 14. g3 Rfe8 15. Nf3 Bxf3 16. Qxf3 Ne2+ 17. Kg2 h5 18. Rfe1 h4 19. Rxe2 hxg3 20. Rxe8+ Rxe8 21. Qxg3 Qd5+ 22. Kg1 Re2 23. c4 Qf5 24. Qxg7# 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/7o8rugcp"]
+[White "TEODOR"]
+[Black "yehshua"]
+[Result "1-0"]
+[UTCDate "2013.01.01"]
+[UTCTime "19:45:51"]
+[WhiteElo "1610"]
+[BlackElo "1570"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[ECO "C00"]
+[Opening "Queen's Pawn Game: Franco-Sicilian Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 c5 2. d4 e6 3. Be3 d6 4. dxc5 Qa5+ 5. Nc3 dxc5 6. Nf3 Nf6 7. Ne5 Nxe4 8. Bb5+ Nc6 9. Nxc6 bxc6 10. Bxc6+ Ke7 11. Bxe4 Rb8 12. O-O f5 13. Bf3 Kf7 14. Ne2 Ba6 15. Qd7+ Kf6 16. Nf4 g6 17. Qxe6+ Kg7 18. Bd5 Bc8 19. Qf7+ 1-0
+

@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/6zdi4uxy"]
+[White "latka"]
+[Black "MendesJr"]
+[Result "1-0"]
+[UTCDate "2013.01.20"]
+[UTCTime "22:55:28"]
+[WhiteElo "1413"]
+[BlackElo "1500"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-224"]
+[ECO "D00"]
+[Opening "Queen's Pawn Opening: Veresov, Richter Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 d5 2. Nc3 Nf6 3. f3 e6 4. e4 g5 5. exd5 exd5 6. Be3 g4 7. fxg4 Bxg4 8. Be2 Rg8 9. h3 Bxe2 10. Qxe2 Ne4 11. Nxe4 dxe4 12. O-O-O Nd7 13. Nf3 c5 14. dxc5 Qa5 15. Nd2 Bxc5 16. Bxc5 Nxc5 17. Nxe4 Nxe4 18. Qxe4+ Kf8 19. Qxb7 Qg5+ 20. Kb1 Kg7 21. h4 Qf6 22. Rhf1 Rab8 23. Rxf6 Rxb7 24. Rfd6 a5 25. Rd8 Rxd8 26. Rxd8 a4 27. Rd3 Re7 28. c4 Re2 29. g3 Rg2 30. c5 Rg1+ 31. Kc2 Re1 32. c6 Re2+ 33. Rd2 Re7 34. Rd7 Re2+ 35. Kc3 Re3+ 36. Rd3 Re4 37. c7 Re8 38. Rd8 Rxd8 39. cxd8=Q a3 40. b4 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/a1w9qv0j"]
+[White "vicentm"]
+[Black "MendesJr"]
+[Result "0-1"]
+[UTCDate "2013.01.29"]
+[UTCTime "22:00:05"]
+[WhiteElo "1604"]
+[BlackElo "1395"]
+[WhiteRatingDiff "-28"]
+[BlackRatingDiff "+47"]
+[ECO "C50"]
+[Opening "Italian Game: Giuoco Pianissimo, Italian Four Knights Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Bc5 4. Bc4 Nf6 5. d3 Ng4 6. O-O d6 7. Ng5 Qf6 8. Be3 Nxe3 9. fxe3 Qxg5 10. d4 Qxe3+ 11. Kh1 Bxd4 12. Rf3 Qg5 13. Rf1 Bh3 14. Qf3 Bg4 15. Qxf7+ Kd8 16. Be6 Ne7 17. Nd5 Bxe6 18. Qxe6 Ng6 19. Rf6 gxf6 20. Qf7 c6 21. Qc7+ Ke8 22. Qxb7 Rd8 23. Nc7+ Ke7 24. Nd5+ Ke6 25. Nc7+ Ke7 26. Nd5+ Ke6 27. Nc7+ Kf7 28. Qb3+ d5 29. exd5 cxd5 30. Nxd5 Rxd5 31. Qxd5+ Kg7 32. Qd7+ Kh6 33. Qxa7 Bxa7 34. h3 Nf4 35. Rf1 Qxg2# 0-1
+

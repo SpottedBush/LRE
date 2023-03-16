@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/r969mydy"]
+[White "shmageggy"]
+[Black "murcauscas"]
+[Result "0-1"]
+[UTCDate "2013.01.08"]
+[UTCTime "18:27:25"]
+[WhiteElo "1634"]
+[BlackElo "1524"]
+[WhiteRatingDiff "-115"]
+[BlackRatingDiff "+13"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 d5 2. Nf3 Nc6 3. c4 dxc4 4. e4 e6 5. Bxc4 Bb4+ 6. Nc3 Na5 7. Qa4+ c6 8. Qxb4 Nxc4 9. Qxc4 Nf6 10. Bg5 O-O 11. e5 b5 12. Qxc6 Bd7 13. Qb7 Qa5 14. Bxf6 gxf6 15. Qxd7 b4 16. Ne4 b3+ 17. Nfd2 fxe5 18. O-O exd4 19. Qxd4 e5 20. Qe3 f6 21. axb3 Qd5 22. Nxf6+ Rxf6 23. Qg5+ Rg6 24. Qxg6+ hxg6 25. Nc4 Qd3 26. Ra3 e4 27. g3 Qd4 28. Re1 Re8 29. Rxa7 Qxa7 0-1
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/how7ls5p"]
+[White "murcauscas"]
+[Black "shmageggy"]
+[Result "1-0"]
+[UTCDate "2013.01.08"]
+[UTCTime "18:42:07"]
+[WhiteElo "1537"]
+[BlackElo "1519"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-67"]
+[ECO "C46"]
+[Opening "Four Knights Game: Gunsberg Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6 4. a3 Bc5 5. d3 O-O 6. Na4 Bb6 7. Nxb6 axb6 8. Bg5 d6 9. d4 Ra4 10. b4 Bg4 11. c3 b5 12. h3 Bh5 13. Qd3 Bg6 14. Qxb5 Ra6 15. Qxb7 Rb6 16. Bxf6 gxf6 17. Qxb6 cxb6 18. dxe5 fxe5 19. Bb5 Qd7 20. O-O Bxe4 21. Ng5 Qf5 22. Nxe4 Qxe4 23. Rfe1 Qd5 24. c4 Qd4 25. Bxc6 Qxc4 26. b5 f5 27. Rec1 Qe6 28. Rd1 e4 29. Bd5 Qxd5 30. Rxd5 Rf6 31. Rad1 f4 32. Rxd6 Rxd6 33. Rxd6 Kf7 34. Rxb6 e3 35. fxe3 fxe3 36. Kf1 1-0
+

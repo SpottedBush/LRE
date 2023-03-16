@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/an5putis"]
+[White "pokemonmemet"]
+[Black "mazorra"]
+[Result "1-0"]
+[UTCDate "2013.01.26"]
+[UTCTime "14:06:55"]
+[WhiteElo "1397"]
+[BlackElo "1481"]
+[WhiteRatingDiff "+33"]
+[BlackRatingDiff "-13"]
+[ECO "C46"]
+[Opening "Three Knights Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Bc5 4. d4 exd4 5. Nxd4 Nxd4 6. Be3 Qf6 7. f4 Qh4+ 8. g3 Qf6 9. e5 Qg6 10. Bxd4 d6 11. Bxc5 dxc5 12. Bd3 Bf5 13. Bxf5 Qxf5 14. Qd2 b5 15. O-O-O c6 16. Qd6 Rd8 17. Qxc6+ Ke7 18. Qxc5+ Ke8 19. Rxd8+ Kxd8 20. Rd1+ Ke8 21. Qxb5+ Ke7 22. Qc5+ Ke6 23. Qxa7 Ne7 24. Qd7# 1-0
+

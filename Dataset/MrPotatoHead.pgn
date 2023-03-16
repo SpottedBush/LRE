@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ove51y2l"]
+[White "MrPotatoHead"]
+[Black "baron"]
+[Result "0-1"]
+[UTCDate "2013.01.08"]
+[UTCTime "23:59:47"]
+[WhiteElo "1408"]
+[BlackElo "1639"]
+[WhiteRatingDiff "-23"]
+[BlackRatingDiff "+5"]
+[ECO "C46"]
+[Opening "Three Knights Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Bc5 4. Bb5 d6 5. Bxc6+ bxc6 6. d3 Nf6 7. Bg5 h6 8. Bh4 g5 9. Bg3 g4 10. Nh4 Nh5 11. h3 Nxg3 12. fxg3 h5 13. hxg4 hxg4 14. Qe2 Bd4 15. O-O-O Be6 16. Na4 Bxa2 17. c3 Bb6 18. Nxb6 axb6 19. Qxg4 Bb3 20. Rdf1 Qe7 21. Nf5 Qf8 22. Ng7+ Kd8 23. Qg5+ Kc8 24. Ne6 Qe8 25. Qf5 Rxh1 26. Ng7+ Qd7 27. Rxh1 Ra1+ 28. Kd2 Rxh1 29. Qxd7+ Kxd7 30. Nf5 Rb1 31. Ke3 Rxb2 32. Nh6 Ke8 33. g4 Rxg2 34. Kf3 Rg1 35. Kf2 Rd1 36. Ke2 f6 37. Nf5 Rg1 38. Kf2 Rc1 39. Ke2 Rxc3 40. Ke3 Bc2 41. Ng7+ Kf7 42. Nf5 Bxd3 43. Kd2 Ra3 44. Nh6+ Kg6 45. Ng8 Bxe4 46. Ne7+ Kg5 47. Nc8 Kxg4 48. Nxb6 cxb6 49. Ke2 f5 50. Kf2 f4 51. Ke2 f3+ 52. Kf2 Ra2+ 53. Kf1 Kg3 54. Ke1 f2+ 55. Kf1 Bd3# 0-1
+

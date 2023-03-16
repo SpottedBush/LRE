@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/vkgd3p54"]
+[White "murcauscas"]
+[Black "KV"]
+[Result "0-1"]
+[UTCDate "2013.01.21"]
+[UTCTime "15:09:12"]
+[WhiteElo "1586"]
+[BlackElo "1606"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+44"]
+[ECO "C41"]
+[Opening "Philidor Defense: Exchange Variation"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 Nf6 5. Bg5 Be7 6. h4 Nxe4 7. Nd2 Nxg5 8. hxg5 Bxg5 9. Bb5+ Bd7 10. a4 Bxb5 11. axb5 Qe7+ 12. Qe2 Qxe2+ 13. Kxe2 O-O 14. Ne4 Re8 15. Kf3 a6 16. Nxg5 f6 17. Nge6 c5 18. Nc7 cxd4 19. Nxe8 Nd7 20. Rae1 axb5 21. Nc7 Ra2 22. Re8+ Kf7 23. Rhe1 Ne5+ 24. Kg3 Rxb2 25. f4 Rxc2 26. fxe5 Rxc7 27. exd6 Rd7 28. Re8e7+ Rxe7 29. dxe7 Ke8 30. Kf4 d3 31. Kf5 d2 32. Rd1 Kxe7 33. Rxd2 b4 34. Rb2 b3 35. Rxb3 g6+ 36. Ke4 Kf7 37. Rxb7+ Kg8 38. Rb6 Kg7 39. Kd5 Kh6 40. Rxf6 Kh5 41. Ke5 h6 42. Kf4 g5+ 43. Kf5 g4 44. Rg6 g3 0-1
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/e5xyvk8m"]
+[White "KV"]
+[Black "murcauscas"]
+[Result "0-1"]
+[UTCDate "2013.01.21"]
+[UTCTime "15:24:22"]
+[WhiteElo "1650"]
+[BlackElo "1576"]
+[WhiteRatingDiff "-50"]
+[BlackRatingDiff "+13"]
+[ECO "D35"]
+[Opening "Queen's Gambit Declined: Normal Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 d5 2. c4 Nf6 3. Nc3 e6 4. e3 Bd7 5. Nf3 Nc6 6. cxd5 exd5 7. Bd3 Bb4 8. Bd2 Bg4 9. a3 Bd6 10. h3 Bh5 11. Be2 Ne4 12. Nxe4 dxe4 13. Nh2 Qg5 14. Bxh5 Qxg2 15. Ke2 Bxh2 16. Qf1 Qg5 17. Bg4 Bd6 18. Rg1 Qf6 19. Qg2 h5 20. Bxh5 Rxh5 21. Qxg7 Qf3+ 22. Ke1 O-O-O 23. Qg4+ Kb8 24. Qxf3 exf3 25. Rg7 Rf8 26. Bb4 Rxh3 27. Bxd6 cxd6 28. Rg3 Rfh8 29. Kd2 Ne7 30. Rag1 Nf5 31. Rg5 Rh8h5 32. Rxh5 Rxh5 33. Rg3 Nxg3 34. fxg3 Rh2+ 35. Kd3 f2 0-1
+

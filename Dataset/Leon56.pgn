@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/q818gugc"]
+[White "Bubchikov"]
+[Black "Leon56"]
+[Result "1-0"]
+[UTCDate "2013.01.19"]
+[UTCTime "19:12:27"]
+[WhiteElo "1415"]
+[BlackElo "1538"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-38"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Accelerated Mannheim Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 d5 2. c4 dxc4 3. Qa4+ Nc6 4. e3 e6 5. Bxc4 Nf6 6. a3 Bd7 7. b4 Nxb4 8. Qb3 Nc6 9. Qxb7 Nd5 10. Bb5 Rb8 11. Bxc6 Rxb7 12. Bxb7 Qb8 13. Bxd5 exd5 14. Nc3 Bd6 15. Nxd5 c6 16. Nc3 Qb3 17. Bd2 Bxa3 18. Rb1 Qc2 19. Rb8+ Ke7 20. Rxh8 Bb2 21. Nge2 Bxc3 22. Bxc3 Qb1+ 23. Kd2 Qxh1 24. Rxh7 Qxg2 25. Bb4+ Ke6 26. Nf4+ Kf6 27. Nxg2 Ke6 28. Rxg7 f5 29. Nf4+ Kf6 30. Rxd7 1-0
+

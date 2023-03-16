@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ec6mekuz"]
+[White "murcauscas"]
+[Black "mehdi65129"]
+[Result "1-0"]
+[UTCDate "2013.01.08"]
+[UTCTime "17:04:19"]
+[WhiteElo "1490"]
+[BlackElo "1500"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-180"]
+[ECO "C44"]
+[Opening "Scotch Game"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 f6 4. d5 Nb8 5. Nc3 c6 6. Bc4 cxd5 7. Nxd5 b6 8. Ne3 Bb7 9. Bd5 Bc6 10. Nf5 g6 11. Ne3 Ne7 12. c4 b5 13. b3 bxc4 14. bxc4 f5 15. Nxe5 fxe4 16. Bf7# 1-0
+

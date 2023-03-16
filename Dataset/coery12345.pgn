@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/6cxrxgyf"]
+[White "delp"]
+[Black "coery12345"]
+[Result "0-1"]
+[UTCDate "2013.01.20"]
+[UTCTime "21:34:04"]
+[WhiteElo "1456"]
+[BlackElo "1500"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+154"]
+[ECO "C44"]
+[Opening "King's Knight Opening: Normal Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. h3 Nd4 4. Nxe5 Nxc2+ 5. Qxc2 Nh6 6. Bd3 f6 7. Nf3 Bd6 8. Nc3 O-O 9. Nd5 c6 10. Ne3 Qb6 11. b3 Be5 12. Nxe5 fxe5 13. Nc4 Qxf2+ 14. Kd1 d5 15. Nxe5 Qd4 16. Bb2 Qf2 17. exd5 Qxg2 18. Bxh7+ Kh8 19. Ng6+ Kxh7 20. Nxf8+ Kg8 21. Ng6 Qxh1+ 22. Ke2 Qh2+ 23. Kd3 Bf5+ 24. Kc3 Bxc2 25. Kxc2 Re8 26. Rd1 Qxh3 27. d6 Qf5+ 28. d3 Qxg6 29. d7 Rd8 30. Bc3 Rxd7 31. Bb4 Qg2+ 32. Bd2 Nf5 33. Re1 Nd4+ 34. Kc3 Nf3 35. Re8+ Kf7 36. Re4 Qxd2+ 37. Kc4 Qxd3+ 38. Kb4 Qb5+ 39. Ka3 Nd2 40. Rf4+ Kg6 41. Rg4+ Kh7 42. Rb4 Nb1+ 43. Kb2 Qe5+ 44. Kxb1 Rd2 45. Rh4+ Kg8 46. Rh1 Qb2# 0-1
+

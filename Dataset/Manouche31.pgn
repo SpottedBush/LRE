@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/rih2hxvu"]
+[White "alaska"]
+[Black "Manouche31"]
+[Result "1-0"]
+[UTCDate "2013.01.08"]
+[UTCTime "13:56:48"]
+[WhiteElo "1551"]
+[BlackElo "1621"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-26"]
+[ECO "A43"]
+[Opening "Old Benoni Defense"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. d4 c5 2. c4 1-0
+

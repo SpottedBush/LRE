@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/nxfryhv3"]
+[White "delp"]
+[Black "karlmarx"]
+[Result "1-0"]
+[UTCDate "2013.01.20"]
+[UTCTime "21:48:44"]
+[WhiteElo "1449"]
+[BlackElo "1429"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-44"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 Nc6 2. a3 Nf6 3. d3 d5 4. Nc3 d4 5. Nce2 Bg4 6. h3 Bxe2 7. Nxe2 e5 8. c3 b5 9. Qd2 a5 10. b3 b4 11. c4 a4 12. Qc2 Bd6 13. Ng3 Qe7 14. Nf5 Qf8 15. Nxd6+ Qxd6 16. Be2 O-O-O 17. bxa4 g5 18. Qb3 Rhg8 19. axb4 Nxb4 20. Ba3 Kd7 21. Bxb4 Qb6 22. a5 Qa6 23. O-O Rb8 24. Ra4 c5 25. Qa3 cxb4 26. Qb3 Qd6 27. Rb1 g4 28. hxg4 Nxg4 29. Bxg4+ Rxg4 30. f3 Rh4 31. Rxb4 Rxb4 32. Qxb4 Qc7 33. a6 Qa7 34. Qb5+ Ke6 35. Qc6+ Ke7 36. Rb7+ Qxb7 37. axb7 Rh1+ 38. Kxh1 f5 39. b8=Q fxe4 40. Qbe8# 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/2gdet0us"]
+[White "delp"]
+[Black "karlmarx"]
+[Result "1-0"]
+[UTCDate "2013.01.20"]
+[UTCTime "22:03:09"]
+[WhiteElo "1459"]
+[BlackElo "1385"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-33"]
+[ECO "B01"]
+[Opening "Scandinavian Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 d5 2. e5 f6 3. exf6 Nxf6 4. Nf3 Bg4 5. h3 Bh5 6. d4 Qd6 7. a3 Qb6 8. Nc3 a6 9. g4 Bg6 10. Ne5 Nbd7 11. Nxg6 hxg6 12. Bd3 Qe6+ 13. Be3 g5 14. Qd2 c5 15. O-O-O c4 16. Bf5 Qb6 17. Bxg5 e6 18. Bxf6 exf5 19. Rhe1+ Kf7 20. Bg5 Rxh3 21. Qf4 g6 22. gxf5 gxf5 23. Qxf5+ Nf6 24. Qxh3 Qe6 25. Qxe6+ Kg6 26. Qxf6+ 1-0
+

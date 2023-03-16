@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/k19cw6zk"]
+[White "Maniacal"]
+[Black "estevaotonioli"]
+[Result "1-0"]
+[UTCDate "2013.01.12"]
+[UTCTime "23:54:27"]
+[WhiteElo "1610"]
+[BlackElo "1369"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-57"]
+[ECO "C40"]
+[Opening "King's Pawn Game: McConnell Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Qf6 3. Bc4 Ke7 4. O-O d5 5. d4 Bg4 6. dxe5 Qg6 7. Bxd5 Ke8 8. Bxb7 1-0
+

@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/5swipuak"]
+[White "jmen"]
+[Black "GrandZen"]
+[Result "0-1"]
+[UTCDate "2013.01.29"]
+[UTCTime "20:46:10"]
+[WhiteElo "1360"]
+[BlackElo "1319"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+19"]
+[ECO "A40"]
+[Opening "Mikenas Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 Nc6 2. d5 Nb4 3. c4 e5 4. e4 Qh4 5. Qf3 Nc2+ 0-1
+

@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/54nfocxs"]
+[White "alaska"]
+[Black "Vagulo"]
+[Result "1-0"]
+[UTCDate "2013.01.18"]
+[UTCTime "19:34:08"]
+[WhiteElo "1513"]
+[BlackElo "1527"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "D35"]
+[Opening "Queen's Gambit Declined: Normal Defense"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. d4 Nf6 2. c4 d5 3. Nc3 e6 4. e3 Bb4 5. Nf3 dxc4 6. Qa4+ Nc6 7. Bxc4 Bxc3+ 8. bxc3 a6 9. Qc2 b5 10. Bd3 g6 11. O-O Bb7 12. Rd1 b4 13. Ne5 Qd5 14. c4 Qd6 15. Bb2 Qe7 16. a3 O-O 17. Nxc6 Bxc6 18. axb4 Qxb4 19. Ba3 Qb7 20. e4 Rfd8 21. d5 exd5 22. cxd5 Bb5 23. Be7 Bxd3 24. Qxd3 Rxd5 25. exd5 Nxd5 26. Qxd5 Qxd5 27. Rxd5 c6 28. Rd6 Kg7 29. Rc1 a5 30. Rcxc6 Rb8 31. h3 a4 32. Ra6 Re8 33. Bg5 h6 34. Be3 Re4 35. Rd4 Rxd4 36. Bxd4+ Kh7 37. Rxa4 Kg8 38. Ra8+ Kh7 39. f4 h5 40. Kf2 Kh6 41. h4 g5 42. Be3 gxh4 43. Rh8+ Kg6 44. Kf3 f5 45. g3 hxg3 46. Kxg3 Kg7 47. Rc8 Kf6 48. Bd4+ 1-0
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/z8lg6w7o"]
+[White "Vagulo"]
+[Black "alaska"]
+[Result "1-0"]
+[UTCDate "2013.01.18"]
+[UTCTime "19:52:08"]
+[WhiteElo "1516"]
+[BlackElo "1524"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Queenside Fianchetto Variation"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. Nf3 b6 2. e4 Bb7 3. Nc3 d5 4. e5 e6 5. d4 Bb4 6. a3 Bxc3+ 7. bxc3 Ne7 8. Bg5 O-O 9. Bd3 Qd7 10. O-O h6 11. Bxe7 Qxe7 12. c4 c5 13. cxd5 Bxd5 14. c4 Bc6 15. Qe2 Nd7 16. a4 f6 17. exf6 Rxf6 18. Ne5 Nxe5 19. dxe5 Rff8 20. f4 Rab8 21. f5 exf5 22. Rxf5 Rxf5 23. Bxf5 Rf8 24. g4 Bd7 25. Rf1 Qg5 26. Bxd7 Rd8 27. Be6+ Kh8 28. Rf5 Qc1+ 29. Rf1 Qc3 30. Qf3 Qxe5 31. Bd5 Qd4+ 32. Qf2 Qxg4+ 33. Kh1 Re8 34. h3 Qxh3+ 35. Qh2 Qe3 36. Bg2 Re5 37. Rf3 Qe1+ 38. Rf1 Qe3 39. Rf3 Qe1+ 40. Rf1 Qe3 41. Bf3 Rf5 42. Qg2 Qf4 43. Be2 Qh4+ 44. Kg1 Qd4+ 45. Kh1 Qh4+ 46. Kg1 Qd4+ 47. Kh2 Qh4+ 48. Kg1 Qd4+ 49. Kh1 Qh4+ 50. Kg1 Qd4+ 51. Rf2 1-0
+

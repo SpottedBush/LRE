@@ -1,0 +1,18 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/q9ensnde"]
+[White "mazorra"]
+[Black "rtyjghh"]
+[Result "1-0"]
+[UTCDate "2013.01.31"]
+[UTCTime "13:50:50"]
+[WhiteElo "1505"]
+[BlackElo "1500"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-173"]
+[ECO "B00"]
+[Opening "St. George Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 a6 2. Bc4 1-0
+
