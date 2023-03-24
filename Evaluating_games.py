@@ -8,12 +8,14 @@ def blunders_in_a_game(movetext, color): #-> list[fen_str]
     actual_eval = 0
     res = []
     for i in range(len(movetext)):
+        if (i == 1):
+            print(board.fen())
         if color == 0: #color is white
             prev_eval = stockfish.get_evaluation().get("value")
             board.push_san(str(movetext[i].white))
             stockfish.set_fen_position(board.fen())
             actual_eval = stockfish.get_evaluation().get("value")
-            if actual_eval - prev_eval < -300:
+            if actual_eval - prev_eval < -250:
                 res.append(stockfish.get_fen_position())
             board.push_san(str(movetext[i].black))
             stockfish.set_fen_position(board.fen())
@@ -24,7 +26,7 @@ def blunders_in_a_game(movetext, color): #-> list[fen_str]
             board.push_san(str(movetext[i].black))
             stockfish.set_fen_position(board.fen())
             actual_eval = stockfish.get_evaluation().get("value")
-            if actual_eval - prev_eval > 300:
+            if actual_eval - prev_eval > 250:
                 res.append(stockfish.get_fen_position())
     return res
     
@@ -49,4 +51,3 @@ game = parser.parse(buffer, actions=pgn.Actions())
 res = blunders_in_a_game(game.movetext , 0)
 for i in res:
     print("blunder: ", i)
-    print(stockfish.get_stockfish_major_version())
