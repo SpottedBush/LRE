@@ -215,6 +215,11 @@ def print_moves_piece(board, piece, piece2):
                 if len(node.moves) != 0:
                     print("")
 
+def print_nodes(board):
+    for line in board:
+        for node in line:
+            print(node.name, end =",")
+
 def fill_up_board():
     board = [[Node() for j in range(8)] for i in range(8)]
     #Node board[7][8] is used for whose turn to play
@@ -261,48 +266,12 @@ def fen_into_graph(fen):
             if letter == '/':
                 line += 1
                 continue
+            board[line][column].piece = letter.upper()
             if letter >= 'A' and letter <= 'Z':
                 board[line][column].team = 0
-                if letter == 'R':
-                    board[line][column].piece = "R"
-                    column += 1
-                elif letter == 'N':
-                    board[line][column].piece = "N"
-                    column += 1
-                elif letter == 'B':
-                    board[line][column].piece = "B"
-                    column += 1
-                elif letter == 'Q':
-                    board[line][column].piece = "Q"
-                    column += 1
-                elif letter == 'K':
-                    board[line][column].piece = "K"
-                    column += 1
-                elif letter == 'P':
-                    board[line][column].piece = "P"
-                    column += 1
-                
             if letter >= 'a' and letter <= 'z':
-                
                 board[line][column].team = 1
-                if letter == 'r':
-                    board[line][column].piece = "R"
-                    column += 1
-                elif letter == 'n':
-                    board[line][column].piece = "N"
-                    column += 1
-                elif letter == 'b':
-                    board[line][column].piece = "B"
-                    column += 1
-                elif letter == 'q':
-                    board[line][column].piece = "Q"
-                    column += 1
-                elif letter == 'k':
-                    board[line][column].piece = "K"
-                    column += 1
-                elif letter == 'p':
-                    board[line][column].piece = "P"
-                    column += 1
+            column += 1
         else:
             new_node = letter # TODO: ADD THE END OF THE FEN 
     kwline = 0
@@ -312,6 +281,8 @@ def fen_into_graph(fen):
     for line2 in range(len(board)):
         for column2 in range(len(board[0])): 
             letter = board[line2][column2].piece
+            if letter == '-':
+                continue
             if letter >= 'A' and letter <= 'Z':
                 if letter == 'R':
                     board = add_moves_r(board, column2, line2)
@@ -322,8 +293,12 @@ def fen_into_graph(fen):
                 elif letter == 'Q':
                     board = add_moves_q(board, column2, line2)
                 elif letter == 'K':
-                    kwline = line2
-                    kwcol = column2
+                    if board[line2][column2].team == 0:
+                        kwline = line2
+                        kwcol = column2
+                    else:
+                        kbline = line2
+                        kbcol = column2
                 elif letter == 'P':
                     board = add_moves_p(board, column2, line2)
             if letter >= 'a' and letter <= 'z':
@@ -348,8 +323,56 @@ def fen_into_graph(fen):
             if wmove.name == bmove.name:
                 board[kwline][kwcol].moves.remove(wmove)
                 board[kbline][kbcol].moves.remove(bmove)
-            
-    return board
-board = fen_into_graph("3r1rk1/ppp2pQ1/4p3/2P5/1P1P2R1/q5P1/5P1P/5RK1 b - - 0 26")
-printer(board)
-print_moves(board)
+    x_arr = [] # [[id node, team, pawn, knight, bishop, rook, queen, king]]
+    for line in board:
+        for node in line:
+            elm = []
+            if node.piece == "p" or node.piece == "P":
+                elm = [str_into_nb(node.name), node.team, 1, 0, 0, 0, 0, 0]
+            if node.piece == "N" or node.piece == "N":
+                elm = [str_into_nb(node.name), node.team, 0, 1, 0, 0, 0, 0]
+            if node.piece == "b" or node.piece == "B":
+                elm = [str_into_nb(node.name), node.team, 0, 0, 1, 0, 0, 0]
+            if node.piece == "r" or node.piece == "R":
+                elm = [str_into_nb(node.name), node.team, 0, 0, 0, 1, 0, 0]
+            if node.piece == "q" or node.piece == "Q":
+                elm = [str_into_nb(node.name), node.team, 0, 0, 0, 0, 1, 0]
+            if node.piece == "k" or node.piece == "K":
+                elm = [str_into_nb(node.name), node.team, 0, 0, 0, 0, 0, 1]
+            if node.piece == "-":
+                elm = [str_into_nb(node.name), node.team, 0, 0, 0, 0, 0, 0]
+            x_arr.append(elm)
+    print(len(x_arr))
+    return (graph_creator(board), x_arr)
+
+
+def str_into_nb(str):
+    if str[0] == "a":
+        res = 10 + int(str[1])
+    elif str[0] == "b":
+        res = 20 + int(str[1])
+    elif str[0] == "c":
+        res = 30 + int(str[1])
+    elif str[0] == "d":
+        res = 40 + int(str[1])
+    elif str[0] == "e":
+        res = 50 + int(str[1])
+    elif str[0] == "f":
+        res = 60 + int(str[1])
+    elif str[0] == "g":
+        res = 70 + int(str[1])
+    elif str[0] == "h":
+        res = 80 + int(str[1])
+    return res
+
+def graph_creator(board): #Quick reminder : board is a matrix of nodes
+    tensor = [[],[]]
+    master_node = 0
+    for line in board:
+        for node in line:
+            tensor[0].append(str_into_nb(node.name))
+            tensor[1].append(master_node)
+            for move in node.moves:
+                tensor[0].append(str_into_nb(node.name))
+                tensor[1].append(str_into_nb(move.name))
+    return tensor
