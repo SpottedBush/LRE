@@ -1,4 +1,4 @@
-from fen_Into_Graphs import fen_into_graph
+from fen_into_graphs import fen_into_graph
 from homemade_GNN import *
 import os
 
@@ -13,7 +13,7 @@ exposedKing = open(os.path.join(path, "exposedKing"))
 hangingPiece = open(os.path.join(path, "hangingPiece"))
 fork = open(os.path.join(path, "fork"))
 
-categories = [matein1]
+categories = [matein1, pin, exposedKing, hangingPiece, fork]
 tensors = []
 y_arr = []
 x_arr = [] # [[id node, team, pawn, knight, bishop, rook, queen, king]]
@@ -33,7 +33,7 @@ for i in range(len(categories)):
         x_arr = res[1]
         
         
-num_node_features = 10  # Number of node features (piece and team)
+num_node_features = 8  # Number of node features (piece and team)
 hidden_channels = 32  # Number of hidden channels in GCN layers
 num_classes = len(categories) # Number of classes for graph classification
 model = ChessGNN(num_node_features, hidden_channels, num_classes)
@@ -41,11 +41,13 @@ model = ChessGNN(num_node_features, hidden_channels, num_classes)
 x_arr = torch.tensor(x_arr, dtype=torch.float32)
 
 
-x = torch.tensor(x_arr) # Node features
+x = torch.tensor(x_arr).clone().detach() # Node features
 edge_index = torch.tensor(tensors[0], dtype=torch.long) # Edge indices
-edge_attr = torch.tensor([1 for i in range(len(tensors[0][0]))])  # Edge attributes
+edge_attr = torch.ones(edge_index.size(1))  # Edge attributes
 batch = torch.tensor([0 for i in range(64)])  # Batch indices for graph classification
 y = torch.tensor(y_arr) # Labels for graph classification
+y = y.expand(64)  # Expanding the scalar label to match batch size 64
+
 # Optimizer definition
 optimizer = Adam(model.parameters(), lr=0.01)
 
@@ -75,7 +77,7 @@ with torch.no_grad():
 
 
 # Sauvegarde du model
-save_path = 'trained_model.pt'
+save_path = os.path.join('trained_models','trained_model.pt')
 
 state = {
     'model': model.state_dict(),

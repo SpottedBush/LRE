@@ -342,7 +342,6 @@ def fen_into_graph(fen):
             if node.piece == "-":
                 elm = [str_into_nb(node.name), node.team, 0, 0, 0, 0, 0, 0]
             x_arr.append(elm)
-    print(len(x_arr))
     return (graph_creator(board), x_arr)
 
 
@@ -368,11 +367,13 @@ def str_into_nb(str):
 def graph_creator(board): #Quick reminder : board is a matrix of nodes
     tensor = [[],[]]
     master_node = 0
+    node_id = 0
     for line in board:
         for node in line:
-            tensor[0].append(str_into_nb(node.name))
+            tensor[0].append(node_id)
             tensor[1].append(master_node)
             for move in node.moves:
-                tensor[0].append(str_into_nb(node.name))
-                tensor[1].append(str_into_nb(move.name))
+                tensor[0].append(node_id)
+                tensor[1].append(node_id)
+            node_id += 1
     return tensor
