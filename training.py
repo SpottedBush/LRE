@@ -56,7 +56,7 @@ criterion = nn.NLLLoss()
 
 # Training the model
 model.train()
-
+f = open(os.path.join('trained_models','results.txt'))
 num_epochs = 10
 for epoch in range(num_epochs):
     optimizer.zero_grad()
@@ -65,7 +65,7 @@ for epoch in range(num_epochs):
     loss.backward()
     optimizer.step()
 
-    print(f"Epoch {epoch+1} - Loss: {loss.item()}")
+    f.write(f"Epoch {epoch+1} - Loss: {loss.item()}")
 
 # Evaluating the model
 model.eval()
@@ -73,7 +73,7 @@ with torch.no_grad():
     output = model(x, edge_index, edge_attr)
     predicted_labels = output.argmax(dim=1)
     accuracy = (predicted_labels == y).sum().item() / len(y)
-    print(f"Accuracy: {accuracy}")
+    f.write(f"Accuracy: {accuracy}")
 
 
 # Sauvegarde du model
