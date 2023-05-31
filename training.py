@@ -103,12 +103,12 @@ for epoch in range(num_epochs):
             edge_index_list.append(e + max_index)  # Add the maximum index to adjust the indices
             max_index += x_padded.size(1)  # Update the maximum index
         edge_index_padded = torch.cat(edge_index_list, dim=1)
-        edge_attr_padded = edge_attr_padded.reshape(edge_index.size(1), 1)  # Reshape to (num_edges, 1)
+        edge_attr_padded = edge_attr_padded.reshape(edge_index_padded.size(1), 1)  # Reshape to (num_edges, 1)
         num_nodes = max_index + 1  # Update the number of nodes based on the adjusted indices
         adj_matrix = torch.zeros(num_nodes, num_nodes, dtype=torch.float32)  # Adjust the size of adj_matrix
         for i, j in edge_index_padded.t():
             adj_matrix[i, j] = 1.0
-        print("edge_index shape: ", edge_index_padded.size(), "\nedge_attr shape: ", edge_attr_padded.size())
+        print("edge_index shape: ", edge_index_padded.size(1), "\nedge_attr shape: ", edge_attr_padded.size())
         output = model(x_padded, edge_index_padded, edge_attr_padded)  # Update the model forward call
         loss = criterion(output, y)
         loss.backward()
@@ -133,7 +133,7 @@ with torch.no_grad():
             edge_index_list.append(e + max_index)  # Add the maximum index to adjust the indices
             max_index += x_padded.size(1)  # Update the maximum index
         edge_index_padded = torch.cat(edge_index_list, dim=1)
-        edge_attr_padded = edge_attr_padded.reshape(edge_index.size(1), 1)  # Reshape to (num_edges, 1)
+        edge_attr_padded = edge_attr_padded.reshape(edge_index_padded.size(1), 1)  # Reshape to (num_edges, 1)
         num_nodes = max_index + 1  # Update the number of nodes based on the adjusted indices
         adj_matrix = torch.zeros(num_nodes, num_nodes, dtype=torch.float32)  # Adjust the size of adj_matrix
         for i, j in edge_index_padded.t():
