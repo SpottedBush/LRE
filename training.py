@@ -1,8 +1,29 @@
 from fen_into_graphs import fen_into_graph
-from homemade_GNN import *
 import os
+import torch
+import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from torch.nn.utils.rnn import pad_sequence
+import torch.nn.functional as F
+from torch_geometric.nn import GCNConv, global_max_pool
+from torch.optim import Adam
+
+
+class ChessGNN(nn.Module):
+    def __init__(self, num_node_features, hidden_channels, num_classes):
+        super(ChessGNN, self).__init__()
+        self.conv1 = GCNConv(num_node_features, hidden_channels)
+        self.conv2 = GCNConv(hidden_channels, hidden_channels)
+        self.fc = nn.Linear(hidden_channels, num_classes)
+
+    def forward(self, x, edge_index, edge_attr):
+        x = self.conv1(x, edge_index, edge_attr)
+        x = F.relu(x)
+        x = self.conv2(x, edge_index, edge_attr)
+        x = F.relu(x)
+        x = global_max_pool(x, torch.zeros(x.size(0), dtype=torch.long), x.size(0))
+        x = self.fc(x)
+        return F.log_softmax(x, dim=1)
 
 # There will be 5 categories for now:
 # mateIn1, pin, exposedKing, hangingPiece and fork
@@ -19,10 +40,10 @@ class ChessDataset(Dataset):
     def __init__(self, file_path):
         self.tensors = []
         self.y_arr = []
-        self.x_arr = [] # [[id node, team, pawn, knight, bishop, rook, queen, king]]
+        self.x_arr = []  # [[id node, team, pawn, knight, bishop, rook, queen, king]]
         file = open(file_path)
         for line in file:
-            last_coma = 0
+            last_comma = 0
             fen = line[6:]
             idx = 0
             while fen[idx] != ",":
@@ -33,9 +54,9 @@ class ChessDataset(Dataset):
             idx += 1
             while line[idx] != "\n":
                 if line[idx] == ",":
-                    last_coma = idx
+                    last_comma = idx
                 idx += 1
-            self.y_arr.append(strtoidx(line[last_coma + 2:]))
+            self.y_arr.append(strtoidx(line[last_comma + 2:]))
             self.x_arr.append(res[1])
 
     def __len__(self):
@@ -44,9 +65,10 @@ class ChessDataset(Dataset):
     def __getitem__(self, index):
         x = torch.tensor(self.x_arr[index], dtype=torch.float32)
         edge_index = torch.tensor(self.tensors[index], dtype=torch.long)
-        edge_attr = torch.ones(edge_index.size(1))
+        edge_attr = torch.ones(edge_index.size(1), 1)
         y = torch.tensor(self.y_arr[index])
         return x, edge_index, edge_attr, y
+
 
 file_path = os.path.join('Sets', 'training_set')
 dataset = ChessDataset(file_path)
@@ -55,7 +77,7 @@ dataloader = DataLoader(dataset, batch_size=32, shuffle=True, collate_fn=lambda 
 print("------ Finished reading file, starting the training ------")
 num_node_features = 8  # Number of node features (piece and team)
 hidden_channels = 32  # Number of hidden channels in GCN layers
-num_classes = 5 # Number of classes for graph classification
+num_classes = 5  # Number of classes for graph classification
 model = ChessGNN(num_node_features, hidden_channels, num_classes)
 
 # Optimizer definition
@@ -80,7 +102,7 @@ for epoch in range(num_epochs):
             edge_index_list.append(e + max_index)  # Add the maximum index to adjust the indices
             max_index += x_padded.size(1)  # Update the maximum index
         edge_index_padded = torch.cat(edge_index_list, dim=1)
-        edge_attr_padded = edge_attr_padded.view(-1, 1)  # Reshape to (num_edges, 1)
+        edge_attr_padded = edge_attr_padded.reshape(-1, 1)  # Reshape to (num_edges, 1)
         num_nodes = max_index + 1  # Update the number of nodes based on the adjusted indices
         adj_matrix = torch.zeros(num_nodes, num_nodes, dtype=torch.float32)  # Adjust the size of adj_matrix
         for i, j in edge_index_padded.t():
@@ -91,7 +113,7 @@ for epoch in range(num_epochs):
         optimizer.step()
         total_loss += loss.item()
     avg_loss = total_loss / len(dataloader)
-    f.write(f"Epoch {epoch+1} - Loss: {avg_loss}\n")
+    f.write(f"Epoch {epoch + 1} - Loss: {avg_loss}\n")
 
 # Evaluating the model
 model.eval()
@@ -107,7 +129,7 @@ with torch.no_grad():
             edge_index_list.append(e + max_index)  # Add the maximum index to adjust the indices
             max_index += x_padded.size(1)  # Update the maximum index
         edge_index_padded = torch.cat(edge_index_list, dim=1)
-        edge_attr_padded = edge_attr_padded.view(-1, 1)  # Reshape to (num_edges, 1)
+        edge_attr_padded = edge_attr_padded.reshape(-1, 1)  # Reshape to (num_edges, 1)
         num_nodes = max_index + 1  # Update the number of nodes based on the adjusted indices
         adj_matrix = torch.zeros(num_nodes, num_nodes, dtype=torch.float32)  # Adjust the size of adj_matrix
         for i, j in edge_index_padded.t():
