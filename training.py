@@ -56,7 +56,7 @@ criterion = nn.NLLLoss()
 
 # Training the model
 model.train()
-f = open(os.path.join('trained_models','results.txt'))
+f = open(os.path.join('trained_models','results.txt'), "w+")
 num_epochs = 10
 for epoch in range(num_epochs):
     optimizer.zero_grad()
