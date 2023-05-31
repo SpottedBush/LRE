@@ -83,7 +83,7 @@ for epoch in range(num_epochs):
         edge_index_padded = torch.cat(edge_index_list, dim=1)
         edge_attr_padded = edge_attr_padded.view(-1)
         num_nodes = x_padded.size(1)
-        edge_index_sparse = SparseTensor(row=edge_index_padded[0], col=edge_index_padded[1], value=edge_attr_padded, sparse_sizes=(num_nodes, num_nodes))
+        edge_index_sparse = SparseTensor(row=edge_index_padded[0], col=edge_index_padded[1], value=edge_attr_padded, sparse_sizes=(num_nodes, num_nodes), trust_data=True)
         output = model(x_padded, edge_index_sparse)
         loss = criterion(output, y)
         loss.backward()
@@ -108,7 +108,7 @@ with torch.no_grad():
         edge_index_padded = torch.cat(edge_index_list, dim=1)
         edge_attr_padded = edge_attr_padded.view(-1)
         num_nodes = x_padded.size(1)
-        edge_index_sparse = SparseTensor(row=edge_index_padded[0], col=edge_index_padded[1], value=edge_attr_padded, sparse_sizes=(num_nodes, num_nodes))
+        edge_index_sparse = SparseTensor(row=edge_index_padded[0], col=edge_index_padded[1], value=edge_attr_padded, sparse_sizes=(num_nodes, num_nodes), trust_data=True)
         output = model(x_padded, edge_index_sparse)
         predicted_labels = output.argmax(dim=1)
         total_correct += (predicted_labels == y).sum().item()
@@ -121,7 +121,7 @@ save_path = os.path.join('trained_models', 'trained_model.pt')
 state = {
     'model': model.state_dict(),
     'optimizer': optimizer.state_dict(),
-    'epoch': epoch + 1,
+    'epoch': num_epochs,
     'accuracy': accuracy
 }
 torch.save(state, save_path)
