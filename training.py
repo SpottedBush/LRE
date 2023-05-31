@@ -121,7 +121,7 @@ save_path = os.path.join('trained_models', 'trained_model.pt')
 state = {
     'model': model.state_dict(),
     'optimizer': optimizer.state_dict(),
-    'epoch': num_epochs,
+    'epoch': epoch + 1,
     'accuracy': accuracy
 }
 torch.save(state, save_path)
