@@ -3,7 +3,6 @@ from homemade_GNN import *
 import os
 from torch.utils.data import Dataset, DataLoader
 from torch.nn.utils.rnn import pad_sequence
-from torch_sparse import coalesce, SparseTensor
 
 # There will be 5 categories for now:
 # mateIn1, pin, exposedKing, hangingPiece and fork
@@ -83,15 +82,10 @@ for epoch in range(num_epochs):
         edge_index_padded = torch.cat(edge_index_list, dim=1)
         edge_attr_padded = edge_attr_padded.view(-1, 1)  # Reshape to (num_edges, 1)
         num_nodes = x_padded.size(1)
-        edge_index_sparse = SparseTensor(
-            row=edge_index_padded[0],
-            col=edge_index_padded[1],
-            value=edge_attr_padded,
-            sparse_sizes=(num_nodes, num_nodes),
-            trust_data=True,
-            is_sorted=True  # Add this argument to indicate that the indices are sorted
-        )
-        output = model(x_padded, edge_index_sparse)
+        adj_matrix = torch.zeros(num_nodes, num_nodes, dtype=torch.float32)
+        for i, j in edge_index_padded.t():
+            adj_matrix[i, j] = 1.0
+        output = model(x_padded, adj_matrix)
         loss = criterion(output, y)
         loss.backward()
         optimizer.step()
@@ -115,15 +109,10 @@ with torch.no_grad():
         edge_index_padded = torch.cat(edge_index_list, dim=1)
         edge_attr_padded = edge_attr_padded.view(-1, 1)  # Reshape to (num_edges, 1)
         num_nodes = x_padded.size(1)
-        edge_index_sparse = SparseTensor(
-            row=edge_index_padded[0],
-            col=edge_index_padded[1],
-            value=edge_attr_padded,
-            sparse_sizes=(num_nodes, num_nodes),
-            trust_data=True,
-            is_sorted=True  # Add this argument to indicate that the indices are sorted
-        )
-        output = model(x_padded, edge_index_sparse)
+        adj_matrix = torch.zeros(num_nodes, num_nodes, dtype=torch.float32)
+        for i, j in edge_index_padded.t():
+            adj_matrix[i, j] = 1.0
+        output = model(x_padded, adj_matrix)
         predicted_labels = output.argmax(dim=1)
         total_correct += (predicted_labels == y).sum().item()
         total_samples += y.size(0)
