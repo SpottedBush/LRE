@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch_geometric.nn import GCNConv, global_max_pool
+from torch_geometric.nn import GCNConv, global_add_pool
 from torch.optim import Adam
 
 class ChessGNN(nn.Module):
@@ -9,15 +9,15 @@ class ChessGNN(nn.Module):
         super(ChessGNN, self).__init__()
         self.conv1 = GCNConv(num_node_features, hidden_channels)
         self.conv2 = GCNConv(hidden_channels, hidden_channels)
-        self.fc = nn.Linear(hidden_channels, num_classes)
+        self.lin = nn.Linear(hidden_channels, num_classes)
 
     def forward(self, x, edge_index, edge_attr):
         x = self.conv1(x, edge_index, edge_attr)
         x = F.relu(x)
         x = self.conv2(x, edge_index, edge_attr)
         x = F.relu(x)
-        x = global_max_pool(x, torch.zeros(x.size(0), dtype=torch.long), x.size(0))
-        x = self.fc(x)
+        x = global_add_pool(x, edge_index)
+        x = self.lin(x)
         return F.log_softmax(x, dim=1)
 
 # # Example usage

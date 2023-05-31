@@ -85,7 +85,7 @@ for epoch in range(num_epochs):
         adj_matrix = torch.zeros(num_nodes, num_nodes, dtype=torch.float32)  # Adjust the size of adj_matrix
         for i, j in edge_index_padded.t():
             adj_matrix[i, j] = 1.0
-        output = model(x_padded, adj_matrix)
+        output = model(x_padded, edge_index_padded, edge_attr_padded)  # Update the model forward call
         loss = criterion(output, y)
         loss.backward()
         optimizer.step()
@@ -112,7 +112,7 @@ with torch.no_grad():
         adj_matrix = torch.zeros(num_nodes, num_nodes, dtype=torch.float32)  # Adjust the size of adj_matrix
         for i, j in edge_index_padded.t():
             adj_matrix[i, j] = 1.0
-        output = model(x_padded, adj_matrix)
+        output = model(x_padded, edge_index_padded, edge_attr_padded)  # Update the model forward call
         predicted_labels = output.argmax(dim=1)
         total_correct += (predicted_labels == y).sum().item()
         total_samples += y.size(0)
