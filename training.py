@@ -82,7 +82,8 @@ for epoch in range(num_epochs):
             edge_index_list.append(e_offset)
             offset += x_padded.size(1)  # Use x_padded instead of x[0] to get the correct size
         edge_index_padded = torch.cat(edge_index_list, dim=1)
-        edge_index_padded, edge_attr_padded = coalesce(edge_index_padded, edge_attr_padded)
+        edge_attr_padded = edge_attr_padded.view(-1)  # Reshape edge_attr_padded to match the size of edge_index_padded
+        edge_index_padded, edge_attr_padded = coalesce(edge_index_padded, edge_attr_padded, x_padded.size(0), x_padded.size(1))
         output = model(x_padded, edge_index_padded, edge_attr_padded)
         loss = criterion(output, y)
         loss.backward()
@@ -106,7 +107,8 @@ with torch.no_grad():
             edge_index_list.append(e_offset)
             offset += x_padded.size(1)  # Use x_padded instead of x[0] to get the correct size
         edge_index_padded = torch.cat(edge_index_list, dim=1)
-        edge_index_padded, edge_attr_padded = coalesce(edge_index_padded, edge_attr_padded)
+        edge_attr_padded = edge_attr_padded.view(-1)  # Reshape edge_attr_padded to match the size of edge_index_padded
+        edge_index_padded, edge_attr_padded = coalesce(edge_index_padded, edge_attr_padded, x_padded.size(0), x_padded.size(1))
         output = model(x_padded, edge_index_padded, edge_attr_padded)
         predicted_labels = output.argmax(dim=1)
         total_correct += (predicted_labels == y).sum().item()
