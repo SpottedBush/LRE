@@ -30,7 +30,7 @@ for line in file:
         
 num_node_features = 8  # Number of node features (piece and team)
 hidden_channels = 32  # Number of hidden channels in GCN layers
-num_classes = len(categories) # Number of classes for graph classification
+num_classes = 5 # Number of classes for graph classification
 model = ChessGNN(num_node_features, hidden_channels, num_classes)
 
 x_arr = torch.tensor(x_arr, dtype=torch.float32)
