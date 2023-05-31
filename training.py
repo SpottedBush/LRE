@@ -78,9 +78,10 @@ for epoch in range(num_epochs):
         edge_index_list = []
         offset = 0
         for e in edge_index:
-            edge_index_list.append(e + offset)
-            offset += x[0].size(0)
-        edge_index_padded = torch.stack(edge_index_list, dim=1)
+            e_offset = e + offset
+            edge_index_list.append(e_offset)
+            offset += x_padded.size(1)  # Use x_padded instead of x[0] to get the correct size
+        edge_index_padded = torch.cat(edge_index_list, dim=1)
         edge_index_padded, edge_attr_padded = coalesce(edge_index_padded, edge_attr_padded)
         output = model(x_padded, edge_index_padded, edge_attr_padded)
         loss = criterion(output, y)
@@ -101,9 +102,10 @@ with torch.no_grad():
         edge_index_list = []
         offset = 0
         for e in edge_index:
-            edge_index_list.append(e + offset)
-            offset += x[0].size(0)
-        edge_index_padded = torch.stack(edge_index_list, dim=1)
+            e_offset = e + offset
+            edge_index_list.append(e_offset)
+            offset += x_padded.size(1)  # Use x_padded instead of x[0] to get the correct size
+        edge_index_padded = torch.cat(edge_index_list, dim=1)
         edge_index_padded, edge_attr_padded = coalesce(edge_index_padded, edge_attr_padded)
         output = model(x_padded, edge_index_padded, edge_attr_padded)
         predicted_labels = output.argmax(dim=1)
