@@ -34,8 +34,7 @@ for line in file:
         idx += 1
     y_arr.append(strtoidx(line[last_coma + 2:]))
     x_arr = res[1]
-        
-        
+print("------ Finished reading file, starting the training ------")
 num_node_features = 8  # Number of node features (piece and team)
 hidden_channels = 32  # Number of hidden channels in GCN layers
 num_classes = 5 # Number of classes for graph classification
@@ -47,7 +46,7 @@ x_arr = torch.tensor(x_arr, dtype=torch.float32)
 x = torch.tensor(x_arr).clone().detach() # Node features
 edge_index = torch.tensor(tensors[0], dtype=torch.long) # Edge indices
 edge_attr = torch.ones(edge_index.size(1))  # Edge attributes
-batch = torch.tensor([0 for i in range(64)])  # Batch indices for graph classification
+batch = torch.tensor([0 for i in range(len(y_arr))])  # Batch indices for graph classification
 y = torch.tensor(y_arr) # Labels for graph classification
 y = y.expand(64)  # Expanding the scalar label to match batch size 64
 
