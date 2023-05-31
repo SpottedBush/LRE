@@ -6,31 +6,26 @@ import os
 # mateIn1, pin, exposedKing, hangingPiece and fork
 # respectively 0, 1, 2, 3 and 4 for our GNN
 
-path = os.path.join('dataset', 'Dataset_puzzles')
-matein1 = open(os.path.join(path, "mateIn1"))
-pin = open(os.path.join(path, "pin"))
-exposedKing = open(os.path.join(path, "exposedKing"))
-hangingPiece = open(os.path.join(path, "hangingPiece"))
-fork = open(os.path.join(path, "fork"))
-
-categories = [matein1, pin, exposedKing, hangingPiece, fork]
+file = open(os.path.join('Sets', 'training_set'))
 tensors = []
 y_arr = []
 x_arr = [] # [[id node, team, pawn, knight, bishop, rook, queen, king]]
-for i in range(len(categories)):
-    buffer = categories[i].readline()
-    
-    while buffer != "":
-        fen = buffer[6:]
-        idx = 0
-        while fen[idx] != ",":
-            idx += 1
-        fen = fen[0:idx]
-        res = fen_into_graph(fen)
-        tensors.append(res[0])
-        y_arr.append(i)
-        buffer = categories[i].readline()
-        x_arr = res[1]
+for line in file:
+    last_coma = 0
+    fen = line[6:]
+    idx = 0
+    while fen[idx] != ",":
+        idx += 1
+    fen = fen[0:idx]
+    res = fen_into_graph(fen)
+    tensors.append(res[0])
+    idx += 1
+    while line[idx] != "\n":
+        if line[idx] == ",":
+            last_coma = idx
+        idx += 1
+    y_arr.append(line[last_coma + 2:])
+    x_arr = res[1]
         
         
 num_node_features = 8  # Number of node features (piece and team)
