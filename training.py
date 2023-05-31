@@ -48,8 +48,6 @@ edge_index = torch.tensor(tensors[0], dtype=torch.long) # Edge indices
 edge_attr = torch.ones(edge_index.size(1))  # Edge attributes
 batch = torch.tensor([0 for i in range(len(y_arr))])  # Batch indices for graph classification
 y = torch.tensor(y_arr) # Labels for graph classification
-y = y.expand(64)  # Expanding the scalar label to match batch size 64
-
 # Optimizer definition
 optimizer = Adam(model.parameters(), lr=0.01)
 
