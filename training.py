@@ -2,6 +2,7 @@ from fen_into_graphs import fen_into_graph
 from homemade_GNN import *
 import os
 from torch.utils.data import Dataset, DataLoader
+from torch.nn.utils.rnn import pad_sequence
 
 # There will be 5 categories for now:
 # mateIn1, pin, exposedKing, hangingPiece and fork
@@ -35,13 +36,13 @@ class ChessDataset(Dataset):
                     last_coma = idx
                 idx += 1
             self.y_arr.append(strtoidx(line[last_coma + 2:]))
-            self.x_arr = res[1]
+            self.x_arr.append(res[1])
 
     def __len__(self):
         return len(self.y_arr)
 
     def __getitem__(self, index):
-        x = torch.tensor(self.x_arr, dtype=torch.float32)
+        x = torch.tensor(self.x_arr[index], dtype=torch.float32)
         edge_index = torch.tensor(self.tensors[index], dtype=torch.long)
         edge_attr = torch.ones(edge_index.size(1))
         y = torch.tensor(self.y_arr[index])
@@ -49,7 +50,7 @@ class ChessDataset(Dataset):
 
 file_path = os.path.join('Sets', 'training_set')
 dataset = ChessDataset(file_path)
-dataloader = DataLoader(dataset, batch_size=32, shuffle=True)
+dataloader = DataLoader(dataset, batch_size=32, shuffle=True, collate_fn=lambda batch: zip(*batch))
 
 print("------ Finished reading file, starting the training ------")
 num_node_features = 8  # Number of node features (piece and team)
@@ -71,7 +72,9 @@ for epoch in range(num_epochs):
     total_loss = 0
     for x, edge_index, edge_attr, y in dataloader:
         optimizer.zero_grad()
-        output = model(x, edge_index, edge_attr)
+        x_padded = pad_sequence(x, batch_first=True)
+        edge_attr_padded = pad_sequence(edge_attr, batch_first=True)
+        output = model(x_padded, edge_index, edge_attr_padded)
         loss = criterion(output, y)
         loss.backward()
         optimizer.step()
@@ -85,7 +88,9 @@ with torch.no_grad():
     total_correct = 0
     total_samples = 0
     for x, edge_index, edge_attr, y in dataloader:
-        output = model(x, edge_index, edge_attr)
+        x_padded = pad_sequence(x, batch_first=True)
+        edge_attr_padded = pad_sequence(edge_attr, batch_first=True)
+        output = model(x_padded, edge_index, edge_attr_padded)
         predicted_labels = output.argmax(dim=1)
         total_correct += (predicted_labels == y).sum().item()
         total_samples += y.size(0)
