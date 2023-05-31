@@ -6,6 +6,14 @@ import os
 # mateIn1, pin, exposedKing, hangingPiece and fork
 # respectively 0, 1, 2, 3 and 4 for our GNN
 
+def strtoidx(str):
+    categories = [ "matein1", "pin", "exposedKing", "hangingPiece", "fork"]
+    for i in range(len(categories)):
+        if str == categories[i]:
+            return i
+    return 0
+
+
 file = open(os.path.join('Sets', 'training_set'))
 tensors = []
 y_arr = []
@@ -24,7 +32,7 @@ for line in file:
         if line[idx] == ",":
             last_coma = idx
         idx += 1
-    y_arr.append(line[last_coma + 2:])
+    y_arr.append(strtoidx(line[last_coma + 2:]))
     x_arr = res[1]
         
         
