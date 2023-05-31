@@ -79,16 +79,10 @@ num_node_features = 8  # Number of node features (piece and team)
 hidden_channels = 32  # Number of hidden channels in GCN layers
 num_classes = 5  # Number of classes for graph classification
 model = ChessGNN(num_node_features, hidden_channels, num_classes)
-
-# Optimizer definition
 optimizer = Adam(model.parameters(), lr=0.01)
-
-# Loss function
 criterion = nn.NLLLoss()
 
 # Training the model
-model.train()
-f = open(os.path.join('trained_models', 'results.txt'), "w+")
 num_epochs = 10
 for epoch in range(num_epochs):
     total_loss = 0
@@ -99,13 +93,14 @@ for epoch in range(num_epochs):
         edge_index_list = []
         max_index = x_padded.size(1) - 1  # Initialize the maximum index as the last index of x_padded
         for e in edge_index:
-            edge_index_list.append(e + max_index)  # Add the maximum index to adjust the indices
+            e_padded = torch.cat([e, torch.zeros(x_padded.size(1) - e.size(0), dtype=torch.long)])  # Pad edge_index
+            edge_index_list.append(e_padded + max_index)  # Add the maximum index to adjust the indices
             max_index += x_padded.size(1)  # Update the maximum index
-        edge_index_padded = torch.cat(edge_index_list, dim=1)
+        edge_index_padded = torch.stack(edge_index_list, dim=0)
 
         num_nodes = max_index.item() + 1  # Update the number of nodes based on the adjusted indices
         adj_matrix = torch.zeros(num_nodes, num_nodes, dtype=torch.float32)  # Adjust the size of adj_matrix
-        for i, j in edge_index_padded.t():
+        for i, j in edge_index_padded.view(-1, 2):
             adj_matrix[i, j] = 1.0
 
         output = model(x_padded, edge_index_padded)  # Update the model forward call
@@ -114,7 +109,7 @@ for epoch in range(num_epochs):
         optimizer.step()
         total_loss += loss.item()
     avg_loss = total_loss / len(dataloader)
-    f.write(f"Epoch {epoch + 1} - Loss: {avg_loss}\n")
+    print(f"Epoch {epoch + 1} - Loss: {avg_loss}")
 
 print("\n\n------ Finished training, starting the evaluation ------")
 
@@ -129,13 +124,14 @@ with torch.no_grad():
         edge_index_list = []
         max_index = x_padded.size(1) - 1  # Initialize the maximum index as the last index of x_padded
         for e in edge_index:
-            edge_index_list.append(e + max_index)  # Add the maximum index to adjust the indices
+            e_padded = torch.cat([e, torch.zeros(x_padded.size(1) - e.size(0), dtype=torch.long)])  # Pad edge_index
+            edge_index_list.append(e_padded + max_index)  # Add the maximum index to adjust the indices
             max_index += x_padded.size(1)  # Update the maximum index
-        edge_index_padded = torch.cat(edge_index_list, dim=1)
+        edge_index_padded = torch.stack(edge_index_list, dim=0)
 
         num_nodes = max_index.item() + 1  # Update the number of nodes based on the adjusted indices
         adj_matrix = torch.zeros(num_nodes, num_nodes, dtype=torch.float32)  # Adjust the size of adj_matrix
-        for i, j in edge_index_padded.t():
+        for i, j in edge_index_padded.view(-1, 2):
             adj_matrix[i, j] = 1.0
 
         output = model(x_padded, edge_index_padded)  # Update the model forward call
@@ -143,14 +139,10 @@ with torch.no_grad():
         total_correct += (predicted_labels == y).sum().item()
         total_samples += y.size(0)
     accuracy = total_correct / total_samples
-    f.write(f"Accuracy: {accuracy}\n")
+    print(f"Accuracy: {accuracy}")
 
 # Save the model
 save_path = os.path.join('trained_models', 'trained_model.pt')
-state = {
-    'model': model.state_dict(),
-    'optimizer': optimizer.state_dict(),
-    'epoch': num_epochs,
-    'accuracy': accuracy
-}
-torch.save(state, save_path)
+state_dict = model.state_dict()
+torch.save(state_dict, save_path)
+print(f"Model saved at {save_path}")
