@@ -1,13 +1,14 @@
-from fen_into_graphs import fen_into_graph
-import os
 import torch
 import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
-from torch.nn.utils.rnn import pad_sequence
 import torch.nn.functional as F
 from torch_geometric.nn import GCNConv, global_max_pool
 from torch.optim import Adam
+from torch.utils.data import Dataset, DataLoader
+from torch.nn.utils.rnn import pad_sequence
 
+from fen_into_graphs import fen_into_graph
+
+import os
 
 class ChessGNN(nn.Module):
     def __init__(self, num_node_features, hidden_channels, num_classes):
