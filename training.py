@@ -3,6 +3,7 @@ from homemade_GNN import *
 import os
 from torch.utils.data import Dataset, DataLoader
 from torch.nn.utils.rnn import pad_sequence
+from torch_sparse import coalesce
 
 # There will be 5 categories for now:
 # mateIn1, pin, exposedKing, hangingPiece and fork
@@ -74,7 +75,14 @@ for epoch in range(num_epochs):
         optimizer.zero_grad()
         x_padded = pad_sequence(x, batch_first=True)
         edge_attr_padded = pad_sequence(edge_attr, batch_first=True)
-        output = model(x_padded, edge_index, edge_attr_padded)
+        edge_index_list = []
+        offset = 0
+        for e in edge_index:
+            edge_index_list.append(e + offset)
+            offset += x[0].size(0)
+        edge_index_padded = torch.stack(edge_index_list, dim=1)
+        edge_index_padded, edge_attr_padded = coalesce(edge_index_padded, edge_attr_padded)
+        output = model(x_padded, edge_index_padded, edge_attr_padded)
         loss = criterion(output, y)
         loss.backward()
         optimizer.step()
@@ -84,13 +92,20 @@ for epoch in range(num_epochs):
 
 # Evaluating the model
 model.eval()
+total_correct = 0
+total_samples = 0
 with torch.no_grad():
-    total_correct = 0
-    total_samples = 0
     for x, edge_index, edge_attr, y in dataloader:
         x_padded = pad_sequence(x, batch_first=True)
         edge_attr_padded = pad_sequence(edge_attr, batch_first=True)
-        output = model(x_padded, edge_index, edge_attr_padded)
+        edge_index_list = []
+        offset = 0
+        for e in edge_index:
+            edge_index_list.append(e + offset)
+            offset += x[0].size(0)
+        edge_index_padded = torch.stack(edge_index_list, dim=1)
+        edge_index_padded, edge_attr_padded = coalesce(edge_index_padded, edge_attr_padded)
+        output = model(x_padded, edge_index_padded, edge_attr_padded)
         predicted_labels = output.argmax(dim=1)
         total_correct += (predicted_labels == y).sum().item()
         total_samples += y.size(0)
