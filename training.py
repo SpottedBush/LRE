@@ -3,7 +3,7 @@ from homemade_GNN import *
 import os
 from torch.utils.data import Dataset, DataLoader
 from torch.nn.utils.rnn import pad_sequence
-from torch_sparse import coalesce
+from torch_sparse import SparseTensor
 
 # There will be 5 categories for now:
 # mateIn1, pin, exposedKing, hangingPiece and fork
@@ -84,8 +84,8 @@ for epoch in range(num_epochs):
         edge_index_padded = torch.cat(edge_index_list, dim=1)
         edge_attr_padded = edge_attr_padded.view(-1)  # Reshape edge_attr_padded to match the size of edge_index_padded
         num_nodes = x_padded.size(1)  # Get the number of nodes in the padded sequence
-        edge_index_padded, edge_attr_padded = coalesce(edge_index_padded, edge_attr_padded, num_nodes, num_nodes)
-        output = model(x_padded, edge_index_padded, edge_attr_padded)
+        edge_index_sparse = SparseTensor(row=edge_index_padded[0], col=edge_index_padded[1], value=edge_attr_padded, sparse_sizes=(num_nodes, num_nodes))
+        output = model(x_padded, edge_index_sparse)
         loss = criterion(output, y)
         loss.backward()
         optimizer.step()
@@ -110,8 +110,8 @@ with torch.no_grad():
         edge_index_padded = torch.cat(edge_index_list, dim=1)
         edge_attr_padded = edge_attr_padded.view(-1)  # Reshape edge_attr_padded to match the size of edge_index_padded
         num_nodes = x_padded.size(1)  # Get the number of nodes in the padded sequence
-        edge_index_padded, edge_attr_padded = coalesce(edge_index_padded, edge_attr_padded, num_nodes, num_nodes)
-        output = model(x_padded, edge_index_padded, edge_attr_padded)
+        edge_index_sparse = SparseTensor(row=edge_index_padded[0], col=edge_index_padded[1], value=edge_attr_padded, sparse_sizes=(num_nodes, num_nodes))
+        output = model(x_padded, edge_index_sparse)
         predicted_labels = output.argmax(dim=1)
         total_correct += (predicted_labels == y).sum().item()
         total_samples += y.size(0)
