@@ -75,14 +75,14 @@ for epoch in range(num_epochs):
         x_padded = pad_sequence(x, batch_first=True)
         edge_attr_padded = pad_sequence(edge_attr, batch_first=True)
         edge_index_list = []
-        offset = 0
+        max_index = x_padded.size(1) - 1  # Initialize the maximum index as the last index of x_padded
         for e in edge_index:
-            edge_index_list.append(e + offset)
-            offset += x_padded.size(1)
+            edge_index_list.append(e + max_index)  # Add the maximum index to adjust the indices
+            max_index += x_padded.size(1)  # Update the maximum index
         edge_index_padded = torch.cat(edge_index_list, dim=1)
         edge_attr_padded = edge_attr_padded.view(-1, 1)  # Reshape to (num_edges, 1)
-        num_nodes = x_padded.size(1)
-        adj_matrix = torch.zeros(num_nodes, num_nodes, dtype=torch.float32)
+        num_nodes = max_index + 1  # Update the number of nodes based on the adjusted indices
+        adj_matrix = torch.zeros(num_nodes, num_nodes, dtype=torch.float32)  # Adjust the size of adj_matrix
         for i, j in edge_index_padded.t():
             adj_matrix[i, j] = 1.0
         output = model(x_padded, adj_matrix)
@@ -102,14 +102,14 @@ with torch.no_grad():
         x_padded = pad_sequence(x, batch_first=True)
         edge_attr_padded = pad_sequence(edge_attr, batch_first=True)
         edge_index_list = []
-        offset = 0
+        max_index = x_padded.size(1) - 1  # Initialize the maximum index as the last index of x_padded
         for e in edge_index:
-            edge_index_list.append(e + offset)
-            offset += x_padded.size(1)
+            edge_index_list.append(e + max_index)  # Add the maximum index to adjust the indices
+            max_index += x_padded.size(1)  # Update the maximum index
         edge_index_padded = torch.cat(edge_index_list, dim=1)
         edge_attr_padded = edge_attr_padded.view(-1, 1)  # Reshape to (num_edges, 1)
-        num_nodes = x_padded.size(1)
-        adj_matrix = torch.zeros(num_nodes, num_nodes, dtype=torch.float32)
+        num_nodes = max_index + 1  # Update the number of nodes based on the adjusted indices
+        adj_matrix = torch.zeros(num_nodes, num_nodes, dtype=torch.float32)  # Adjust the size of adj_matrix
         for i, j in edge_index_padded.t():
             adj_matrix[i, j] = 1.0
         output = model(x_padded, adj_matrix)
