@@ -5,7 +5,7 @@ def writing_in(name):
     f.writelines(fline)
     f.close()
 
-for fline in open('Dataset_puzzles/lichess_db_puzzle.csv'):
+for fline in open('lichess_db_puzzle.csv'):
     idx = 0
     nb_coma = 0
     while nb_coma != 7:
@@ -23,4 +23,3 @@ for fline in open('Dataset_puzzles/lichess_db_puzzle.csv'):
             continue
         end += 1
     idx = 0
-    
