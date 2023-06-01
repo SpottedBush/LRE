@@ -72,7 +72,8 @@ class ChessDataset(Dataset):
         return x, edge_index, y
 
 
-file_path = os.path.join('Sets', 'training_set')
+# file_path = os.path.join('Sets', 'training_set')
+file_path = open("smotheredMate")
 dataset = ChessDataset(file_path)
 dataloader = DataLoader(dataset, batch_size=32, shuffle=True, collate_fn=lambda batch: zip(*batch))
 
@@ -90,8 +91,7 @@ criterion = nn.NLLLoss()
 
 # Training the model
 model.train()
-# f = open(os.path.join('trained_models', 'results.txt'), "w+")
-f = open("smotheredMate")
+f = open(os.path.join('trained_models', 'results.txt'), "w+")
 num_epochs = 10
 for epoch in range(num_epochs):
     total_loss = 0
