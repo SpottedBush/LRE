@@ -18,6 +18,7 @@ class ChessGNN(nn.Module):
         self.fc = nn.Linear(hidden_channels, num_classes)
 
     def forward(self, x, edge_index):
+        print("xsize: " ,x.size(), "\nedge_index size: ", edge_index.size())
         x = self.conv1(x, edge_index)
         x = F.relu(x)
         x = self.conv2(x, edge_index)
@@ -77,7 +78,7 @@ dataloader = DataLoader(dataset, batch_size=32, shuffle=True, collate_fn=lambda 
 
 print("------ Finished reading file, starting the training ------")
 num_node_features = 8  # Number of node features (piece and team)
-hidden_channels = 32  # Number of hidden channels in GCN layers
+hidden_channels = 32  # Number of hidden channels in GNN layers
 num_classes = 5  # Number of classes for graph classification
 model = ChessGNN(num_node_features, hidden_channels, num_classes)
 
@@ -89,7 +90,8 @@ criterion = nn.NLLLoss()
 
 # Training the model
 model.train()
-f = open(os.path.join('trained_models', 'results.txt'), "w+")
+# f = open(os.path.join('trained_models', 'results.txt'), "w+")
+f = open("smotheredMate")
 num_epochs = 10
 for epoch in range(num_epochs):
     total_loss = 0
