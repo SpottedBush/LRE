@@ -52,7 +52,6 @@ def add_moves_k(board, column, line):
             if (i == 0 and j == 0) or is_threaten(board, board[line + i][column + j].name, board[line][column].team):
                 continue
             moves.append(board[line + i][column + j])
-    add_threat(moves, board[line][column].team)
     board[line][column].moves = moves
     return board
 
@@ -293,12 +292,8 @@ def fen_into_graph(fen):
                 elif letter == 'Q':
                     board = add_moves_q(board, column2, line2)
                 elif letter == 'K':
-                    if board[line2][column2].team == 0:
-                        kwline = line2
-                        kwcol = column2
-                    else:
-                        kbline = line2
-                        kbcol = column2
+                    kwline = line2
+                    kwcol = column2
                 elif letter == 'P':
                     board = add_moves_p(board, column2, line2)
             if letter >= 'a' and letter <= 'z':
@@ -322,58 +317,55 @@ def fen_into_graph(fen):
         for bmove in board[kbline][kbcol].moves:
             if wmove.name == bmove.name:
                 board[kwline][kwcol].moves.remove(wmove)
-                board[kbline][kbcol].moves.remove(bmove)
-    x_arr = [] # [[id node, team, pawn, knight, bishop, rook, queen, king]]
+                board[kbline][kbcol].moves.remove(wmove)
+    x_arr = [] # [features : [team, pawn, knight, bishop, rook, queen, king]]
     for line in board:
         for node in line:
             elm = []
             if node.piece == "p" or node.piece == "P":
-                elm = [str_into_nb(node.name), node.team, 1, 0, 0, 0, 0, 0]
+                elm = [node.team, 1, 0, 0, 0, 0, 0]
             if node.piece == "N" or node.piece == "N":
-                elm = [str_into_nb(node.name), node.team, 0, 1, 0, 0, 0, 0]
+                elm = [node.team, 0, 1, 0, 0, 0, 0]
             if node.piece == "b" or node.piece == "B":
-                elm = [str_into_nb(node.name), node.team, 0, 0, 1, 0, 0, 0]
+                elm = [node.team, 0, 0, 1, 0, 0, 0]
             if node.piece == "r" or node.piece == "R":
-                elm = [str_into_nb(node.name), node.team, 0, 0, 0, 1, 0, 0]
+                elm = [node.team, 0, 0, 0, 1, 0, 0]
             if node.piece == "q" or node.piece == "Q":
-                elm = [str_into_nb(node.name), node.team, 0, 0, 0, 0, 1, 0]
+                elm = [node.team, 0, 0, 0, 0, 1, 0]
             if node.piece == "k" or node.piece == "K":
-                elm = [str_into_nb(node.name), node.team, 0, 0, 0, 0, 0, 1]
+                elm = [node.team, 0, 0, 0, 0, 0, 1]
             if node.piece == "-":
-                elm = [str_into_nb(node.name), node.team, 0, 0, 0, 0, 0, 0]
+                elm = [node.team, 0, 0, 0, 0, 0, 0]
             x_arr.append(elm)
-    return (graph_creator(board), x_arr)
+    x_arr.append([-1,-1,-1,-1,-1,-1,-1]) #adding the master node
+    return (x_arr, graph_creator(board))
 
-
-def str_into_nb(str):
+def get_node_id(node):
+    str = node.name
     if str[0] == "a":
-        res = 10 + int(str[1])
+        return int(str[1])
     elif str[0] == "b":
-        res = 20 + int(str[1])
+        return 10 + int(str[1]) - 2
     elif str[0] == "c":
-        res = 30 + int(str[1])
+        return 20 + int(str[1]) - 4
     elif str[0] == "d":
-        res = 40 + int(str[1])
+        return 30 + int(str[1]) - 6
     elif str[0] == "e":
-        res = 50 + int(str[1])
+        return 40 + int(str[1]) - 8
     elif str[0] == "f":
-        res = 60 + int(str[1])
+        return 50 + int(str[1]) - 10
     elif str[0] == "g":
-        res = 70 + int(str[1])
+        return 60 + int(str[1]) - 12
     elif str[0] == "h":
-        res = 80 + int(str[1])
-    return res
+        return 70 + int(str[1]) - 14
 
 def graph_creator(board): #Quick reminder : board is a matrix of nodes
-    tensor = [[],[]]
-    master_node = 0
-    node_id = 0
+    tensor = []
+    master_node = 65
     for line in board:
         for node in line:
-            tensor[0].append(node_id)
-            tensor[1].append(master_node)
+            node_id = get_node_id(node)
+            tensor.append([master_node, node_id])
             for move in node.moves:
-                tensor[0].append(node_id)
-                tensor[1].append(node_id)
-            node_id += 1
+                tensor.append([node_id, get_node_id(move)])
     return tensor

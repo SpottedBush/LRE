@@ -5,6 +5,7 @@ from torch_geometric.nn import GCNConv, global_max_pool
 from torch.optim import Adam
 from torch.utils.data import Dataset, DataLoader
 from torch.nn.utils.rnn import pad_sequence
+from torch_geometric.data import Data, Batch
 
 from fen_into_graphs import fen_into_graph
 
@@ -35,47 +36,58 @@ categories = ["matein1", "pin", "exposedKing", "hangingPiece", "fork"]
 
 def strtoidx(str):
     for i in range(len(categories)):
-        if str == categories[i]:
+        if categories[i] in str:
             return i
-    return 0
+    return -1
 
-class ChessDataset(Dataset):
+class ChessTrainDataset(Dataset):
     def __init__(self, file_path):
-        self.tensors = []
-        self.y_arr = []
-        self.x_arr = []  # [[id node, team, pawn, knight, bishop, rook, queen, king]]
-        file = open(file_path)
-        for line in file:
-            last_comma = 0
-            fen = line[6:]
-            idx = 0
-            while fen[idx] != ",":
-                idx += 1
-            fen = fen[0:idx]
-            res = fen_into_graph(fen)
-            self.tensors.append(res[0])
-            idx += 1
-            while line[idx] != "\n":
-                if line[idx] == ",":
-                    last_comma = idx
-                idx += 1
-            self.y_arr.append(strtoidx(line[last_comma + 2:]))
-            self.x_arr.append(res[1])
+        super(ChessTrainDataset, self).__init__()
+        self.data_list = []  # List to store the graph data
+
+        # Read the file and process the data
+        with open(file_path, 'r') as file:
+            for line in file:
+                fen = line.strip().split(',')[1]
+                graph_data = fen_into_graph(fen)  # Convert FEN notation to graph data
+
+                # Create a `Data` object and add it to the list
+                data = Data(x=graph_data[0], edge_index=graph_data[1], y=strtoidx(line.strip().split(',')[7]), num_node_features = 7, num_nodes =  65)
+                self.data_list.append(data)
 
     def __len__(self):
-        return len(self.y_arr)
+        return len(self.data_list)
 
     def __getitem__(self, index):
-        x = torch.tensor(self.x_arr[index], dtype=torch.float32)
-        edge_index = torch.tensor(self.tensors[index], dtype=torch.long)
-        y = torch.tensor(self.y_arr[index])
-        return x, edge_index, y
+        return self.data_list[index]
 
+def custom_collate(batch):
+    return batch
 
 # file_path = os.path.join('Sets', 'training_set')
-file_path = open("smotheredMate")
-dataset = ChessDataset(file_path)
-dataloader = DataLoader(dataset, batch_size=32, shuffle=True, collate_fn=lambda batch: zip(*batch))
+file_path = "smotheredMate"
+train_dataset = ChessTrainDataset(file_path)
+
+graph_train_loader = DataLoader(train_dataset, batch_size=130, shuffle=True, collate_fn=custom_collate)
+
+# graph_val_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE)  # Additional loader for a larger datasets
+# graph_test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE)
+
+iterator = iter(graph_train_loader)
+batch = next(iterator)
+print("len: ", len(batch))
+batch = Batch.from_data_list(batch)
+print("Batch:", batch)
+print("Labels:", batch[1].y)
+print("Batch indices:", batch.batch[66])
+print("next: ", len(batch))
+batch = Batch.from_data_list(next(iterator))
+print("Batch edge_index:", batch.edge_index)
+print("Labels:", batch[1].y)
+print("Batch indices:", batch.batch[66])
+
+
+
 
 print("------ Finished reading file, starting the training ------")
 num_node_features = 8  # Number of node features (piece and team)
@@ -96,7 +108,7 @@ num_epochs = 10
 for epoch in range(num_epochs):
     total_loss = 0
     total_samples = 0
-    for x, edge_index, y in dataloader:
+    for x, edge_index, y in graph_train_loader:
         optimizer.zero_grad()
         x_padded = pad_sequence(x, batch_first=True)
         edge_index_list = []
@@ -122,7 +134,7 @@ model.eval()
 total_correct = 0
 total_samples = 0
 with torch.no_grad():
-    for x, edge_index, y in dataloader:
+    for x, edge_index, y in graph_train_loader:
         x_padded = pad_sequence(x, batch_first=True)
         edge_index_list = []
         max_index = x_padded.size(1) - 1  # Initialize the maximum index as the last index of x_padded
