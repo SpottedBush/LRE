@@ -39,7 +39,7 @@ def strtoidx(str):
     for i in range(len(categories)):
         if categories[i] in str:
             return i
-    return -1
+    return 5
 
 class ChessTrainDataset(Dataset):
     def __init__(self, file_path):
@@ -107,6 +107,7 @@ for epoch in range(num_epochs):
             edge_index = torch.tensor(edge_index[1])
             edge_index = edge_index.transpose(0,1)
             # Edge's dimensions were in the wrong way
+            print(y[1])
             y = [y[1] for i in range(65)]
             y = torch.tensor(y)
             optimizer.zero_grad()
