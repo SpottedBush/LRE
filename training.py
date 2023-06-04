@@ -107,7 +107,7 @@ for epoch in range(num_epochs):
             edge_index = torch.tensor(edge_index[1])
             edge_index = edge_index.transpose(0,1)
             # Edge's dimensions were in the wrong way
-            y = [1 for i in range(65)]
+            y = [y[1] for i in range(65)]
             y = torch.tensor(y)
             optimizer.zero_grad()
             output = model(x, edge_index)  # Update the model forward call
