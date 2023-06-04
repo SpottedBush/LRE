@@ -33,13 +33,13 @@ class ChessGNN(nn.Module):
 # There will be 5 categories for now:
 # mateIn1, pin, exposedKing, hangingPiece and fork
 # respectively 0, 1, 2, 3 and 4 for our GNN
-categories = ["matein1", "pin", "exposedKing", "hangingPiece", "fork"]
+categories = ["mateIn1", "pin", "exposedKing", "hangingPiece", "fork"]
 
 def strtoidx(str):
     for i in range(len(categories)):
         if categories[i] in str:
             return i
-    return 5
+    return -1
 
 class ChessTrainDataset(Dataset):
     def __init__(self, file_path):
@@ -107,7 +107,8 @@ for epoch in range(num_epochs):
             edge_index = torch.tensor(edge_index[1])
             edge_index = edge_index.transpose(0,1)
             # Edge's dimensions were in the wrong way
-            print(y[1])
+            if y[1] == -1:
+                continue
             y = [y[1] for i in range(65)]
             y = torch.tensor(y)
             optimizer.zero_grad()
