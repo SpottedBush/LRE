@@ -72,11 +72,11 @@ graph_train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=Tr
 
 val_path = os.path.join('Sets', 'validation_set')
 val_dataset = ChessTrainDataset(val_path)
-graph_val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE)  # Additional loader for a larger datasets
+graph_val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=True, collate_fn=custom_collate)  # Additional loader for a larger datasets
 
 test_path = os.path.join('Sets', 'testing_set')
 test_dataset = ChessTrainDataset(test_path)
-graph_test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE)
+graph_test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=True, collate_fn=custom_collate)
 
 iterator = iter(graph_train_loader)
 batch = next(iterator)
