@@ -11,6 +11,8 @@ from fen_into_graphs import fen_into_graph
 
 import os
 
+BATCH_SIZE = 130
+
 class ChessGNN(nn.Module):
     def __init__(self, num_node_features, hidden_channels, num_classes):
         super(ChessGNN, self).__init__()
@@ -19,7 +21,6 @@ class ChessGNN(nn.Module):
         self.fc = nn.Linear(hidden_channels, num_classes)
 
     def forward(self, x, edge_index):
-        print("xsize: " ,x.size(), "\nedge_index size: ", edge_index.size())
         x = self.conv1(x, edge_index)
         x = F.relu(x)
         x = self.conv2(x, edge_index)
@@ -64,33 +65,25 @@ class ChessTrainDataset(Dataset):
 def custom_collate(batch):
     return batch
 
-# file_path = os.path.join('Sets', 'training_set')
-file_path = "smotheredMate"
-train_dataset = ChessTrainDataset(file_path)
+train_path = os.path.join('Sets', 'training_set')
+train_dataset = ChessTrainDataset(train_path)
+graph_train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, collate_fn=custom_collate)
 
-graph_train_loader = DataLoader(train_dataset, batch_size=130, shuffle=True, collate_fn=custom_collate)
 
-# graph_val_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE)  # Additional loader for a larger datasets
-# graph_test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE)
+val_path = os.path.join('Sets', 'validation_set')
+val_dataset = ChessTrainDataset(val_path)
+graph_val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE)  # Additional loader for a larger datasets
+
+test_path = os.path.join('Sets', 'testing_set')
+test_dataset = ChessTrainDataset(test_path)
+graph_test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE)
 
 iterator = iter(graph_train_loader)
 batch = next(iterator)
-print("len: ", len(batch))
-batch = Batch.from_data_list(batch)
-print("Batch:", batch)
-print("Labels:", batch[1].y)
-print("Batch indices:", batch.batch[66])
-print("next: ", len(batch))
-batch = Batch.from_data_list(next(iterator))
-print("Batch edge_index:", batch.edge_index)
-print("Labels:", batch[1].y)
-print("Batch indices:", batch.batch[66])
-
-
 
 
 print("------ Finished reading file, starting the training ------")
-num_node_features = 8  # Number of node features (piece and team)
+num_node_features = 7  # Number of node features (piece and team)
 hidden_channels = 32  # Number of hidden channels in GNN layers
 num_classes = 5  # Number of classes for graph classification
 model = ChessGNN(num_node_features, hidden_channels, num_classes)
@@ -108,47 +101,47 @@ num_epochs = 10
 for epoch in range(num_epochs):
     total_loss = 0
     total_samples = 0
-    for x, edge_index, y in graph_train_loader:
-        optimizer.zero_grad()
-        x_padded = pad_sequence(x, batch_first=True)
-        edge_index_list = []
-        max_index = x_padded.size(1) - 1  # Initialize the maximum index as the last index of x_padded
-        for e in edge_index:
-            edge_index_list.append(e + max_index)  # Add the maximum index to adjust the indices
-            max_index += x_padded.size(1)  # Update the maximum index
-        edge_index_padded = torch.cat(edge_index_list, dim=1)
-
-        output = model(x_padded, edge_index_padded)  # Update the model forward call
-        loss = criterion(output, y)
-        loss.backward()
-        optimizer.step()
-        total_loss += loss.item() * y.size(0)
-        total_samples += y.size(0)
+    for elem in graph_train_loader:
+        for x, edge_index, y, num_node_features, num_nodes in elem:
+            x = torch.tensor(x[1],  dtype=torch.float32)
+            edge_index = torch.tensor(edge_index[1])
+            edge_index = edge_index.transpose(0,1)
+            # Edge's dimensions were in the wrong way
+            y = [1 for i in range(65)]
+            y = torch.tensor(y)
+            optimizer.zero_grad()
+            output = model(x, edge_index)  # Update the model forward call
+            loss = criterion(output, y)
+            loss.backward()
+            optimizer.step()
+            total_loss += loss.item() * y.size(0)
+            total_samples += y.size(0)
     avg_loss = total_loss / total_samples
     f.write(f"Epoch {epoch + 1} - Loss: {avg_loss}\n")
+    print(f"Epoch {epoch + 1} - Loss: {avg_loss}\n")
 
-print("\n\n------ Finished training, starting the evaluation ------")
+print("\n------ Finished training, starting the evaluation ------\n\n")
 
 # Evaluating the model
 model.eval()
 total_correct = 0
 total_samples = 0
 with torch.no_grad():
-    for x, edge_index, y in graph_train_loader:
-        x_padded = pad_sequence(x, batch_first=True)
-        edge_index_list = []
-        max_index = x_padded.size(1) - 1  # Initialize the maximum index as the last index of x_padded
-        for e in edge_index:
-            edge_index_list.append(e + max_index)  # Add the maximum index to adjust the indices
-            max_index += x_padded.size(1)  # Update the maximum index
-        edge_index_padded = torch.cat(edge_index_list, dim=1)
-
-        output = model(x_padded, edge_index_padded)  # Update the model forward call
-        predicted_labels = output.argmax(dim=1)
-        total_correct += (predicted_labels == y).sum().item()
-        total_samples += y.size(0)
+    for elem in graph_test_loader:
+        for x, edge_index, y, num_node_features, num_nodes in elem:
+            x = torch.tensor(x[1],  dtype=torch.float32)
+            edge_index = torch.tensor(edge_index[1])
+            edge_index = edge_index.transpose(0,1)
+            # Edge's dimensions were in the wrong way
+            y = [1 for i in range(65)]
+            y = torch.tensor(y)
+            output = model(x, edge_index)  # Update the model forward call
+            predicted_labels = output.argmax(dim=1)
+            total_correct += (predicted_labels == y).sum().item()
+            total_samples += y.size(0)
     accuracy = total_correct / total_samples
     f.write(f"Accuracy: {accuracy}\n")
+    print(f"Accuracy: {accuracy}\n")
 
 # Save the model
 save_path = os.path.join('trained_models', 'trained_model.pt')

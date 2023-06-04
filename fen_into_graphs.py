@@ -343,25 +343,25 @@ def fen_into_graph(fen):
 def get_node_id(node):
     str = node.name
     if str[0] == "a":
-        return int(str[1])
+        return int(str[1]) - 1
     elif str[0] == "b":
-        return 10 + int(str[1]) - 2
+        return 10 + int(str[1]) - 3
     elif str[0] == "c":
-        return 20 + int(str[1]) - 4
+        return 20 + int(str[1]) - 5
     elif str[0] == "d":
-        return 30 + int(str[1]) - 6
+        return 30 + int(str[1]) - 7
     elif str[0] == "e":
-        return 40 + int(str[1]) - 8
+        return 40 + int(str[1]) - 9
     elif str[0] == "f":
-        return 50 + int(str[1]) - 10
+        return 50 + int(str[1]) - 11
     elif str[0] == "g":
-        return 60 + int(str[1]) - 12
+        return 60 + int(str[1]) - 13
     elif str[0] == "h":
-        return 70 + int(str[1]) - 14
+        return 70 + int(str[1]) - 15
 
 def graph_creator(board): #Quick reminder : board is a matrix of nodes
     tensor = []
-    master_node = 65
+    master_node = 64
     for line in board:
         for node in line:
             node_id = get_node_id(node)
