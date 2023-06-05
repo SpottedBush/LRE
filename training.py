@@ -31,9 +31,9 @@ class ChessGNN(nn.Module):
 
 
 # There will be 5 categories for now:
-# mateIn1, pin, exposedKing, hangingPiece and fork
+# mateIn1, pin, mateIn2, hangingPiece and fork
 # respectively 0, 1, 2, 3 and 4 for our GNN
-categories = ["mateIn1", "pin", "exposedKing", "hangingPiece", "fork"]
+categories = ["mateIn1", "pin", "mateIn2", "hangingPiece", "fork"]
 
 def strtoidx(str):
     for i in range(len(categories)):
@@ -83,6 +83,7 @@ batch = next(iterator)
 
 
 print("------ Finished reading file, starting the training ------")
+num_nodes = 65
 num_node_features = 7  # Number of node features (piece and team)
 hidden_channels = 32  # Number of hidden channels in GNN layers
 num_classes = 5  # Number of classes for graph classification
@@ -96,7 +97,7 @@ criterion = nn.NLLLoss()
 
 # Training the model
 model.train()
-f = open(os.path.join('trained_models', 'results.txt'), "w+")
+f = open(os.path.join('trained_models', 'results_with_mate2.txt'), "w+")
 num_epochs = 10
 for epoch in range(num_epochs):
     total_loss = 0
@@ -109,7 +110,7 @@ for epoch in range(num_epochs):
             # Edge's dimensions were in the wrong way
             if y[1] == -1:
                 continue
-            y = [y[1] for i in range(65)]
+            y = [y[1] for i in range(num_nodes)]
             y = torch.tensor(y)
             optimizer.zero_grad()
             output = model(x, edge_index)  # Update the model forward call
@@ -135,7 +136,7 @@ with torch.no_grad():
             edge_index = torch.tensor(edge_index[1])
             edge_index = edge_index.transpose(0,1)
             # Edge's dimensions were in the wrong way
-            y = [y[1] for i in range(65)]
+            y = [y[1] for i in range(num_nodes)]
             y = torch.tensor(y)
             output = model(x, edge_index)  # Update the model forward call
             predicted_labels = output.argmax(dim=1)
