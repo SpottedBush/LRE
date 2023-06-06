@@ -110,7 +110,7 @@ for epoch in range(num_epochs):
             # Edge's dimensions were in the wrong way
             if y[1] == -1:
                 continue
-            y = [y[1] for i in range(num_nodes)]
+            y = [y[1] for i in range(num_nodes[1])]
             y = torch.tensor(y)
             optimizer.zero_grad()
             output = model(x, edge_index)  # Update the model forward call
@@ -136,7 +136,7 @@ with torch.no_grad():
             edge_index = torch.tensor(edge_index[1])
             edge_index = edge_index.transpose(0,1)
             # Edge's dimensions were in the wrong way
-            y = [y[1] for i in range(num_nodes)]
+            y = [y[1] for i in range(num_nodes[1])]
             y = torch.tensor(y)
             output = model(x, edge_index)  # Update the model forward call
             predicted_labels = output.argmax(dim=1)

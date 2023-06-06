@@ -1,0 +1,2 @@
+KJB4R,2r3k1/5pb1/6pp/p2N4/8/P4R1P/6P1/7K b - - 0 33,f7f5 d5e7 g8f7 e7c8,669,92,93,675,crushing endgame fork short,https://lichess.org/AB26aReQ/black#66,, fork
+KJB5z,2r1k2r/pp5p/3p2pB/1R1Pp3/n7/2PK4/P5PP/4R3 w k - 2 23,b5b7 a4c5 d3c2 c5b7,1625,77,94,10674,crushing endgame fork short,https://lichess.org/YWEOIuWU#45,, fork
