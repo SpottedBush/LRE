@@ -85,7 +85,7 @@ batch = next(iterator)
 print("------ Finished reading file, starting the training ------")
 num_nodes = 65
 num_node_features = 7  # Number of node features (piece and team)
-hidden_channels = 32  # Number of hidden channels in GNN layers
+hidden_channels = 16  # Number of hidden channels in GNN layers
 num_classes = 5  # Number of classes for graph classification
 model = ChessGNN(num_node_features, hidden_channels, num_classes)
 
@@ -97,7 +97,7 @@ criterion = nn.NLLLoss()
 
 # Training the model
 model.train()
-f = open(os.path.join('trained_models', 'results_with_mate2.txt'), "w+")
+f = open(os.path.join('trained_models', 'results_hidden_channels.txt'), "w+")
 num_epochs = 10
 for epoch in range(num_epochs):
     total_loss = 0
@@ -147,6 +147,6 @@ with torch.no_grad():
     print(f"Accuracy: {accuracy}\n")
 
 # Save the model
-save_path = os.path.join('trained_models', 'trained_model.pt')
+save_path = os.path.join('trained_models', 'trained_model2.pt')
 torch.save(model.state_dict(), save_path)
 print(f"Model saved at {save_path}")
