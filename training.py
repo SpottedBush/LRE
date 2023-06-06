@@ -97,7 +97,7 @@ criterion = nn.NLLLoss()
 
 # Training the model
 model.train()
-f = open(os.path.join('trained_models', 'results_hidden_channels.txt'), "w+")
+f = open(os.path.join('trained_models', 'results2.txt'), "w+")
 num_epochs = 10
 for epoch in range(num_epochs):
     total_loss = 0
