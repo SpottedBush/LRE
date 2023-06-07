@@ -13,6 +13,16 @@ import os
 
 BATCH_SIZE = 130
 
+def matprint(mat):
+    for column in mat:
+        for line in column:
+            print(line, end=" | ")
+        print("")
+            
+
+mat = [[1,2,3],[4,5,6],[7,8,9]]
+matprint(mat)
+
 class ChessGNN(nn.Module):
     def __init__(self, num_node_features, hidden_channels, num_classes):
         super(ChessGNN, self).__init__()
@@ -98,31 +108,44 @@ criterion = nn.NLLLoss()
 # Training the model
 model.train()
 f = open(os.path.join('trained_models', 'results2.txt'), "w+")
-num_epochs = 10
+num_epochs = 100
 for epoch in range(num_epochs):
     total_loss = 0
     total_samples = 0
+    count = 0
+    conf_matrix = [[0 for x in range(len(categories))] for x in range(len(categories))]
     for elem in graph_train_loader:
         for x, edge_index, y, num_node_features, num_nodes in elem:
+            if y[1] == -1:
+                continue
+            actual_label = y[1]
             x = torch.tensor(x[1],  dtype=torch.float32)
             edge_index = torch.tensor(edge_index[1])
             edge_index = edge_index.transpose(0,1)
             # Edge's dimensions were in the wrong way
-            if y[1] == -1:
-                continue
             y = [y[1] for i in range(num_nodes[1])]
             y = torch.tensor(y)
+            
             optimizer.zero_grad()
             output = model(x, edge_index)  # Update the model forward call
             loss = criterion(output, y)
+            predicted = torch.max(output.data, 1).indices
+            predicted_label = round(predicted.float().mean().item())
+            # if count == 0 or count == 3:
+            #     print("actual: ", actual_label)
+            #     print("predicted: ", predicted)
+            #     print("predicted_label: ", predicted_label)
+            conf_matrix[actual_label][predicted_label] += 1
             loss.backward()
             optimizer.step()
             total_loss += loss.item() * y.size(0)
             total_samples += y.size(0)
+            count += 1
     avg_loss = total_loss / total_samples
     f.write(f"Epoch {epoch + 1} - Loss: {avg_loss}\n")
     print(f"Epoch {epoch + 1} - Loss: {avg_loss}\n")
 
+matprint(conf_matrix)
 print("\n------ Finished training, starting the evaluation ------\n\n")
 
 # Evaluating the model
