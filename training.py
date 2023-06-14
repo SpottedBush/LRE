@@ -13,7 +13,14 @@ from fen_into_graphs import fen_into_graph
 
 import os
 
+from hyperopt import hp, tpe, fmin
+
+
+num_nodes = 65
+num_node_features = 7  # Number of node features (piece and team)
+num_classes = 5  # Number of classes for graph classification
 BATCH_SIZE = 130
+
 
 def matprint(mat):
     print("conf_matrix is: ")
@@ -23,7 +30,7 @@ def matprint(mat):
             print(line, end=" | ")
         print("")
     print("\n")
-            
+
 
 mat = [[1,2,3],[4,5,6],[7,8,9]]
 matprint(mat)
@@ -31,19 +38,19 @@ matprint(mat)
 def plt_print(train_values):
     # Generate a sequence of integers to represent the epoch numbers
     epochs = range(len(train_values))
-     
+
     # Plot and label the training and validation loss values
     plt.plot(epochs, train_values, label='Training Loss')
     #plt.plot(epochs, val_values, label='Validation Loss')
-     
+
     # Add in a title and axes labels
     plt.title('Training Loss')
     plt.xlabel('Epochs')
     plt.ylabel('Loss')
-     
+
     # Set the tick locations
     plt.xticks(arange(0, len(train_values), 2))
-     
+
     # Display the plot
     plt.legend(loc='best')
     plt.show()
@@ -69,7 +76,7 @@ class ChessGNN(nn.Module):
 # mateIn1, pin, mateIn2, hangingPiece and fork
 # respectively 0, 1, 2, 3 and 4 for our GNN
 categories = ["mateIn1", "pin", "mateIn2", "hangingPiece", "fork"]
-
+model = ChessGNN(num_node_features, 2, num_classes)
 def strtoidx(str):
     for i in range(len(categories)):
         if categories[i] in str:
@@ -118,61 +125,65 @@ batch = next(iterator)
 
 
 print("\n------ Finished reading file, starting the training ------\n\n")
-num_nodes = 65
-num_node_features = 7  # Number of node features (piece and team)
-hidden_channels = 9  # Number of hidden channels in GNN layers
-num_classes = 5  # Number of classes for graph classification
-learning_rate = 0.001
-model = ChessGNN(num_node_features, hidden_channels, num_classes)
 
-# Optimizer definition
-optimizer = Adam(model.parameters(), learning_rate)
+def train_model(params, num_node_features):
+    hidden_channels = params['hidden_channels']
+    learning_rate = params['learning_rate']
+    num_epochs = params['num_epochs']
 
-# Loss function
-criterion = nn.NLLLoss()
-#criterion = nn.CrossEntropyLoss()
+    model = ChessGNN(num_node_features, hidden_channels, num_classes)
+    optimizer = Adam(model.parameters(), learning_rate)
+    criterion = nn.NLLLoss()
 
-# Training the model
-model.train()
-f = open(os.path.join('trained_models', 'results4.txt'), "w+")
-num_epochs = 25
-training_values = []
-for epoch in range(num_epochs):
-    total_loss = 0
-    total_samples = 0
-    conf_matrix = [[0 for x in range(len(categories))] for x in range(len(categories))]
-    for elem in graph_train_loader:
-        for x, edge_index, y, num_node_features, num_nodes in elem:
-            if y[1] == -1:
-                continue
-            actual_label = y[1]
-            x = torch.tensor(x[1],  dtype=torch.float32)
-            edge_index = torch.tensor(edge_index[1])
-            edge_index = edge_index.transpose(0,1)
-            # Edge's dimensions were in the wrong way
-            y = [y[1] for i in range(num_nodes[1])]
-            y = torch.tensor(y)
-            
-            optimizer.zero_grad()
-            print("before: ", x)
-            output = model(x, edge_index)  # Update the model forward call
-            print("after: ", output, output.shape)
-            loss = criterion(output, y)
-            predicted = torch.max(output.data, 1).indices
-            predicted_label = round(predicted.float().mean().item())
-           
-            conf_matrix[actual_label][predicted_label] += 1
-            loss.backward()
-            optimizer.step()
-            total_loss += loss.item() * y.size(0)
-            total_samples += y.size(0)
-    training_values.append(total_loss)
-    avg_loss = total_loss / total_samples
-    f.write(f"Epoch {epoch + 1} - Loss: {avg_loss}\n")
-    print(f"Epoch {epoch + 1} - Loss: {avg_loss}\n")
-    matprint(conf_matrix)
-    
-plt_print(training_values)
+    model.train()
+    training_values = []
+    for epoch in range(num_epochs):
+        total_loss = 0
+        total_samples = 0
+        conf_matrix = [[0 for _ in range(len(categories))] for _ in range(len(categories))]
+        for elem in graph_train_loader:
+            for x, edge_index, y, num_node_features, num_nodes in elem:
+                if y[1] == -1:
+                    continue
+                actual_label = y[1]
+                x = torch.tensor(x[1], dtype=torch.float32)
+                edge_index = torch.tensor(edge_index[1])
+                edge_index = edge_index.transpose(0, 1)
+                y = [y[1] for _ in range(num_nodes[1])]
+                y = torch.tensor(y)
+
+                optimizer.zero_grad()
+                output = model(x, edge_index)
+                loss = criterion(output, y)
+                predicted = torch.max(output.data, 1).indices
+                predicted_label = round(predicted.float().mean().item())
+
+                conf_matrix[actual_label][predicted_label] += 1
+                loss.backward()
+                optimizer.step()
+                total_loss += loss.item() * y.size(0)
+                total_samples += y.size(0)
+        training_values.append(total_loss)
+        avg_loss = total_loss / total_samples
+        print(f"Epoch {epoch + 1} - Loss: {avg_loss}\n")
+
+    return {'loss': -avg_loss, 'status': 'ok'}
+
+
+space = {
+    'hidden_channels': hp.choice('hidden_channels', [8, 16, 32]),
+    'learning_rate': hp.loguniform('learning_rate', -5, 0),
+    'num_epochs': hp.choice('num_epochs', [10, 20, 30])
+}
+
+best = fmin(
+    fn=lambda params: train_model(params,num_node_features),
+    space=space,
+    algo=tpe.suggest,
+    max_evals=10,
+)
+
+print(best)
 
 print("\n------ Finished training, starting the evaluation ------\n\n")
 
@@ -183,22 +194,23 @@ total_samples = 0
 with torch.no_grad():
     for elem in graph_test_loader:
         for x, edge_index, y, num_node_features, num_nodes in elem:
-            x = torch.tensor(x[1],  dtype=torch.float32)
+            x = torch.tensor(x[1], dtype=torch.float32)
             edge_index = torch.tensor(edge_index[1])
-            edge_index = edge_index.transpose(0,1)
-            # Edge's dimensions were in the wrong way
-            y = [y[1] for i in range(num_nodes[1])]
+            edge_index = edge_index.transpose(0, 1)
+            y = [y[1] for _ in range(num_nodes[1])]
             y = torch.tensor(y)
-            output = model(x, edge_index)  # Update the model forward call
+            output = model(x, edge_index)
             predicted_labels = output.argmax(dim=1)
             total_correct += (predicted_labels == y).sum().item()
             total_samples += y.size(0)
     accuracy = total_correct / total_samples
-    f.write(f"Accuracy: {accuracy}\n")
     print(f"Accuracy: {accuracy}\n")
-f.write(f"Parameters were:\nhidden_channels: {hidden_channels}\nBATCH_SIZE: {BATCH_SIZE}\nlearning_rate: {learning_rate}\nnum_epochs: {num_epochs}")
-print(f"Parameters were:\nhidden_channels: {hidden_channels}\nBATCH_SIZE: {BATCH_SIZE}\nlearning_rate: {learning_rate}\nnum_epochs: {num_epochs}")
+
+print(f"Parameters were:\nhidden_channels: {best['hidden_channels']}\n"
+      f"learning_rate: {best['learning_rate']}\n"
+      f"num_epochs: {best['num_epochs']}")
+
 # Save the model
-save_path = os.path.join('trained_models', 'trained_model4.pt')
+save_path = os.path.join('trained_models', 'Hyper_opt_model.pt')
 torch.save(model.state_dict(), save_path)
 print(f"Model saved at {save_path}")
