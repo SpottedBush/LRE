@@ -13,7 +13,7 @@ from fen_into_graphs import fen_into_graph
 
 import os
 
-BATCH_SIZE = 260
+BATCH_SIZE = 130
 
 def matprint(mat):
     print("conf_matrix is: ")
@@ -37,7 +37,7 @@ def plt_print(train_values):
     #plt.plot(epochs, val_values, label='Validation Loss')
      
     # Add in a title and axes labels
-    plt.title('Training and Validation Loss')
+    plt.title('Training Loss')
     plt.xlabel('Epochs')
     plt.ylabel('Loss')
      
@@ -120,12 +120,13 @@ batch = next(iterator)
 print("\n------ Finished reading file, starting the training ------\n\n")
 num_nodes = 65
 num_node_features = 7  # Number of node features (piece and team)
-hidden_channels = 64  # Number of hidden channels in GNN layers
+hidden_channels = 9  # Number of hidden channels in GNN layers
 num_classes = 5  # Number of classes for graph classification
+learning_rate = 0.001
 model = ChessGNN(num_node_features, hidden_channels, num_classes)
 
 # Optimizer definition
-optimizer = Adam(model.parameters(), lr=0.01)
+optimizer = Adam(model.parameters(), learning_rate)
 
 # Loss function
 criterion = nn.NLLLoss()
@@ -133,8 +134,8 @@ criterion = nn.NLLLoss()
 
 # Training the model
 model.train()
-f = open(os.path.join('trained_models', 'results3.txt'), "w+")
-num_epochs = 100
+f = open(os.path.join('trained_models', 'results4.txt'), "w+")
+num_epochs = 25
 training_values = []
 for epoch in range(num_epochs):
     total_loss = 0
@@ -153,7 +154,9 @@ for epoch in range(num_epochs):
             y = torch.tensor(y)
             
             optimizer.zero_grad()
+            print("before: ", x)
             output = model(x, edge_index)  # Update the model forward call
+            print("after: ", output, output.shape)
             loss = criterion(output, y)
             predicted = torch.max(output.data, 1).indices
             predicted_label = round(predicted.float().mean().item())
@@ -193,8 +196,9 @@ with torch.no_grad():
     accuracy = total_correct / total_samples
     f.write(f"Accuracy: {accuracy}\n")
     print(f"Accuracy: {accuracy}\n")
-
+f.write(f"Parameters were:\nhidden_channels: {hidden_channels}\nBATCH_SIZE: {BATCH_SIZE}\nlearning_rate: {learning_rate}\nnum_epochs: {num_epochs}")
+print(f"Parameters were:\nhidden_channels: {hidden_channels}\nBATCH_SIZE: {BATCH_SIZE}\nlearning_rate: {learning_rate}\nnum_epochs: {num_epochs}")
 # Save the model
-save_path = os.path.join('trained_models', 'trained_model3.pt')
+save_path = os.path.join('trained_models', 'trained_model4.pt')
 torch.save(model.state_dict(), save_path)
 print(f"Model saved at {save_path}")
