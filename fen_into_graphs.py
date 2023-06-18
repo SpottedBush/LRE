@@ -1,3 +1,5 @@
+import chess
+
 wthreats = []
 bthreats = []
 
@@ -193,7 +195,7 @@ def printer(board):
         print("\n  ---------------------------------")
     print("    a   b   c   d   e   f   g   h")
 
-def print_moves(board):
+def moves(board):
     for line in board:
         for node in line:
             if len(node.moves) != 0:
@@ -241,10 +243,18 @@ def fill_up_board():
             if j == 7:
                 board[i][j].name = "h" + str(8 - i)
     return board
-            
+
+def apply_moves(fen,moves):
+    board = chess.Board(fen)
+    moves = moves.split(" ")
+    for move in moves:
+        board.push_uci(move)
+    return board.fen()
+
 #rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 #node example : ["e4","R", 0, ['e1', 'e2', 'e3']]
-def fen_into_graph(fen):
+def fen_into_graph(fen, moves):
+    fen = apply_moves(fen, moves)
     has_ended = False
     new_node = "" #whose turn to play
     column = 0
@@ -272,7 +282,7 @@ def fen_into_graph(fen):
                 board[line][column].team = 1
             column += 1
         else:
-            new_node = letter # TODO: ADD THE END OF THE FEN 
+            new_node = letter # TODO: ADD THE END OF THE FEN AS FEATURE
     kwline = 0
     kwcol = 0
     kbline = 0
