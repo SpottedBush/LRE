@@ -91,8 +91,8 @@ class ChessTrainDataset(Dataset):
         # Read the file and process the data
         with open(file_path, 'r') as file:
             for line in file:
-                fen = line.strip().split(',')[1]
-                graph_data = fen_into_graph(fen)  # Convert FEN notation to graph data
+                fen, moves = line.strip().split(',')[1], line.strip().split(',')[2]
+                graph_data = fen_into_graph(fen,moves)  # Convert FEN notation to graph data
 
                 # Create a `Data` object and add it to the list
                 data = Data(x=graph_data[0], edge_index=graph_data[1], y=strtoidx(line.strip().split(',')[7]), num_node_features = 7, num_nodes =  65)
