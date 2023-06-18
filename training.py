@@ -154,9 +154,7 @@ for epoch in range(num_epochs):
             y = torch.tensor(y)
             
             optimizer.zero_grad()
-            print("before: ", x)
             output = model(x, edge_index)  # Update the model forward call
-            print("after: ", output, output.shape)
             loss = criterion(output, y)
             predicted = torch.max(output.data, 1).indices
             predicted_label = round(predicted.float().mean().item())
